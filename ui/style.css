@@ -30,17 +30,8 @@ body {
 .btn {
     padding: 20px 71px;
     margin: -1px;
-}
-
-.btn, #home {
     font-size: 1.1em;
-    cursor: pointer;   
-}
-
-#home {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
+    cursor: pointer; 
 }
 
 .container {
