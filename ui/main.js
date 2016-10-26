@@ -1,4 +1,17 @@
 console.log('Loaded!');
+var btn = document.getElementsByClassName("btn");
+btn.onclick = function () {
+    if (this.id === "about") {
+       
+    }
+    else if (this.id === "portfolio") {
+        
+    }
+    else {
+        
+    }
+};
+
 var button = document.getElementById("counter");
 var counter = 0;
 button.onclick = function () {
