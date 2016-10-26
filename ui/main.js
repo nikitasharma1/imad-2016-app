@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var button = document.getElementById("counter");
 var counter = 0;
-/*button.onclick = function () {
+button.onclick = function () {
     //Create a request object
     var request = new XMLHttpRequest();
     //Capture the response and store it in a variable
@@ -19,11 +19,11 @@ var counter = 0;
     // Make a request
     request.open ('GET', 'http://nikitasharma1.imad.hasura-app.io/counter', true);
     request.send(null);
-};*/
+};
 
 //Submit name 
 
-/*var nameInput = document.getElementById("name");
+var nameInput = document.getElementById("name");
 var name = nameInput.value;
 var nameInput = document.getElementById("submit");
 submit.onclick = function() {
@@ -36,4 +36,4 @@ submit.onclick = function() {
   }
   var ul = document.getElementById("namelist");
   ul.innerHTML = list;
-};*/
+};
