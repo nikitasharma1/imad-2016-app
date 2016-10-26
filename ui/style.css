@@ -24,7 +24,7 @@ body {
 }
 
 .buttons {
-    margin: auto 20px;
+    margin: auto 40px;
     display: flex;
     content: justify;
 }
