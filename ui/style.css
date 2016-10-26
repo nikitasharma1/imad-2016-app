@@ -34,6 +34,10 @@ body {
     cursor: pointer;
 }
 
+#home {
+    width: 100%;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
