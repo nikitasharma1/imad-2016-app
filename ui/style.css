@@ -21,7 +21,8 @@ body {
 
 .buttons {
     border: 1px solid black;
-    margin: 0 auto;
+    display: flex;
+    content: justify;
 }
 
 .btn {
