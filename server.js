@@ -12,51 +12,6 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-/* var articles = {   
-    'article-one': {
-        title: 'Article One',
-        heading: 'Article One',
-        date: '24 September 2016',
-        content:   `<p>
-                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
-                    </p>
-                    <p>
-                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
-                    </p>
-                    <p>
-                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
-                    </p>`
-    },
-    'article-two': {
-        title: 'Article Two',
-        heading: 'Article Two',
-        date: '25 September 2016',
-        content:   `<p>
-                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
-                    </p>
-                    <p>
-                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
-                    </p>
-                    <p>
-                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
-                    </p>`
-    },
-    'article-three': {
-        title: 'Article Three',
-        heading: 'Article Three',
-        date: '26 September 2016',
-        content:   `<p>
-                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
-                    </p>
-                    <p>
-                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
-                    </p>
-                    <p>
-                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
-                    </p>`
-    },
-}; */    
-
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
