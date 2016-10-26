@@ -26,7 +26,7 @@ body {
 .buttons {
     margin-top: 100px;
     display: flex;
-    content: justify;
+    content: justify-content;
 }
 
 .btn {
