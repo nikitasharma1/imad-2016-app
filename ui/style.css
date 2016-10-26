@@ -25,7 +25,7 @@ body {
 
 .buttons {
     margin-top: 100px;
-    display: inline-flex;
+    justify-content: center; 
 }
 
 .btn {
