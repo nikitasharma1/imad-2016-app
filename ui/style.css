@@ -25,7 +25,6 @@ body {
 
 .buttons {
     margin: auto 20px;
-    border: 1px solid black;
     display: flex;
     content: justify;
 }
