@@ -20,6 +20,7 @@ body {
 }
 
 .buttons {
+    border: 1px solid black;
     clear: both;
     margin: 0 auto;
 }
