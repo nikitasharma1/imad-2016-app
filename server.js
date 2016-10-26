@@ -33,7 +33,7 @@ function createTemplate(data){
             <body>
                 <div class="container">
                     <div class="buttons">
-                        <a href="/"><button class="btn">Home</button></a>
+                        <a href="/"><button class="btn" id="">Home</button></a>
                     </div>
                     
                     <h3>${heading}</h3>
