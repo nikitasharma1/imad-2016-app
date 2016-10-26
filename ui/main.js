@@ -2,13 +2,13 @@ console.log('Loaded!');
 var btn = document.getElementsByClassName("btn");
 btn.onclick = function () {
     if (this.id === "about") {
-       articleName = about;
+       
     }
     else if (this.id === "portfolio") {
-       articleName = portfolio; 
+       
     }
     else {
-       articleName = contact;
+       
     }
 };
 
