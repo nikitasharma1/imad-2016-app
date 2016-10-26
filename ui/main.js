@@ -1,16 +1,16 @@
 console.log('Loaded!');
 var btn = document.getElementsByClassName("btn");
-btn.onclick = function () {
-    if (this.id === "about") {
+// btn.onclick = function () {
+//     if (this.id === "about") {
        
-    }
-    else if (this.id === "portfolio") {
+//     }
+//     else if (this.id === "portfolio") {
        
-    }
-    else {
+//     }
+//     else {
        
-    }
-};
+//     }
+// };
 
 var button = document.getElementById("counter");
 var counter = 0;
