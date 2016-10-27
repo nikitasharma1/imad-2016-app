@@ -29,3 +29,8 @@ body {
 #btns div a {
     border: 1px solid black;
 }
+
+.pad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
