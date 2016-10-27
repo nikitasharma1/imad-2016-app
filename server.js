@@ -22,7 +22,7 @@ function createTemplate(data){
         
             if(result) {
                 //var cont = result.rows[0];
-                var content='hello';
+                content.replace('testing', 'bye');
             }
             else {
                 
