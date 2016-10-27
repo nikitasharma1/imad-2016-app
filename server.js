@@ -18,10 +18,10 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var date = data.date;
-    // var content = callContent();
+    var content;
     // var callContent = function() {
         if (title === 'contact') {
-            var content = `<form>
+            content = `<form>
                                 <div class="col-md-8">
                                 <label>Your Email</label><br/>
                                 <input type="email" class="form-control pad"/><br/>
@@ -36,9 +36,11 @@ function createTemplate(data){
                 return data;
         }
         else if (title === 'about') {
+            content = '';
             // return category list with each category revealing contents on click
         }
         else {
+            content = '';
             // return images and corresponding info
         }
     // };
