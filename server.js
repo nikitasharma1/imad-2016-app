@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    // var content='testing';
+    var content='testing';
     pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
         
             if(result) {
@@ -25,7 +25,7 @@ function createTemplate(data){
                 var content='hello';
             }
             else {
-                var content = 'bye';
+                
             }
     });
     
