@@ -18,13 +18,13 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content;
-        pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
-            
-                if(result) {
-                    var cont = result.rows[0];
-                    content = cont.info; 
-                }
-        });
+    pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
+        
+            if(result) {
+                //var cont = result.rows[0];
+                content = 'hello'; 
+            }
+    });
     
     var htmlTemplate = `
         <!DOCTYPE html>
