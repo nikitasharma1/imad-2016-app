@@ -34,51 +34,20 @@ function createTemplate(data){
             </head>
             <body>
                 <div class="container">
-                    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
-                      <div class="container-fluid container" id="main-nav-inner-div">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                          </button>
-                          <a class="navbar-brand color-white" href="#"> SITE </a>   
-                        </div>
-                    
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                          <!-- <ul class="nav navbar-nav">
-                            
-                            
-                          </ul> -->
-                          
-                          <ul class="nav navbar-nav navbar-right text-center">
-                            <li><a href="#div-height-60" class="color-white"> HOME </a></li>
-                            <li><a href="#" class="color-white"> ABOUT </a></li>
-                            <li><a href="#" class="color-white"> SERVICES </a></li>
-                            <li><a href="#" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="#" class="color-white"> CONTACT </a></li>
-                          </ul>
-                        </div><!-- /.navbar-collapse -->
-                      </div><!-- /.container-fluid -->
-                    </nav>
-                    
-                        <div class="row" id="btns">
-                            <a href="/">
-                              <div class="col-md-3 text-center pad">HOME</div>
-                            </a>
-                            <a href="/article/about">
-                              <div class="col-md-3 text-center pad">ABOUT ME</div>
-                            </a>
-                            <a href="/article/portfolio">
-                              <div class="col-md-3 text-center pad">PORTFOLIO</div>
-                            </a>
-                            <a href="/article/contact">
-                              <div class="col-md-3 text-center pad">CONTACT ME</div>
-                            </a>    
-                        </div>
+                    <div class="row navbar navbar-inverse navbar-fixed-top" id="btns">
+                        <a href="/">
+                          <div class="col-md-3 text-center pad">HOME</div>
+                        </a>
+                        <a href="/article/about">
+                          <div class="col-md-3 text-center pad">ABOUT ME</div>
+                        </a>
+                        <a href="/article/portfolio">
+                          <div class="col-md-3 text-center pad">PORTFOLIO</div>
+                        </a>
+                        <a href="/article/contact">
+                          <div class="col-md-3 text-center pad">CONTACT ME</div>
+                        </a>    
+                    </div>
                        
                     <h3>${heading}</h3>
                     <div>
