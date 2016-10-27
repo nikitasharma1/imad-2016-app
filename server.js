@@ -32,7 +32,7 @@ function createTemplate(data){
                             </div>
                         </form>
                         `;
-            return (data);
+            return data;
         }
         else if (data.title === 'about') {
             // return category list with each category revealing contents on click
