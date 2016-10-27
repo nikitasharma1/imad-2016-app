@@ -18,20 +18,13 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content;
-    // pool.query("SELECT * from info  WHERE title = '"+title+"'"+ "DESC", function (err, result) {
-    //     if (err) {
-    //         res.status(500).send(err.toString());
-    //     }
-    //     else {
-    //         if (result.rows.length === 0) {
-    //             res.status(404).send(err.toString());
-    //         }
-    //         else {
-    //             var info = result.rows[0];
-    //             document.write("hello");
-    //         }
-    //     }
-    // })
+        pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
+            
+                if(result) {
+                    var cont = result.rows[0];
+                    content = cont.info; 
+                }
+        });
     
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -74,7 +67,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-
+                        ${content}
                     </div>
                 </div>    
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
