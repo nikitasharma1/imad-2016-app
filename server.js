@@ -38,7 +38,6 @@ function createTemplate(data){
                 <div class="container">
                     <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
                       <div class="container-fluid container" id="main-nav-inner-div">
-                        <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -48,7 +47,6 @@ function createTemplate(data){
                           </button>
                           <a class="navbar-brand color-white" href="/"> NIKITA SHARMA </a>   
                         </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="navbar-collapse-1">
                           <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
@@ -57,10 +55,9 @@ function createTemplate(data){
                             <li><a href="/article/portfolio" class="color-white"> PORTFOLIO </a></li>
                             <li><a href="/article/contact" class="color-white"> CONTACT ME </a></li>
                           </ul>
-                        </div><!-- /.navbar-collapse -->
-                      </div><!-- /.container-fluid -->
+                        </div>
+                      </div>
                     </nav>
-                    
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
