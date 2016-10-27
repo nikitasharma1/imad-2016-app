@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f7f1c8;
+    /*background-color: #f7f1c8 ;*/
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ body {
     margin-right: auto;
     margin-top: 40px;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 100% !important;
 }
 
 .pad {
