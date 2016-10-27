@@ -30,9 +30,9 @@ body {
 /*}*/
 
 .img-medium {
-    text-align: center;
+    display: block;
     border-radius: 100% !important;
-    border: 1px solid black;
+    margin: 0 auto;
 }
 
 #btns {
