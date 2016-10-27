@@ -48,19 +48,14 @@ function createTemplate(data){
                           </button>
                           <a class="navbar-brand color-white" href="/"> NIKITA SHARMA </a>   
                         </div>
-                    
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                          <!-- <ul class="nav navbar-nav">
-                            
-                            
-                          </ul> -->
-                          
+                          <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="#div-height-60" class="color-white"> HOME </a></li>
-                            <li><a href="#" class="color-white"> ABOUT ME </a></li>
-                            <li><a href="#" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="#" class="color-white"> CONTACT ME </a></li>
+                            <li><a href="/article/about" class="color-white"> ABOUT ME </a></li>
+                            <li><a href="/article/portfolio" class="color-white"> PORTFOLIO </a></li>
+                            <li><a href="/article/contact" class="color-white"> CONTACT ME </a></li>
                           </ul>
                         </div><!-- /.navbar-collapse -->
                       </div><!-- /.container-fluid -->
