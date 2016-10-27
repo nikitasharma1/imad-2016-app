@@ -9,7 +9,7 @@ body {
 }
 
 #main-nav {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 #div-height-60 {
