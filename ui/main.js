@@ -39,7 +39,7 @@ submit.onclick = function() {
   ul.innerHTML = list;
 };
 
-var category = document.getElementsByClassName("category");
+var category = document.getElementById("category");
 category.onclick = function() {
   var names = ['name1','name2','name3'];
   var list = '';
