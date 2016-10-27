@@ -24,20 +24,20 @@ button.onclick = function () {
 
 //Submit name 
 
-var nameInput = document.getElementById("name");
-var name = nameInput.value;
-var nameInput = document.getElementById("submit");
-submit.onclick = function() {
-  //Make a request to server and sendd the name
-  //Captre the names and render as list
-  var names = ['name1','name2','name3'];
-  var list = '';
-  for (var i=0; i<names.length; i++) {
-      list += '<li>' + names[i] + '</li>';
-  }
-  var ul = document.getElementById("namelist");
-  ul.innerHTML = list;
-};
+// var nameInput = document.getElementById("name");
+// var name = nameInput.value;
+// var nameInput = document.getElementById("submit");
+// submit.onclick = function() {
+//   //Make a request to server and sendd the name
+//   //Captre the names and render as list
+//   var names = ['name1','name2','name3'];
+//   var list = '';
+//   for (var i=0; i<names.length; i++) {
+//       list += '<li>' + names[i] + '</li>';
+//   }
+//   var ul = document.getElementById("namelist");
+//   ul.innerHTML = list;
+// };
 
 
 $("#category").click(function(){
