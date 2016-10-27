@@ -18,7 +18,17 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var date = data.date;
-    var content = data.content;
+    var content = function() {
+        if (data.title === 'contact') {
+            return (data.content);
+        }
+        else if (data.title === 'about') {
+            // return category list with each category revealing contents on click
+        }
+        else {
+            // return images and corresponding info
+        }
+    };
     
     var htmlTemplate = `
         <!DOCTYPE html>
