@@ -33,7 +33,7 @@ body {
     display: inline-block;
     border-radius: 100% !important;
     border: 1px solid black;
-    position: fixed;
+    position: absolute;
     top: 22%;
     left: 40%;
 }
