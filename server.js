@@ -18,6 +18,7 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content='testing';
+    console.log('bye');
     pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
         console.log('bye');
             if(result>0) {
