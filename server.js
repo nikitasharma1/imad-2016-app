@@ -20,10 +20,10 @@ function createTemplate(data){
     var content='testing';
     content+=1;
     pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
-        
+        content+='test';
             if(result>0) {
                 //var cont = result.rows[0];
-                
+                content+=2;
             }
             else {
                 
