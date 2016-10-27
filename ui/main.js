@@ -39,13 +39,13 @@ submit.onclick = function() {
   ul.innerHTML = list;
 };
 
-var category = document.getElementById("category");
-category.onclick = function() {
-  var names = ['name1','name2','name3'];
-  var list = '';
-  for (var i=0; i<names.length; i++) {
+$("#category").click(function(){
+    var names = ['name1','name2','name3'];
+    var list = '';
+    for (var i=0; i<names.length; i++) {
       list += '<li>' + names[i] + '</li>';
-  }
-  var ul = document.getElementById("infoList");
-  ul.innerHTML = list;
-};
+    }
+    var ul = document.getElementById("infoList");
+    ul.innerHTML = list;
+});
+
