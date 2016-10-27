@@ -34,7 +34,7 @@ function createTemplate(data){
             </head>
             <body>
                 <div class="container">
-                    <div classs="row">
+                    <div class="row" id="btns">
                         <a href="/">
                            <div class="col-md-3 text-center pad">HOME</div>
                         </a>
