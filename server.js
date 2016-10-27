@@ -61,20 +61,20 @@ function createTemplate(data){
                     <h3>${heading}</h3>
                     <div>
                         ${
-                                pool.query("SELECT * from info  WHERE title = '"+title+"'"+ "DESC", function (err, result) {
-                                    if (err) {
-                                        res.status(500).send(err.toString());
-                                    }
-                                    else {
-                                        if (result.rows.length === 0) {
-                                            res.status(404).send(err.toString());
-                                        }
-                                        else {
-                                            var info = result.rows[0];
-                                            document.write("hello");
-                                        }
-                                    }
-                                })
+                                // pool.query("SELECT * from info  WHERE title = '"+title+"'"+ "DESC", function (err, result) {
+                                //     if (err) {
+                                //         res.status(500).send(err.toString());
+                                //     }
+                                //     else {
+                                //         if (result.rows.length === 0) {
+                                //             res.status(404).send(err.toString());
+                                //         }
+                                //         else {
+                                //             var info = result.rows[0];
+                                //             document.write("hello");
+                                //         }
+                                //     }
+                                // })
                                 
                         }
                     </div>
