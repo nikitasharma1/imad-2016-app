@@ -71,7 +71,7 @@ function createTemplate(data){
                                         }
                                         else {
                                             var info = result.rows[0];
-                                            res.send(info);
+                                            document.write("hello");
                                         }
                                     }
                                 })
