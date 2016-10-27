@@ -20,7 +20,7 @@ function createTemplate(data){
     var content = '';
     var callContent = function() {
         if (title === 'contact') {
-            content += `<form>
+                 content += `<form>
                                 <div class="col-md-8">
                                 <label>Your Email</label><br/>
                                 <input type="email" class="form-control pad"/><br/>
