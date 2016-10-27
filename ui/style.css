@@ -30,6 +30,7 @@ body {
 }
 
 .img-medium {
+    display: inline-block;
     border-radius: 100%;
     border: 1px solid black;
 }
