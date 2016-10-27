@@ -44,7 +44,7 @@ function createTemplate(data){
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand color-white" href="#"> SITE </a>   
+                          <a class="navbar-brand color-white" href="/"> NIKITA SHARMA </a>   
                         </div>
                     
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,15 +56,14 @@ function createTemplate(data){
                           
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="#div-height-60" class="color-white"> HOME </a></li>
-                            <li><a href="#" class="color-white"> ABOUT </a></li>
-                            <li><a href="#" class="color-white"> SERVICES </a></li>
+                            <li><a href="#" class="color-white"> ABOUT ME </a></li>
                             <li><a href="#" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="#" class="color-white"> CONTACT </a></li>
+                            <li><a href="#" class="color-white"> CONTACT ME </a></li>
                           </ul>
                         </div><!-- /.navbar-collapse -->
                       </div><!-- /.container-fluid -->
                     </nav>
-                       
+                    <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
                         ${content}
