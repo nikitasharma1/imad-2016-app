@@ -12,12 +12,17 @@ body {
 	color: #ffffff !important;
 }
 
-#div-height-60 {
-    height: 60px;
-}
-
 .text-big {
     font-size: 250%;
+}
+
+.pad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#div-height-60 {
+    height: 60px;
 }
 
 #img {
@@ -38,11 +43,6 @@ body {
 
 #btns a div {
     color: #F7F1C8 !important;    
-}
-
-.pad {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 ul {
