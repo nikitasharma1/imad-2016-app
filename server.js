@@ -36,7 +36,7 @@ function createTemplate(data){
             </head>
             <body>
                 <div class="container">
-                    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
+                    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
                       <div class="container-fluid container" id="main-nav-inner-div">
                         <div class="navbar-header">
                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
