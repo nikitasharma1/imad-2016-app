@@ -28,5 +28,6 @@ body {
 
 #btns div a, #btns div {
     border: 1px solid black;
+    width: 100%;
     
 }
