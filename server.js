@@ -18,15 +18,15 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content='testing';
-    content+=1;
+
     pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
-        content+='test';
+    
             if(result>0) {
                 //var cont = result.rows[0];
                 
             }
             else {
-             content+=2;   
+               
             }
     });
     
