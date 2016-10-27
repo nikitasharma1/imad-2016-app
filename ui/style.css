@@ -26,8 +26,6 @@ body {
 }
 
 #img {
-    display: flex;
-    justify-content: center;
     position: absolute;
     top: 50%;
 }
