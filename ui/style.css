@@ -21,3 +21,8 @@ body {
     border-radius: 100%;
     margin: 20px;
 }
+
+#btns {
+    margin: 0 auto;
+    border: 1px solid black;
+}
