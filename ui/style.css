@@ -40,7 +40,8 @@ ul {
 
 #main li{
     font-size: 1.5em !important;
-    padding: 40px auto !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
     cursor: pointer;
     text-align: center;
 }
