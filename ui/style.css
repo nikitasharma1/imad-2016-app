@@ -28,14 +28,4 @@ body {
 .pad {
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid #cccccc;
-}
-
-.border-none {
-    border-left: none;
-    border-right: none;
-}
-
-.border-none-right {
-    border-right: none;
 }
