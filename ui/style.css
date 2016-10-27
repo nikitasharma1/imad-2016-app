@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+#div-height-60 {
+    height: 60px;
+}
+
 .text-big {
     font-size: 300%;
 }
