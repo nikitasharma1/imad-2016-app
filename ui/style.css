@@ -25,3 +25,8 @@ body {
     border: 1px solid black;
     cursor: pointer; 
 }
+
+#btns div a, #btns div {
+    border: 1px solid black;
+    
+}
