@@ -27,9 +27,11 @@ body {
 
 #img {
    border: 1px solid black;
+   text-align: center;
 }
 
 .img-medium {
+    display: inline-block;
     border-radius: 100%;
     border: 1px solid black;
 }
