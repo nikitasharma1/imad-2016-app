@@ -28,13 +28,13 @@ body {
     justify-content: center; 
 }
 
-.btn2 a {
-    padding: 20px 71px;
-    margin: -1px;
-    font-size: 1.1em;
-    cursor: pointer; 
-    color: #000000;
-}
+/*.btn2 a {*/
+/*    padding: 20px 71px;*/
+/*    margin: -1px;*/
+/*    font-size: 1.1em;*/
+/*    cursor: pointer; */
+/*    color: #000000;*/
+/*}*/
 
 .btn1 {
     padding: 15px 56px;
