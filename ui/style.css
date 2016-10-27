@@ -8,8 +8,8 @@ body {
     margin: 0 auto;
 }
 
-#main-nav {
-    
+#nav {
+ color: #ffffff !important;   
 }
 
 #div-height-60 {
@@ -55,3 +55,4 @@ form {
     cursor: pointer;
     text-align: center;
 }
+
