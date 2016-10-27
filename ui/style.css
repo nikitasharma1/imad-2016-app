@@ -25,13 +25,13 @@ body {
     height: 60px;
 }
 
-#img {
-   border: 1px solid black;
-}
+/*#img {*/
+/*   border: 1px solid black;*/
+/*}*/
 
 .img-medium {
     display: inline-block;
-    border-radius: 100%;
+    border-radius: 100% !important;
     border: 1px solid black;
 }
 
