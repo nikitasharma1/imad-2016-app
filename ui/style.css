@@ -40,4 +40,5 @@ ul {
 
 #main li{
     font-size: 1.5em !important;
+    cursor: pointer;
 }
