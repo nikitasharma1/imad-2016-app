@@ -33,7 +33,7 @@ body {
     display: block !important;
     border-radius: 100% !important;
     margin: 10% auto !important;
-    /*box-shadow:50px 50px 20px black;	*/
+    box-shadow:50px 50px 20px black;	
 }
 
 #btns {
