@@ -18,22 +18,22 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var date = data.date;
-    var content = callContent();
-    var callContent = function() {
+    // var content = callContent();
+    // var callContent = function() {
         if (title === 'contact') {
-             content = `<form>
-                            <div class="col-md-8">
-                            <label>Your Email</label><br/>
-                            <input type="email" class="form-control pad"/><br/>
-                            <label>Subject</label><br/>
-                            <input type="text" class="form-control pad"/><br/>
-                            <label>Message</label><br/>
-                            <textarea class="form-control" rows="10"></textarea><br/>
-                            <button class="btn btn-primary">Send</button><br/>
-                            </div>
-                        </form>
-                        `;
-            return data;
+            var content = `<form>
+                                <div class="col-md-8">
+                                <label>Your Email</label><br/>
+                                <input type="email" class="form-control pad"/><br/>
+                                <label>Subject</label><br/>
+                                <input type="text" class="form-control pad"/><br/>
+                                <label>Message</label><br/>
+                                <textarea class="form-control" rows="10"></textarea><br/>
+                                <button class="btn btn-primary">Send</button><br/>
+                                </div>
+                            </form>
+                            `;
+                return data;
         }
         else if (title === 'about') {
             // return category list with each category revealing contents on click
@@ -41,7 +41,7 @@ function createTemplate(data){
         else {
             // return images and corresponding info
         }
-    };
+    // };
     
    
     
@@ -89,7 +89,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${content}
+                        <!--{content}-->
                     </div>
                 </div>    
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
