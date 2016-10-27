@@ -42,7 +42,7 @@ function createTemplate(data){
                            <div class="col-md-3 text-center pad border-none">ABOUT ME</div>
                         </a>
                         <a href="/article/portfolio">
-                           <div class="col-md-3 text-center pad border-none">PORTFOLIO</div>
+                           <div class="col-md-3 text-center pad border-none-right">PORTFOLIO</div>
                         </a>
                         <a href="/article/contact">
                            <div class="col-md-3 text-center pad">CONTACT ME</div>
