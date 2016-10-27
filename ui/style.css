@@ -32,9 +32,9 @@ body {
 .img-medium {
     position: absolute;
     top: 22%;
-    display: block;
+    display: block !important;
     border-radius: 100% !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 #btns {
