@@ -35,3 +35,7 @@ body {
     border-left: none;
     border-right: none;
 }
+
+.border-none-right {
+    border-right: none;
+}
