@@ -17,6 +17,7 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
+    var content = data.content;
     // var callContent = function(title){
     //     var content = '';
    
@@ -87,7 +88,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        
+                        ${content}
                     </div>
                 </div>    
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
