@@ -18,7 +18,7 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = '';
-    var callContent = function() {
+    function callContent() {
         if (title === 'contact') {
                  content += `<form>
                                 <div class="col-md-8">
