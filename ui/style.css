@@ -35,9 +35,9 @@ body {
     cursor: pointer; 
 }
 
-.nav-btn {
-    border: 1px solid black;
-} 
+/*.nav-btn {*/
+/*    border: 1px solid black;*/
+/*} */
 
 .container {
     max-width: 800px;
