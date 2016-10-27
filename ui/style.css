@@ -33,6 +33,7 @@ body {
     display: block !important;
     border-radius: 100% !important;
     margin: 0 auto !important;
+    height: 100%;
 }
 
 #btns {
