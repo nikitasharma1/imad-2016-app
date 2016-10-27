@@ -23,10 +23,10 @@ function createTemplate(data){
         content+='test';
             if(result>0) {
                 //var cont = result.rows[0];
-                content+=2;
+                
             }
             else {
-                
+             content+=2;   
             }
     });
     
