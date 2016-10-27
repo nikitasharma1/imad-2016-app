@@ -22,7 +22,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    border: 1px solid black;
+    
     cursor: pointer; 
 }
 
@@ -33,4 +33,5 @@ body {
 .pad {
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 1px solid black;
 }
