@@ -32,12 +32,7 @@ function createTemplate(data){
             </head>
             <body>
                 <div class="container">
-                    <div class="buttons">
-                        <a href="/"><button class="btn1" id="home">HOME</button></a>
-                        <a href="/article/about"><button class="btn1" id="about">ABOUT ME</button></a>
-                        <a href="/article/portfolio"><button class="btn1" id="portfolio">MY PORTFOLIO</button></a>
-                        <a href="/article/contact"><button class="btn1" id="contact">CONTACT ME</button></a>
-                    </div>
+                    
                     
                     <h3>${heading}</h3>
                     <div>
