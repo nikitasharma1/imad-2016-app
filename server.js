@@ -20,7 +20,19 @@ function createTemplate(data){
     var date = data.date;
     var content = function() {
         if (data.title === 'contact') {
-            return (data.content);
+            var data = `<form>
+                            <div class="col-md-8">
+                            <label>Your Email</label><br/>
+                            <input type="email" class="form-control pad"/><br/>
+                            <label>Subject</label><br/>
+                            <input type="text" class="form-control pad"/><br/>
+                            <label>Message</label><br/>
+                            <textarea class="form-control" rows="10"></textarea><br/>
+                            <button class="btn btn-primary">Send</button><br/>
+                            </div>
+                        </form>
+                        `;
+            return (data);
         }
         else if (data.title === 'about') {
             // return category list with each category revealing contents on click
