@@ -21,23 +21,7 @@ body {
     margin: 20px;
 }
 
-.buttons {
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center; 
-}
 
-.btn1 {
-    padding: 15px 56px;
-    margin: -1px;
-    font-size: 1.1em;
-    cursor: pointer; 
-}
-
-/*.nav-btn {*/
-/*    border: 1px solid black;*/
-/*} */
 
 .container {
     max-width: 800px;
