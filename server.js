@@ -24,6 +24,9 @@ function createTemplate(data){
                 //var cont = result.rows[0];
                 content = 'hello'; 
             }
+            else {
+                content = 'bye';
+            }
     });
     
     var htmlTemplate = `
