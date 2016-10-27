@@ -19,7 +19,7 @@ function createTemplate(data){
     var heading = data.heading;
     var date = data.date;
     var content = '';
-    var callContent = function () {
+    
         if (data.title === 'contact') {
                 content += `<form>
                             <div class="col-md-8">
@@ -41,7 +41,7 @@ function createTemplate(data){
         else {
             // return images and corresponding info
         }
-    };
+   
     
 
   
