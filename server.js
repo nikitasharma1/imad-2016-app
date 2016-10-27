@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var callContent = function(){
+    var callContent = function(title){
         var content = '';
    
         if (title === 'contact') {
