@@ -35,6 +35,15 @@ function createTemplate(data){
             <body>
                 <div class="container">
                     <div class="row navbar navbar-default navbar-fixed-top" id="btns">
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand color-white" href="/">NIKITA SHARMA</a>   
+                        </div>
                         <a href="/">
                           <div class="col-md-3 text-center pad">HOME</div>
                         </a>
