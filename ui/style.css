@@ -26,8 +26,7 @@ body {
     cursor: pointer; 
 }
 
-#btns div a, #btns div {
+#btns div a {
     border: 1px solid black;
-    width: 100%;
-    
+    padding: 100%;
 }
