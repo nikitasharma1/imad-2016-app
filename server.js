@@ -31,6 +31,8 @@ function createTemplate(data){
                 <link href="/ui/style.css" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Molengo|Philosopher" rel="stylesheet">
                 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>        
             </head>
             <body>
                 <div class="container">
@@ -63,8 +65,7 @@ function createTemplate(data){
                         </div><!-- /.navbar-collapse -->
                       </div><!-- /.container-fluid -->
                     </nav>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                    
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
