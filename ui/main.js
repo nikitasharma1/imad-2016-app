@@ -39,6 +39,7 @@ submit.onclick = function() {
   ul.innerHTML = list;
 };
 
+
 $("#category").click(function(){
     var names = ['name1','name2','name3'];
     var list = '';
