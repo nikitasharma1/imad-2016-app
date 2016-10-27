@@ -34,4 +34,5 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid black;
+    margin: -1px;
 }
