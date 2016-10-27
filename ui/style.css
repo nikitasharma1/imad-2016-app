@@ -32,7 +32,10 @@ body {
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
     height: 100%;
-    color: #F7F1C8 !important;
+}
+
+#btns a div {
+    color: #F7F1C8 !important;    
 }
 
 .pad {
