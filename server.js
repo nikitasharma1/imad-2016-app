@@ -17,15 +17,15 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var content;
+    var content='';
     pool.query("SELECT * from info  WHERE title = 'about'", function (err, result) {
         
             if(result) {
                 //var cont = result.rows[0];
-                content = 'hello'; 
+                content += 'hello'; 
             }
             else {
-                content = 'bye';
+                content += 'bye';
             }
     });
     
