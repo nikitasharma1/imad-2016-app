@@ -34,21 +34,21 @@ function createTemplate(data){
             </head>
             <body>
                 <div class="container">
-                    <h3>${heading}</h3>
                     <div classs="row">
-                        <div class="col-md-3">
-                            <a href="/">HOME</a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="/article/about">ABOUT ME</a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="/article/portfolio">PORTFOLIO</a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="/article/contact">CONTACT ME</a>
-                        </div>
+                        <a href="/">
+                           <div class="col-md-3 text-center pad">HOME</div>
+                        </a>
+                        <a href="/article/about">
+                           <div class="col-md-3 text-center pad">ABOUT ME</div>
+                        </a>
+                        <a href="/article/portfolio">
+                           <div class="col-md-3 text-center pad">PORTFOLIO</div>
+                        </a>
+                        <a href="/article/contact">
+                           <div class="col-md-3 text-center pad">CONTACT ME</div>
+                        </a>    
                     </div>
+                    <h3>${heading}</h3>
                     <div>
                         ${content}
                     </div>
