@@ -19,16 +19,16 @@ function createTemplate(data){
     var heading = data.heading;
     var content='testing';
 
-    // pool.query("INSERT * INTO info values (55,test,2);", function (err, result) {
+    pool.query("INSERT INTO info values (55,test,2);", function (err, result) {
     
-    //         if(result>0) {
-    //             //var cont = result.rows[0];
-    //             content+='testing5';
-    //         }
-    //         else {
+            if(result>0) {
+                //var cont = result.rows[0];
+                content+='testing5';
+            }
+            else {
                
-    //         }
-    // });
+            }
+    });
     
     var htmlTemplate = `
         <!DOCTYPE html>
