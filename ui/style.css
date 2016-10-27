@@ -35,3 +35,8 @@ body {
     box-sizing: border-box;
     margin: -1px;
 }
+
+#portfolio {
+    border-left: none;
+    border-right: none;
+}
