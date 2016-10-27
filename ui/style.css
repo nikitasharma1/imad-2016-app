@@ -26,12 +26,13 @@ body {
 }
 
 #img {
-    margin-top: 50% !important;
+    justify-content: content;
+    position: absolute;
+    top: 50%;
 }
 
 .img-medium {
     border-radius: 100%;
-    margin-top: 50%;
 }
 
 #btns {
