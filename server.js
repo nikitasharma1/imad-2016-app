@@ -91,7 +91,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        <!--{content}-->
+                        ${content}
                     </div>
                 </div>    
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
