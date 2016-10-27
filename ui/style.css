@@ -21,9 +21,8 @@ body {
 }
 
 .img-medium {
-    margin-top: 16% !important;
     border-radius: 100%;
-    margin: 20px;
+    margin: 20%;
 }
 
 #btns {
