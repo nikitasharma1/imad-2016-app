@@ -20,23 +20,6 @@
                 <a href="/article/portfolio" id="portfolio"><div class="col-md-4 text-center pad">MY PORTFOLIO</div></a>
                 <a href="/article/contact" id="contact"><div class="col-md-4 text-center pad">CONTACT ME</div></a>
             </div>
-            <button id="submit-btn">
-            ACADEMICS
-            </button>
-            <ul id="namelist"></ul>
-            <script>
-                var submit = document.getElementById("submit-btn");
-                submit.onclick = function() {
-                  var names = ['name1','name2','name3'];
-                  var list = '';
-                  for (var i=0; i<names.length; i++) {
-                      list += '<li>' + names[i] + '</li>';
-                  }
-                  var ul = document.getElementById("namelist");
-                  ul.innerHTML = list;
-                };
-            </script>
-            
         </div>    
         <script type="text/javascript" src="/ui/main.js">
         </script>
