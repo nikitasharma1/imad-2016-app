@@ -8,8 +8,8 @@ body {
     margin: 0 auto;
 }
 
-#nav {
- color: #ffffff !important;   
+.color-white{
+	color: #ffffff !important;
 }
 
 #div-height-60 {
