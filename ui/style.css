@@ -34,7 +34,7 @@ body {
     border: 1px solid black;
 }
 
-#portfolio {
+#portfolio div {
     border-left: none;
     border-right: none;
 }
