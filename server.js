@@ -35,8 +35,8 @@ function createTemplate(data){
             <body>
                 <div class="container">
                 
-                    <nav class="navbar navbar-inverse navbar-fixed-top">
-                        <div class="row" id="btns">
+                    <nav class="">
+                        <div class="row navbar navbar-inverse navbar-fixed-top" id="btns">
                             <a href="/">
                                <div class="col-md-3 text-center pad">HOME</div>
                             </a>
