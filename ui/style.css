@@ -20,6 +20,10 @@ body {
     font-size: 250%;
 }
 
+#img {
+    height: 50%;
+}
+
 .img-medium {
     border-radius: 100%;
     /*margin-top: 50%;*/
@@ -30,7 +34,6 @@ body {
     margin-right: auto;
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
-    height: 100%;
 }
 
 #btns a div {
