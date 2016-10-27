@@ -17,8 +17,9 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var content = '';
-    function callContent() {
+    var callContent = function(){
+        var content = '';
+   
         if (title === 'contact') {
                  content += `<form>
                                 <div class="col-md-8">
@@ -32,7 +33,7 @@ function createTemplate(data){
                                 </div>
                             </form>
                             `;
-            return content;
+            
         }
         else if (title === 'about') {
             //content = '';
@@ -42,12 +43,8 @@ function createTemplate(data){
             //content = '';
             // return images and corresponding info
         }
+        document.write(content);
     };
-    
-   
-    
-
-  
     
     var htmlTemplate = `
         <!DOCTYPE html>
