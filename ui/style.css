@@ -34,7 +34,8 @@ body {
     border-radius: 100% !important;
     border: 1px solid black;
     position: fixed;
-    top: 20%;
+    top: 22%;
+    left: 22%;
 }
 
 #btns {
