@@ -39,10 +39,10 @@ function createTemplate(data){
                            <div class="col-md-3 text-center pad">HOME</div>
                         </a>
                         <a href="/article/about">
-                           <div class="col-md-3 text-center pad border-none">ABOUT ME</div>
+                           <div class="col-md-3 text-center pad">ABOUT ME</div>
                         </a>
                         <a href="/article/portfolio">
-                           <div class="col-md-3 text-center pad border-none-right">PORTFOLIO</div>
+                           <div class="col-md-3 text-center pad">PORTFOLIO</div>
                         </a>
                         <a href="/article/contact">
                            <div class="col-md-3 text-center pad">CONTACT ME</div>
