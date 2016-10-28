@@ -112,21 +112,6 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-// var contact = function getContactForm() {
-//     var out11;
-//     var q = pool.query("SELECT * from info", function(err, res) {
-//       var out1;
-//       if(res) {
-//           if(res.rows.length > 0) {
-//               for (var k=0; k<res.rows.length; k++) {
-//                   out1 += res.rows[k].info;
-//               }
-//           }
-//       }  
-//       return out1;
-//     });
-//     out11 = q();
-// };
 
 app.get('/article/:articleName', function (req, res) {
     var articleName = req.params.articleName;
