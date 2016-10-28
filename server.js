@@ -18,8 +18,9 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var heading1 = function fun (test11){
+        var i;
         if(test11 === 'contact') {
-           var i = 'contact me';
+           i = 'contact me';
         }
         return i;
         
