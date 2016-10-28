@@ -44,14 +44,16 @@ function createTemplate(data){
               password: process.env.DB_PASSWORD
             };
             var pool1 = new Pool(config);
-            pool1.query('SELECT info from info where article-id=2', function(err, res) {
+            var q = pool1.query('SELECT info from info where article-id=2', function(err, res) {
                 if(res) {
                       out += 'my portfolio'; 
                 }
                 else {
                      out += 'my portfolio not available';    
                 }
+                return out;
             });
+            out += q();
             
         }
         else {
