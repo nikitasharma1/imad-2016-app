@@ -17,33 +17,48 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var pageContent = function callPageContent(title) {
-        var out='';
-        if (title1 === 'contact') {
-            out += ` <form>
-                        <div class="col-md-8">
-                            <label>Your Email</label><br/>
-                            <input type="email" class="form-control pad"/><br/>                                
-                            <label>Subject</label><br/>
-                            <input type="text" class="form-control pad"/><br/>                                
-                            <label>Message</label><br/>
-                            <textarea class="form-control" rows="10"></textarea><br/>
-                            <button class="btn btn-primary">Send</button><br/>
-                        </div>
-                    </form>`;
+    var pageContent = function callPageContent(title1) {
+        var output = '';
+        if (title1 === 'about') {
+            output += 'about me';
+        } 
+        else if (title1 === 'portfolio') {
+            output += 'my portfolio';
         }
-        else if(title1 === 'portfolio') {
-            out += 'my portfolio'; 
+        else if (title1 === 'contact') {
+            output += 'contact me';
         }
         else {
-            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
-            for(var i in info) {
-                out += '<span>'+info[i]+'</span><br/>';
-            }
+            //error
         }
-        return out;
+        return output;
     };
-
+    // var content = function callContent(title1) {
+        // var out='';
+        // if (title1 === 'contact') {
+        //     out += ` <form>
+        //                 <div class="col-md-8">
+        //                     <label>Your Email</label><br/>
+        //                     <input type="email" class="form-control pad"/><br/>                                
+        //                     <label>Subject</label><br/>
+        //                     <input type="text" class="form-control pad"/><br/>                                
+        //                     <label>Message</label><br/>
+        //                     <textarea class="form-control" rows="10"></textarea><br/>
+        //                     <button class="btn btn-primary">Send</button><br/>
+        //                 </div>
+        //             </form>`;
+        // }
+        // else if(title1 === 'portfolio') {
+        //     out += 'my portfolio'; 
+        // }
+        // else {
+        //     var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+        //     for(var i in info) {
+        //         out += '<span>'+info[i]+'</span><br/>';
+        //     }
+        // }
+        // return out;
+    // };
   
     var htmlTemplate = `
         <!DOCTYPE html>
