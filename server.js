@@ -121,9 +121,7 @@ function createTemplate(data){
                     <div>
                         ${content(title)} 
                         ${
-                            app.get('/', function(req, res) {
-                              res.send('hello world');
-                            })
+                           
                         }
                     </div>
                 </div>    
