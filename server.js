@@ -17,14 +17,7 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var Pool = require('pg').Pool;
-    var pool = new Pool(config);
-    
-    pool.query('INSERT INTO test ("test") values ("test25")', function(err, res){
-        if (res) {
-            console.log("hello");
-        }
-    });
+
     
     
     var htmlTemplate = `
@@ -85,7 +78,11 @@ app.get('/', function (req, res) {
 });
 
 var pool = new Pool(config);
-
+    pool.query('INSERT INTO test ("test") values ("test25")', function(err, res){
+        if (res) {
+            console.log("hello");
+        }
+    });
 var counter = 0;
 app.get('/counter', function(req, res) {
     counter = counter + 1;
