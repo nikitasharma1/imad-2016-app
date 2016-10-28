@@ -35,9 +35,9 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
-            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+            var info = {'ACADEMICS':'', 'INTERNSHIPS':'', 'WORKSHOPS':'', 'WEB DEVELOPMENT SKILLS':'', 'PROJECTS':'', 'CERTIFICATIONS':'', 'OTHER SKILLS':''};
             for(var i in info) {
-                out += info[i]+'<br/>';
+                out += '<span class="category">'+info[i]+'</span><br/>';
             }
         }
         else {
