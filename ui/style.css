@@ -38,7 +38,8 @@ body {
     /*width: 100%;*/
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
-    justify-content: center !important;
+    display: flex;
+    justify-content: center;
 }
 
 #btns a div {
