@@ -38,8 +38,8 @@ body {
     /*width: 100%;*/
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
-    display: flex;
-    /*justify-content: center;*/
+    /*display: flex;*/
+    justify-content: center;
 }
 
 
