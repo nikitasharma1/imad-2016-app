@@ -42,9 +42,7 @@ function createTemplate(data){
                var out='';
                if (res) {
                    if(res.rows.length > 0) {
-                       for( var j = 0; j < res.rows.length ; j++) {
-                          out += res.rows[i]; 
-                       }
+                       out = 'success';
                    }
                }
                return out;
