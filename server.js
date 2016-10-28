@@ -17,20 +17,6 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var content='testing';
-
-
-
-    // pool.query('INSERT INTO "test" ("test") VALUES ("test2");', function (err, result) {
-    
-    //         if(result>0) {
-    //             //var cont = result.rows[0];
-    //             content+='testing5';
-    //         }
-    //         else {
-               
-    //         }
-    // });
     
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -74,7 +60,11 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${content}
+                        ${
+                            pool.query('INSERT into test ("test") values ("test22")', nikitasharma1 ,function(err, res) {
+                                console.log("inserted into test");
+                            })
+                        }
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
