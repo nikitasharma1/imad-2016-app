@@ -35,25 +35,21 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
-            var Pool = require('pg').Pool;
-            var config = {
-              host: 'db.imad.hasura-app.io',
-              user: 'nikitasharma1',
-              database: 'nikitasharma1',
-              port: '5432',
-              password: process.env.DB_PASSWORD
-            };
-            var pool1 = new Pool(config);
-            var q = pool1.query('SELECT info from info where article-id=2', function(err, res) {
-                if(res) {
-                      out += 'my portfolio'; 
+            var q = pool.query("SELECT * from info  WHERE title = 'article-id=3'", function (err, result) {
+                if (err) {
+                    //res.status(500).send(err.toString());
                 }
                 else {
-                     out += 'my portfolio not available';    
+                    if (result.rows.length === 0) {
+                        //res.status(404).send(err.toString());
+                    }
+                    else {
+                        var articleData = result.rows[0];
+                        return (articleData[0]);
+                    }
                 }
-                return out;
+                out += q();
             });
-            out += q();
             
         }
         else {
