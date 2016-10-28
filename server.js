@@ -19,6 +19,8 @@ function createTemplate(data){
     var heading = data.heading;
     var content='testing';
 
+
+
     // pool.query('INSERT INTO "test" ("test") VALUES ("test2");', function (err, result) {
     
     //         if(result>0) {
