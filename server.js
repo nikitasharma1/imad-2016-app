@@ -18,32 +18,32 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     
-    var content = function callContent(title1) {
-        var out='';
-        if (title1 === 'contact') {
-            out += ` <form>
-                        <div class="col-md-8">
-                            <label>Your Email</label><br/>
-                            <input type="email" class="form-control pad"/><br/>                                
-                            <label>Subject</label><br/>
-                            <input type="text" class="form-control pad"/><br/>                                
-                            <label>Message</label><br/>
-                            <textarea class="form-control" rows="10"></textarea><br/>
-                            <button class="btn btn-primary">Send</button><br/>
-                        </div>
-                    </form>`;
-        }
-        else if(title1 === 'portfolio') {
-            out += 'my portfolio'; 
-        }
-        else {
-            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
-            for(var i in info) {
-                out += '<span>'+info[i]+'</span><br/>';
-            }
-        }
-        return out;
-    };
+    // var content = function callContent(title1) {
+    //     var out='';
+    //     if (title1 === 'contact') {
+    //         out += ` <form>
+    //                     <div class="col-md-8">
+    //                         <label>Your Email</label><br/>
+    //                         <input type="email" class="form-control pad"/><br/>                                
+    //                         <label>Subject</label><br/>
+    //                         <input type="text" class="form-control pad"/><br/>                                
+    //                         <label>Message</label><br/>
+    //                         <textarea class="form-control" rows="10"></textarea><br/>
+    //                         <button class="btn btn-primary">Send</button><br/>
+    //                     </div>
+    //                 </form>`;
+    //     }
+    //     else if(title1 === 'portfolio') {
+    //         out += 'my portfolio'; 
+    //     }
+    //     else {
+    //         var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+    //         for(var i in info) {
+    //             out += '<span>'+info[i]+'</span><br/>';
+    //         }
+    //     }
+    //     return out;
+    // };
   
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -86,7 +86,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${content(title)} 
+                       
                         
                     </div>
                 </div>    
@@ -100,7 +100,7 @@ function createTemplate(data){
 }
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 var counter = 0;
@@ -123,21 +123,20 @@ app.get('/article/:articleName', function (req, res) {
             else {
                 var articleData = result.rows[0];
                 res.send(createTemplate(articleData));
-                
             }
         }
     });
 });
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
-  console.log(`IMAD course app listening on port ${port}!`);
+   console.log(`IMAD course app listening on port ${port}!`);
 });
