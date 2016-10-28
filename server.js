@@ -61,9 +61,10 @@ function createTemplate(data){
                     <h3>${heading}</h3>
                     <div>
                         ${
-                            pool.query('INSERT into test ("test") values ("test22")', nikitasharma1 ,function(err, res) {
-                                console.log("inserted into test");
-                            })
+                            console.log("hello")
+                            // pool.query('INSERT into test ("test") values ("test22")', nikitasharma1 ,function(err, res) {
+                            //     console.log("inserted into test");
+                            // })
                         }
                     </div>
                 </div>    
