@@ -21,7 +21,7 @@ function createTemplate(data){
         var output = '';
         if (title1 === 'about') {
            // output += 'about me';
-            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS'];
             for(var i in info) {
                 output += '<span>'+info[i]+'</span><br/>';
             }
@@ -30,7 +30,7 @@ function createTemplate(data){
             output += 'this is my portfolio';
         }
         else if (title1 === 'contact') {
-            output += 'contact me';
+            output += 'contact me here';
             // output += ` <form>
             //                 <div class="col-md-8">
             //                     <label>Your Email</label><br/>
