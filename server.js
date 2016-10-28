@@ -110,7 +110,7 @@ function createTemplate(data){
                           <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="/" class="color-white"> HOME </a></li>
-                            <li><a href="/articles/about" class="color-white"> ABOUT ME </a></li>
+                            <li><a href="/article/about" class="color-white"> ABOUT ME </a></li>
                             <li><a href="/article/portfolio" class="color-white"> PORTFOLIO </a></li>
                             <li><a href="/article/contact" class="color-white"> CONTACT ME </a></li>
                           </ul>
@@ -144,7 +144,7 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-app.get('/articles/:articleName', function (req, res) {
+app.get('/article/:articleName', function (req, res) {
     var articleName = req.params.articleName;
     pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
         if (err) {
