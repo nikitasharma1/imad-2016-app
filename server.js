@@ -39,6 +39,9 @@ function createTemplate(data){
                 if(res) {
                       out += 'my portfolio'; 
                 }
+                else {
+                     out += 'my portfolio not available';    
+                }
             });
             
         }
