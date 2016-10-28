@@ -127,6 +127,7 @@ function createTemplate(data){
             </body>
         </html>
     `;
+    console.log('hello');
     return htmlTemplate;
 }
 
@@ -154,7 +155,7 @@ app.get('/article/:articleName', function (req, res) {
             else {
                 var articleData = result.rows[0];
                 res.send(createTemplate(articleData));
-                console.log('hello');
+                
             }
         }
     });
