@@ -18,6 +18,9 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
+    
+    //var call
+    
     var heading1 = function fun (test11){
         var i;
         if(test11 === 'contact') {
@@ -94,7 +97,7 @@ function createTemplate(data){
                     <h3>${heading}</h3>
                     <div>
                         ${heading1(title)}<br/>
-                        ${contentout(title)}
+                       
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
