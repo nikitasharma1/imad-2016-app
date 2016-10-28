@@ -110,7 +110,7 @@ function createTemplate(data){
                           <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="/" class="color-white"> HOME </a></li>
-                            <li><a href="/article/about" class="color-white"> ABOUT ME </a></li>
+                            <li><a href="/articles/about" class="color-white"> ABOUT ME </a></li>
                             <li><a href="/article/portfolio" class="color-white"> PORTFOLIO </a></li>
                             <li><a href="/article/contact" class="color-white"> CONTACT ME </a></li>
                           </ul>
