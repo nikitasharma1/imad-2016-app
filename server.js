@@ -17,6 +17,21 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
+    var Pool = require('pg').Pool;
+    var pool = new Pool(config);
+    var config = {
+          host: 'db.imad.hasura-app.io',
+          user: 'nikitasharma1',
+          database: 'nikitasharma1',
+          port: '5432',
+          password: process.env.DB_PASSWORD 
+    };
+    pool.query('INSERT INTO test ("test") values ("test25")', function(err, res){
+        if (res) {
+            console.log("hello");
+        }
+    });
+    
     
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -60,12 +75,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${
-                            console.log("hello")
-                            // pool.query('INSERT into test ("test") values ("test22")', nikitasharma1 ,function(err, res) {
-                            //     console.log("inserted into test");
-                            // })
-                        }
+                        
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
