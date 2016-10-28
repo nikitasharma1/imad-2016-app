@@ -32,14 +32,6 @@ body {
     box-shadow: 2px 2px 26px black;	
 }
 
-#name, #name-div{
-  width: 100%;
-  margin: 0 auto;
-}
-#name-div{
-  text-align: center;
-}
-
 #btns {
     margin-left: auto;
     margin-right: auto;
@@ -69,3 +61,12 @@ form {
 /*    cursor: pointer;*/
 /*    text-align: center;*/
 /*}*/
+
+#name, #name-div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#name-div{
+  text-align: center;
+}
