@@ -19,13 +19,7 @@ function createTemplate(data){
     var heading = data.heading;
     var Pool = require('pg').Pool;
     var pool = new Pool(config);
-    var config = {
-          host: 'db.imad.hasura-app.io',
-          user: 'nikitasharma1',
-          database: 'nikitasharma1',
-          port: '5432',
-          password: process.env.DB_PASSWORD 
-    };
+    
     pool.query('INSERT INTO test ("test") values ("test25")', function(err, res){
         if (res) {
             console.log("hello");
