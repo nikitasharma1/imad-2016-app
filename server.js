@@ -21,9 +21,16 @@ function createTemplate(data){
         var i;
         if(test11 === 'contact') {
            i = 'contact me';
+           
         }
-        return i;
+        else if(test11 === 'portfolio') {
+           i = 'my portfolio';  
+        }
+        else {
+            i = 'know me';
+        }
         
+        return i;
     };
     
     
