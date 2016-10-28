@@ -34,13 +34,13 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
+            out += 'my portfolio'; 
+        }
+        else {
             var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
             for(var i in info) {
                 out += '<span>'+info[i]+'</span><br/>';
             }
-        }
-        else {
-            out += 'know me';
         }
         return out;
     };
