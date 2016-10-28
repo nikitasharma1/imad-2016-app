@@ -55,15 +55,15 @@ function createTemplate(data){
                 </title>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link href="/ui/style.css" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Molengo|Philosopher" rel="stylesheet">
-                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <link href="https://fonts.googleapis.com/css?family=Molengo|Philosopher" rel="stylesheet"/>
+                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             </head>
             <body>
                 <div class="container">
-                    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
-                      <div class="container-fluid container" id="main-nav-inner-div">
+                    <nav class="navbar navbar-inverse navbar-fixed-top">
+                      <div class="container-fluid container">
                         <div class="navbar-header">
                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
