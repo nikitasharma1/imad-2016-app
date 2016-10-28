@@ -10,7 +10,8 @@ function connectToDatabase () {
       port: '5432',
       password: process.env.DB_PASSWORD
     };
-    var pool = new Pool(config);    
+    var pool = new Pool(config); 
+    return pool;
 }
 connectToDatabase();
 
