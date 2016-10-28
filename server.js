@@ -17,7 +17,10 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    var heading1 = "<h1>hee</h1>";
+    var heading1 = function fun (){
+        var i = "testt";
+        eval.i;
+    };
     
     
     var htmlTemplate = `
