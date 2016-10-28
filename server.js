@@ -27,7 +27,7 @@ function createTemplate(data){
             }
         } 
         else if (title1 === 'portfolio') {
-            output += 'my portfolio';
+            output += 'this is my portfolio';
         }
         else if (title1 === 'contact') {
             output += 'contact me';
