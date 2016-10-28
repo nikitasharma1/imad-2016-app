@@ -19,7 +19,7 @@ function createTemplate(data){
     var heading = data.heading;
     var heading1 = function fun (){
         var i = "testt";
-        return(eval.i);
+        return i;
         
     };
     
