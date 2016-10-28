@@ -18,7 +18,7 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     
-    var content = function callContent(title1) {
+    var content1 = function callContent(title1) {
         var out='';
         if (title1 === 'contact') {
             out += ` <form>
@@ -86,7 +86,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${content(title)}
+                        ${content1(title)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
