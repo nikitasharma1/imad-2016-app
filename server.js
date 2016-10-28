@@ -34,6 +34,24 @@ function createTemplate(data){
         return i;
     };
     
+    var contentout = function cont (test22) {
+       if (test22 === 'about') {
+           var content;
+           query = "SELECT info from info WHERE article-id=1";
+           var q = pool.query(query, function(err, res) {
+               var out='';
+               if (res) {
+                   if(res.rows.length > 0) {
+                       for( var j = 0; j < res.rows.length ; j++) {
+                          out += res.rows[i]; 
+                       }
+                   }
+               }
+               return out;
+           });
+           content = q();
+       } 
+    } ;
     
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -77,7 +95,8 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${heading1(title)}
+                        ${heading1(title)}<br/>
+                        ${contentout(title)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
