@@ -20,9 +20,9 @@ function createTemplate(data){
     var heading = data.heading;
     
     var content = function callContent(title1) {
-        var out;
+        var out='';
         if (title1 === 'contact') {
-            out = ` <form>
+            out += ` <form>
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
                             <input type="email" class="form-control pad"/><br/>                                
@@ -35,10 +35,10 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
-            out = 'my portfolio';  
+            out += 'my portfolio';  
         }
         else {
-            out = 'know me';
+            out += 'know me';
         }
         return out;
     };
