@@ -44,41 +44,6 @@ function createTemplate(data){
         }
         return out;
     };
-    
-  ///////////////////////////////////////////////////////////////////////// 
-    // var heading1 = function fun (test11){
-    //     var i;
-    //     if(test11 === 'contact') {
-    //       i = 'contact me';
-           
-    //     }
-    //     else if(test11 === 'portfolio') {
-    //       i = 'my portfolio';  
-    //     }
-    //     else {
-    //         i = 'know me';
-    //     }
-        
-    //     return i;
-    // };
-  //////////////////////////////////////////////////////////////////////  ???
-    // var contentout = function cont (test22) {
-    //   if (test22 === 'about') {
-    //       var content;
-    //       query = "SELECT info from info WHERE article-id=1";
-    //       var q = pool.query(query, function(err, res) {
-    //           var out='';
-    //           if (res) {
-    //               if(res.rows.length > 0) {
-    //                   out = 'success';
-    //               }
-    //           }
-    //           return out;
-    //       });
-    //       content = q();
-    //   } 
-    // } ;
-  /////////////////////////////////////////////////////////////////////////     
   
     var htmlTemplate = `
         <!DOCTYPE html>
