@@ -88,7 +88,7 @@ function createTemplate(data){
                     <h3>${heading}</h3>
                     <div>
                         ${content(title)} 
-                        ${fun()}
+                        
                         ${contact}
                     </div>
                 </div>    
