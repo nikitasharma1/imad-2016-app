@@ -18,32 +18,32 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     
-    // var content = function callContent(title1) {
-    //     var out='';
-    //     if (title1 === 'contact') {
-    //         out += ` <form>
-    //                     <div class="col-md-8">
-    //                         <label>Your Email</label><br/>
-    //                         <input type="email" class="form-control pad"/><br/>                                
-    //                         <label>Subject</label><br/>
-    //                         <input type="text" class="form-control pad"/><br/>                                
-    //                         <label>Message</label><br/>
-    //                         <textarea class="form-control" rows="10"></textarea><br/>
-    //                         <button class="btn btn-primary">Send</button><br/>
-    //                     </div>
-    //                 </form>`;
-    //     }
-    //     else if(title1 === 'portfolio') {
-    //         out += 'my portfolio'; 
-    //     }
-    //     else {
-    //         var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
-    //         for(var i in info) {
-    //             out += '<span>'+info[i]+'</span><br/>';
-    //         }
-    //     }
-    //     return out;
-    // };
+    var content = function callContent(title1) {
+        var out='';
+        if (title1 === 'contact') {
+            out += ` <form>
+                        <div class="col-md-8">
+                            <label>Your Email</label><br/>
+                            <input type="email" class="form-control pad"/><br/>                                
+                            <label>Subject</label><br/>
+                            <input type="text" class="form-control pad"/><br/>                                
+                            <label>Message</label><br/>
+                            <textarea class="form-control" rows="10"></textarea><br/>
+                            <button class="btn btn-primary">Send</button><br/>
+                        </div>
+                    </form>`;
+        }
+        else if(title1 === 'portfolio') {
+            out += 'my portfolio'; 
+        }
+        else {
+            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+            for(var i in info) {
+                out += '<span>'+info[i]+'</span><br/>';
+            }
+        }
+        return out;
+    };
   
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -86,7 +86,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                       
+                        ${content(title)} 
                         
                     </div>
                 </div>    
