@@ -30,17 +30,18 @@ function createTemplate(data){
             output += 'my portfolio';
         }
         else if (title1 === 'contact') {
-            output += ` <form>
-                            <div class="col-md-8">
-                                <label>Your Email</label><br/>
-                                <input type="email" class="form-control pad"/><br/>                                
-                                <label>Subject</label><br/>
-                                <input type="text" class="form-control pad"/><br/>                                
-                                <label>Message</label><br/>
-                                <textarea class="form-control" rows="10"></textarea><br/>
-                                <button class="btn btn-primary">Send</button><br/>
-                            </div>
-                        </form>`;
+            output += 'contact me';
+            // output += ` <form>
+            //                 <div class="col-md-8">
+            //                     <label>Your Email</label><br/>
+            //                     <input type="email" class="form-control pad"/><br/>                                
+            //                     <label>Subject</label><br/>
+            //                     <input type="text" class="form-control pad"/><br/>                                
+            //                     <label>Message</label><br/>
+            //                     <textarea class="form-control" rows="10"></textarea><br/>
+            //                     <button class="btn btn-primary">Send</button><br/>
+            //                 </div>
+            //             </form>`;
             
         }
         else {
