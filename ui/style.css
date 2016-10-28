@@ -28,7 +28,10 @@ body {
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
-    margin: 20% auto !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 40%;
+    margin-bottom: 20%;
     box-shadow: 2px 2px 26px black;	
 }
 
