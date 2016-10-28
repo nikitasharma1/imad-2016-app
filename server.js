@@ -10,7 +10,7 @@ var config = {
   port: '5432',
   password: process.env.DB_PASSWORD
 };
-var pool = new Pool(config); 
+
 
 var app = express();
 app.use(morgan('combined'));
@@ -19,29 +19,30 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     
-    var content = function callContent(title1) {
-        var out='';
-        if (title1 === 'contact') {
-            out += ` <form>
-                        <div class="col-md-8">
-                            <label>Your Email</label><br/>
-                            <input type="email" class="form-control pad"/><br/>                                
-                            <label>Subject</label><br/>
-                            <input type="text" class="form-control pad"/><br/>                                
-                            <label>Message</label><br/>
-                            <textarea class="form-control" rows="10"></textarea><br/>
-                            <button class="btn btn-primary">Send</button><br/>
-                        </div>
-                    </form>`;
-        }
-        else if(title1 === 'portfolio') {
-            out += 'my portfolio';  
-        }
-        else {
-            out += 'know me';
-        }
-        return out;
-    };
+    // var content = function callContent(title1) {
+    //     var out='';
+    //     if (title1 === 'contact') {
+    //         out += ` <form>
+    //                     <div class="col-md-8">
+    //                         <label>Your Email</label><br/>
+    //                         <input type="email" class="form-control pad"/><br/>                                
+    //                         <label>Subject</label><br/>
+    //                         <input type="text" class="form-control pad"/><br/>                                
+    //                         <label>Message</label><br/>
+    //                         <textarea class="form-control" rows="10"></textarea><br/>
+    //                         <button class="btn btn-primary">Send</button><br/>
+    //                     </div>
+    //                 </form>`;
+    //     }
+    //     else if(title1 === 'portfolio') {
+    //         out += 'my portfolio';  
+    //     }
+    //     else {
+    //         out += 'know me';
+    //     }
+    //     return out;
+    // };
+    
    //////////////////////////////////////////////////////////////////////// 
     // var heading1 = function fun (test11){
     //     var i;
@@ -117,7 +118,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${content(title)} 
+                       
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -138,6 +139,7 @@ app.get('/counter', function(req, res) {
     res.send(counter.toString());
 });
 
+var pool = new Pool(config); 
 app.get('/article/:articleName', function (req, res) {
     var articleName = req.params.articleName;
     pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
