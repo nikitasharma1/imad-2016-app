@@ -36,10 +36,7 @@ function createTemplate(data){
         }
         else if(title1 === 'portfolio') {
             var info = {'ACADEMICS':'', 'INTERNSHIPS':'', 'WORKSHOPS':'', 'WEB DEVELOPMENT SKILLS':'', 'PROJECTS':'', 'CERTIFICATIONS':'', 'OTHER SKILLS':''};
-            out += (JSON.stringify(Object.keys(info)));
-            // for(var i in info) {
-            //     out += '<span class="category">'+(JSON.stringify(Object.keys(info))[i])+'</span><br/>';
-            // }
+           
         }
         else {
             out += 'know me';
@@ -157,6 +154,7 @@ app.get('/article/:articleName', function (req, res) {
             else {
                 var articleData = result.rows[0];
                 res.send(createTemplate(articleData));
+                console.log('hello');
             }
         }
     });
