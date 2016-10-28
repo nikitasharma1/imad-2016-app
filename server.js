@@ -34,8 +34,10 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
-            var info = {'ACADEMICS':'', 'INTERNSHIPS':'', 'WORKSHOPS':'', 'WEB DEVELOPMENT SKILLS':'', 'PROJECTS':'', 'CERTIFICATIONS':'', 'OTHER SKILLS':''};
-           
+            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+            for(var j=0; j<info.length; j++) {
+                out += '<span>'+info[i]+'</span><br/>';
+            }
         }
         else {
             out += 'know me';
