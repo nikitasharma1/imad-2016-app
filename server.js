@@ -1,7 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-function connectToDatabase () {
+(function connectToDatabase () {
     var Pool = require('pg').Pool;
     var config = {
       host: 'db.imad.hasura-app.io',
@@ -12,8 +12,8 @@ function connectToDatabase () {
     };
     var pool = new Pool(config); 
     return pool;
-}
-connectToDatabase();
+})();
+
 
 var app = express();
 app.use(morgan('combined'));
