@@ -33,6 +33,7 @@ body {
     box-shadow: 2px 2px 26px black;	
     position: relative;
     top: 20%;
+    bottom: 20%;
 }
 
 #btns {
