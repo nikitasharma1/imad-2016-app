@@ -20,11 +20,11 @@ function createTemplate(data){
     var pageContent = function callPageContent(title1) {
         var output = '';
         if (title1 === 'about') {
-           // output += 'about me';
-            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS'];
-            for(var i in info) {
-                output += '<span>'+info[i]+'</span><br/>';
-            }
+            output += 'it is about me';
+            // var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS'];
+            // for(var i in info) {
+            //     output += '<span>'+info[i]+'</span><br/>';
+            // }
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
