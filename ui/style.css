@@ -35,6 +35,7 @@ body {
 #btns {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
 }
@@ -63,4 +64,3 @@ form {
 /*    cursor: pointer;*/
 /*    text-align: center;*/
 /*}*/
-
