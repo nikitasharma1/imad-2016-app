@@ -127,7 +127,7 @@ function createTemplate(data){
             </body>
         </html>
     `;
-    console.log('hello');
+    
     return htmlTemplate;
 }
 
