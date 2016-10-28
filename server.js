@@ -36,9 +36,9 @@ function createTemplate(data){
         }
         else if(title1 === 'portfolio') {
             var info = {'ACADEMICS':'', 'INTERNSHIPS':'', 'WORKSHOPS':'', 'WEB DEVELOPMENT SKILLS':'', 'PROJECTS':'', 'CERTIFICATIONS':'', 'OTHER SKILLS':''};
-            // for(var i in info) {
-                out += '<span class="category">'+Object.keys(info)+'</span><br/>';
-            // }
+            for(var i in info) {
+                out += '<span class="category">'+Object.keys(info)[i]+'</span><br/>';
+            }
         }
         else {
             out += 'know me';
