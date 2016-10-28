@@ -38,8 +38,7 @@ body {
     /*width: 100%;*/
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
-    display: block;
-    border: 2px solid white;
+    width: 100%;
 }
 
 ul {
