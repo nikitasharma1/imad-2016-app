@@ -86,7 +86,7 @@ function createTemplate(data){
                     </nav>
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
-                    <div>
+                    <div id="${title}">
                       ${pageContent(title)}
                     </div>
                 </div>    
@@ -124,6 +124,24 @@ app.get('/:articleName', function (req, res) {
             else {
                 var articleData = result.rows[0];
                 res.send(createTemplate(articleData));
+            }
+        }
+    });
+});
+
+app.get('/:#divId', function (req, res) {
+    var divId = req.params.divId;
+    pool.query("SELECT * from article  WHERE title = '"+ divId + "'", function (err, result) {
+        if (err) {
+            res.status(500).send(err.toString());
+        }
+        else {
+            if (result.rows.length === 0) {
+                res.status(404).send(err.toString());
+            }
+            else {
+                var divData = result.rows[0];
+                res.send('hello');
             }
         }
     });
