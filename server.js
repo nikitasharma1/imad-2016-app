@@ -19,7 +19,29 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     
-    //var call
+    var content = function callContent(title) {
+        var out;
+        if (title === 'contact') {
+            out = ` <form>
+                        <div class="col-md-8">
+                            <label>Your Email</label><br/>
+                            <input type="email" class="form-control pad"/><br/>                                
+                            <label>Subject</label><br/>
+                            <input type="text" class="form-control pad"/><br/>                                
+                            <label>Message</label><br/>
+                            <textarea class="form-control" rows="10"></textarea><br/>
+                            <button class="btn btn-primary">Send</button><br/>
+                        </div>
+                    </form>`;
+        }
+        else if(test11 === 'portfolio') {
+            out = 'my portfolio';  
+        }
+        else {
+            out = 'know me';
+        }
+        return out;
+    };
     
     var heading1 = function fun (test11){
         var i;
@@ -96,7 +118,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${heading1(title)}
+                        ${content(title)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
