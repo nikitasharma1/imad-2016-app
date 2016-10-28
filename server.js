@@ -43,8 +43,8 @@ function createTemplate(data){
               port: '5432',
               password: process.env.DB_PASSWORD
             };
-            var pool = new Pool(config);
-            pool.query('SELECT info from info where article-id=2', function(err, res) {
+            var pool1 = new Pool(config);
+            pool1.query('SELECT info from info where article-id=2', function(err, res) {
                 if(res) {
                       out += 'my portfolio'; 
                 }
