@@ -19,6 +19,7 @@ function createTemplate(data){
     var heading = data.heading;
     
     var content = function callContent(title1) {
+        var contact = contact();
         var out='';
         if (title1 === 'contact') {
             out += ` <form>
@@ -88,6 +89,7 @@ function createTemplate(data){
                     <div>
                         ${content(title)} 
                         ${fun()}
+                        ${contact}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -110,9 +112,22 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-var fun = function func() {
-    return 'heyyy';
+var contact = function getContactForm() {
+    var out11;
+    var q = pool.query("SELECT * from info", function(err, res) {
+      var out1;
+      if(res) {
+          if(res.rows.length > 0) {
+              for (var k=0; k<res.rows.length; k++) {
+                  out1 += res.rows[k].info;
+              }
+          }
+      }  
+      return out1;
+    });
+    out11 = q();
 };
+
 app.get('/article/:articleName', function (req, res) {
     var articleName = req.params.articleName;
     pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
