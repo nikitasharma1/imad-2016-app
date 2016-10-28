@@ -87,7 +87,7 @@ function createTemplate(data){
                     <h3>${heading}</h3>
                     <div>
                         ${content(title)} 
-                        
+                        ${fun()}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -110,6 +110,9 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
+var fun = function func() {
+    return 'heyyy';
+};
 app.get('/article/:articleName', function (req, res) {
     var articleName = req.params.articleName;
     pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
