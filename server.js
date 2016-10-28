@@ -21,28 +21,23 @@ function createTemplate(data){
         var output = '';
         if (title1 === 'about') {
             output += 'it is about me';
-            // var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS'];
-            // for(var i in info) {
-            //     output += '<span>'+info[i]+'</span><br/>';
-            // }
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
         }
         else if (title1 === 'contact') {
             output += 'contact me here';
-            // output += ` <form>
-            //                 <div class="col-md-8">
-            //                     <label>Your Email</label><br/>
-            //                     <input type="email" class="form-control pad"/><br/>                                
-            //                     <label>Subject</label><br/>
-            //                     <input type="text" class="form-control pad"/><br/>                                
-            //                     <label>Message</label><br/>
-            //                     <textarea class="form-control" rows="10"></textarea><br/>
-            //                     <button class="btn btn-primary">Send</button><br/>
-            //                 </div>
-            //             </form>`;
-            
+            output += `<form>
+                            <div class="col-md-8">
+                                <label>Your Email</label><br/>
+                                <input type="email" class="form-control pad"/><br/>                                
+                                <label>Subject</label><br/>
+                                <input type="text" class="form-control pad"/><br/>                                
+                                <label>Message</label><br/>
+                                <textarea class="form-control" rows="10"></textarea><br/>
+                                <button class="btn btn-primary">Send</button><br/>
+                            </div>
+                        </form>`;
         }
         else {
             //error
