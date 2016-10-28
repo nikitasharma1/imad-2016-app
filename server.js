@@ -18,7 +18,9 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    
+    app.get('/', function(req, res) {
+      res.send('hello world');
+    });
     var content = function callContent(title1) {
         var out='';
         if (title1 === 'contact') {
@@ -44,7 +46,7 @@ function createTemplate(data){
         return out;
     };
     
-   //////////////////////////////////////////////////////////////////////// 
+  ///////////////////////////////////////////////////////////////////////// 
     // var heading1 = function fun (test11){
     //     var i;
     //     if(test11 === 'contact') {
