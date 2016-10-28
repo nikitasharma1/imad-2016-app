@@ -35,22 +35,10 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
-            var q = pool.query("SELECT * from info  WHERE title = 'article-id=3'", function (err, result) {
-                if (err) {
-                    //res.status(500).send(err.toString());
-                }
-                else {
-                    if (result.rows.length === 0) {
-                        //res.status(404).send(err.toString());
-                    }
-                    else {
-                        var articleData = result.rows[0];
-                        return (articleData[0]);
-                    }
-                }
-                out += q();
-            });
-            
+            var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
+            for(var i in info) {
+                out += info[i];
+            }
         }
         else {
             out += 'know me';
