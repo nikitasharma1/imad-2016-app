@@ -35,7 +35,12 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
-            out += 'my portfolio';  
+            pool.query('SELECT info from info where article-id=2', function(err, res) {
+                if(res) {
+                      out += 'my portfolio'; 
+                }
+            });
+            
         }
         else {
             out += 'know me';
