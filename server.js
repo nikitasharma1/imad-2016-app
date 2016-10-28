@@ -78,7 +78,7 @@ app.get('/', function (req, res) {
 });
 
 var pool = new Pool(config);
-console.log("hello");
+
 var counter = 0;
 app.get('/counter', function(req, res) {
     counter = counter + 1;
