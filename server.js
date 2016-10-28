@@ -35,6 +35,15 @@ function createTemplate(data){
                     </form>`;
         }
         else if(title1 === 'portfolio') {
+            var Pool = require('pg').Pool;
+            var config = {
+              host: 'db.imad.hasura-app.io',
+              user: 'nikitasharma1',
+              database: 'nikitasharma1',
+              port: '5432',
+              password: process.env.DB_PASSWORD
+            };
+            var pool = new Pool(config);
             pool.query('SELECT info from info where article-id=2', function(err, res) {
                 if(res) {
                       out += 'my portfolio'; 
