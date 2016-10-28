@@ -14,50 +14,45 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-function createTemplate(data){
-    var title = data.title;
-    var heading = data.heading;
-    var pageContent = function callPageContent(title1) {
-        var output = '';
-        if (title1 === 'about') {
-            output += 'it is about me';
-        } 
-        else if (title1 === 'portfolio') {
-            output += 'this is my portfolio';
-        }
-        else if (title1 === 'contact') {
-            output += 'contact me here';
-            output += `<form>
-                            <div class="col-md-8">
-                                <label>Your Email</label><br/>
-                                <input type="email" class="form-control pad"/><br/>                                
-                                <label>Subject</label><br/>
-                                <input type="text" class="form-control pad"/><br/>                                
-                                <label>Message</label><br/>
-                                <textarea class="form-control" rows="10"></textarea><br/>
-                                <button class="btn btn-primary">Send</button><br/>
-                            </div>
-                        </form>`;
-        }
-        else {
-            //error
-        }
-        return output;
-    };
+function createTemplate(){
+    // var title = data.title;
+    // var heading = data.heading;
+    // var pageContent = function callPageContent(title1) {
+    //     var output = '';
+    //     if (title1 === 'about') {
+    //         output += 'it is about me';
+    //     } 
+    //     else if (title1 === 'portfolio') {
+    //         output += 'this is my portfolio';
+    //     }
+    //     else if (title1 === 'contact') {
+    //         output += 'contact me here';
+    //         output += `<form>
+    //                         <div class="col-md-8">
+    //                             <label>Your Email</label><br/>
+    //                             <input type="email" class="form-control pad"/><br/>                                
+    //                             <label>Subject</label><br/>
+    //                             <input type="text" class="form-control pad"/><br/>                                
+    //                             <label>Message</label><br/>
+    //                             <textarea class="form-control" rows="10"></textarea><br/>
+    //                             <button class="btn btn-primary">Send</button><br/>
+    //                         </div>
+    //                     </form>`;
+    //     }
+    //     else {
+    //         //error
+    //     }
+    //     return output;
+    // };
 
     var htmlTemplate = `
         <!DOCTYPE html>
         <html>
             <head>
-                <title>
-                    ${title}
-                </title>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link href="/ui/style.css" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Molengo|Philosopher" rel="stylesheet">
+                <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <link href="/ui/style.css" rel="stylesheet" />
             </head>
             <body>
                 <div class="container">
@@ -83,16 +78,16 @@ function createTemplate(data){
                         </div>
                       </div>
                     </nav>
-                    <div id="div-height-60"></div>
-                    <h3>${heading}</h3>
-                    <div>
-                      ${pageContent(title)}
-                    </div>
+                    <div id="about"></div>
+                    <div id="portfolio"></div>
+                    <div id="contact"></div>
                 </div>    
+                <script type="text/javascript" src="/ui/main.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             </body>
         </html>
+
     `;
     
     return htmlTemplate;
@@ -100,6 +95,7 @@ function createTemplate(data){
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.send(createTemplate);
 });
 
 var counter = 0;
@@ -110,22 +106,22 @@ app.get('/counter', function(req, res) {
 
 var pool = new Pool(config); 
 
-app.get('/:articleName', function (req, res) {
+app.get('/:#articleName', function (req, res) {
     var articleName = req.params.articleName;
-    pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
-        if (err) {
-            res.status(500).send(err.toString());
-        }
-        else {
-            if (result.rows.length === 0) {
-                res.status(404).send(err.toString());
-            }
-            else {
-                var articleData = result.rows[0];
-                res.send(createTemplate(articleData));
-            }
-        }
-    });
+    // pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
+    //     if (err) {
+    //         res.status(500).send(err.toString());
+    //     }
+    //     else {
+    //         if (result.rows.length === 0) {
+    //             res.status(404).send(err.toString());
+    //         }
+    //         else {
+    //             var articleData = result.rows[0];
+    //             res.send(createTemplate(articleData));
+    //         }
+    //     }
+    // });
 });
 
 app.get('/ui/style.css', function (req, res) {
