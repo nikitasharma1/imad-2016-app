@@ -34,7 +34,7 @@ function createTemplate(data){
                         </div>
                     </form>`;
         }
-        else if(test11 === 'portfolio') {
+        else if(title === 'portfolio') {
             out = 'my portfolio';  
         }
         else {
@@ -43,22 +43,22 @@ function createTemplate(data){
         return out;
     };
     
-    var heading1 = function fun (test11){
-        var i;
-        if(test11 === 'contact') {
-           i = 'contact me';
+    // var heading1 = function fun (test11){
+    //     var i;
+    //     if(test11 === 'contact') {
+    //       i = 'contact me';
            
-        }
-        else if(test11 === 'portfolio') {
-           i = 'my portfolio';  
-        }
-        else {
-            i = 'know me';
-        }
+    //     }
+    //     else if(test11 === 'portfolio') {
+    //       i = 'my portfolio';  
+    //     }
+    //     else {
+    //         i = 'know me';
+    //     }
         
-        return i;
-    };
-    
+    //     return i;
+    // };
+  //////////////////////////////////////////////////////////////////////  
     // var contentout = function cont (test22) {
     //   if (test22 === 'about') {
     //       var content;
