@@ -39,7 +39,7 @@ body {
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
     display: block;
-    justify-content: center;
+    border: 2px solid white;
 }
 
 ul {
