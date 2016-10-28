@@ -78,11 +78,7 @@ app.get('/', function (req, res) {
 });
 
 var pool = new Pool(config);
-    pool.query('INSERT INTO test ("test") values ("test25")', function(err, res){
-        if (res) {
-            console.log("hello");
-        }
-    });
+console.log("hello");
 var counter = 0;
 app.get('/counter', function(req, res) {
     counter = counter + 1;
