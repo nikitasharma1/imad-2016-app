@@ -34,22 +34,22 @@ function createTemplate(data){
         return i;
     };
     
-    var contentout = function cont (test22) {
-       if (test22 === 'about') {
-           var content;
-           query = "SELECT info from info WHERE article-id=1";
-           var q = pool.query(query, function(err, res) {
-               var out='';
-               if (res) {
-                   if(res.rows.length > 0) {
-                       out = 'success';
-                   }
-               }
-               return out;
-           });
-           content = q();
-       } 
-    } ;
+    // var contentout = function cont (test22) {
+    //   if (test22 === 'about') {
+    //       var content;
+    //       query = "SELECT info from info WHERE article-id=1";
+    //       var q = pool.query(query, function(err, res) {
+    //           var out='';
+    //           if (res) {
+    //               if(res.rows.length > 0) {
+    //                   out = 'success';
+    //               }
+    //           }
+    //           return out;
+    //       });
+    //       content = q();
+    //   } 
+    // } ;
     
     var htmlTemplate = `
         <!DOCTYPE html>
