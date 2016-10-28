@@ -38,6 +38,7 @@ body {
     /*width: 100%;*/
     /*background-color: #aaaaaa;*/
     /*border-radius: 5px !important;*/
+    justify-content: center !important;
 }
 
 #btns a div {
