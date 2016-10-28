@@ -19,7 +19,7 @@ function createTemplate(data){
     var heading = data.heading;
     var pageContent = function callPageContent(title) {
         return 'hello';
-    }
+    };
     // var content = function callContent(title1) {
     //     var out='';
     //     if (title1 === 'contact') {
