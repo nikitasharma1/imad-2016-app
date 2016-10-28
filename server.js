@@ -18,9 +18,7 @@ app.use(morgan('combined'));
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
-    app.get('/', function(req, res) {
-      res.send('hello world');
-    });
+    
     var content = function callContent(title1) {
         var out='';
         if (title1 === 'contact') {
@@ -121,7 +119,12 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div>
-                        ${content(title)}  
+                        ${content(title)} 
+                        ${
+                            app.get('/', function(req, res) {
+                              res.send('hello world');
+                            })
+                        }
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
