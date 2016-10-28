@@ -36,7 +36,7 @@ function createTemplate(data){
         }
         else if(title1 === 'portfolio') {
             var info = {'ACADEMICS':'', 'INTERNSHIPS':'', 'WORKSHOPS':'', 'WEB DEVELOPMENT SKILLS':'', 'PROJECTS':'', 'CERTIFICATIONS':'', 'OTHER SKILLS':''};
-            out += (JSON.stringify(Object.keys(info)[0]));
+            out += (JSON.stringify(Object.keys(info)[0])).split('').replace('\"\"','').join('');
             // for(var i in info) {
             //     out += '<span class="category">'+(JSON.stringify(Object.keys(info))[i])+'</span><br/>';
             // }
