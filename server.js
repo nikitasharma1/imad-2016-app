@@ -35,7 +35,7 @@ function createTemplate(data){
         }
         else if(title1 === 'portfolio') {
             var info = ['ACADEMICS', 'INTERNSHIPS', 'WORKSHOPS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS'];
-            for(var j=0; j<info.length; j++) {
+            for(var i in info) {
                 out += '<span>'+info[i]+'</span><br/>';
             }
         }
