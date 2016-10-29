@@ -15,47 +15,36 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {   
-    'article-one': {
-        title: 'Article One',
-        heading: 'Article One',
-        date: '24 September 2016',
+    'about': {
+        title: 'About Me',
+        heading: 'About Me',
         content:   `<p>
-                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
+                        About me
                     </p>
-                    <p>
-                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
-                    </p>
-                    <p>
-                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
-                    </p>`
+                    `
     },
-    'article-two': {
-        title: 'Article Two',
-        heading: 'Article Two',
-        date: '25 September 2016',
+    'portfolio': {
+        title: 'My Portfolio',
+        heading: 'My Portfolio',
         content:   `<p>
-                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
+                        My portfolio
                     </p>
-                    <p>
-                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
-                    </p>
-                    <p>
-                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
-                    </p>`
+                    `
     },
-    'article-three': {
-        title: 'Article Three',
-        heading: 'Article Three',
-        date: '26 September 2016',
-        content:   `<p>
-                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
-                    </p>
-                    <p>
-                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
-                    </p>
-                    <p>
-                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
-                    </p>`
+    'contact': {
+        title: 'Contact Me',
+        heading: 'Contact Me',
+        content:   `<form>
+                        <div class="col-md-8">
+                            <label>Your Email</label><br/>
+                            <input type="email" class="form-control pad"/><br/>                                
+                            <label>Subject</label><br/>
+                            <input type="text" class="form-control pad"/><br/>                                
+                            <label>Message</label><br/>
+                            <textarea class="form-control" rows="10"></textarea><br/>
+                            <button class="btn btn-primary">Send</button><br/>
+                        </div>
+                    </form>`
     },
 };    
 /*var article = {
