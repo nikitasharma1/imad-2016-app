@@ -19,6 +19,7 @@ var articles = {
         title: 'About Me',
         heading: 'About Me',
         content:   `<ul id="info">
+        hellohellohellohello
                     </ul>`
     },
     'portfolio': {
@@ -50,20 +51,20 @@ var articles = {
 function createTemplate(data){
     var title = data.title;
     var heading= data.heading;
-    var content1= function callPageContent(data1, title1) {
+    var content1= function callPageContent(data1) {
         var output = '';
-        if (title1 === 'about') {
-            var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-            for(var i in info) {
-                out += '<li>'+info+'</li>';
-            }
-            $("#info").html(out);
+        if (data1.title === 'about') {
+            // var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+            // for(var i in info) {
+            //     out += '<li>'+info+'</li>';
+            // }
+            // $("#info").html(out);
             output += data1.content;
         } 
-        else if (title1 === 'portfolio') {
+        else if (data1.title === 'portfolio') {
             output += 'this is my portfolio';
         }
-        else if (title1 === 'contact') {
+        else if (data1.title === 'contact') {
             output += data1.content;
         }
         else {
@@ -113,7 +114,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${content(data, title)}
+                      ${content(data)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
