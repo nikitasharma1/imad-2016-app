@@ -50,7 +50,7 @@ var articles = {
 function createTemplate(data){
     var title = data.title;
     var heading= data.heading;
-    var content1= function callPageContent(title1) {
+    var content1= function callPageContent(data1, title1) {
         var output = '';
         if (title1 === 'about') {
             var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
@@ -113,7 +113,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${content(title)}
+                      ${content(data, title)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
