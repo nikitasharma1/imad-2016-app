@@ -18,10 +18,9 @@ var articles = {
     'about': {
         title: 'About Me',
         heading: 'About Me',
-        content:   `<p>
-                        About me
-                    </p>
-                    `
+        content:   {
+            info:[ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ]
+        }
     },
     'portfolio': {
         title: 'My Portfolio',
@@ -47,81 +46,32 @@ var articles = {
                     </form>`
     },
 };    
-/*var article = {
-    'about': {
-        'title': 'about',
-        'heading': 'ABOUT ME',
-        'content': {
-            'info': {
-               'ACADEMICS':['a', 'b', 'c'],
-               'WEB DEVELOPMENT SKILLS':[],
-               'PROJECTS':[],
-               'CERTIFICATIONS':[],
-               'OTHER SKILLS':[],
-            }
-        }
-    },
-    'portfolio': {
-        'title': 'about',
-        'heading': 'ABOUT ME',
-        'content': {
-            
-        }
-    },
-    'contact': {
-        'title': 'contact',
-        'heading': 'ABOUT ME',
-        'content': `<form>
-                    <div class="col-md-8">
-                        <label>Your Email</label><br/>
-                        <input type="email" class="form-control pad"/><br/>                                
-                        <label>Subject</label><br/>
-                        <input type="text" class="form-control pad"/><br/>                                
-                        <label>Message</label><br/>
-                        <textarea class="form-control" rows="10"></textarea><br/>
-                        <button class="btn btn-primary">Send</button><br/>
-                    </div>
-                </form>`
-    }
-};*/
+
 
 function createTemplate(data){
     var title = data.title;
     var heading= data.heading;
-    var content= data.content;
- /* var title = data.title;
-    var heading = data.heading;
-    var pageContent = function callPageContent(title1) {
+    var content= function callPageContent(title1) {
         var output = '';
         if (title1 === 'about') {
-            output += 'it is about me';
-            var info = [];
-            
-
+            var info = data.content.info;
+            for(var i in info) {
+                out += '<li>'+info+'</li>';
+            }
+            output = '<ul id="info"></ul>';
+            $("#info").html(out);
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
         }
         else if (title1 === 'contact') {
-            //output += 'contact me here';
-            output += 
-            `<form>
-                <div class="col-md-8">
-                    <label>Your Email</label><br/>
-                    <input type="email" class="form-control pad"/><br/>                                
-                    <label>Subject</label><br/>
-                    <input type="text" class="form-control pad"/><br/>                                
-                    <label>Message</label><br/>
-                    <textarea class="form-control" rows="10"></textarea><br/>
-                    <button class="btn btn-primary">Send</button><br/>
-                </div>
-            </form>`;
+            output += data.content;
         }
         else {
             //error
         }
         return output;
-    };*/
+    };
 
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -164,7 +114,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${content}
+                      ${content(title)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
