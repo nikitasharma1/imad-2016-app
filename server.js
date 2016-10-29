@@ -21,6 +21,24 @@ function createTemplate(data){
         var output = '';
         if (title1 === 'about') {
             output += 'it is about me';
+            app.get('/', function (req, res) {
+                pool.query('SELECT * from info WHERE article-id=1', function(err, result) {
+                    if (err) {
+                        res.status(500).send(err.toString());
+                    }
+                    else {
+                        if (result.rows.length === 0) {
+                            res.status(404).send(err.toString());
+                        }
+                        else {
+                            for(var j=0; j<result.rows.length; j++){
+                                out += '<li>'+result.row[i]+'</li><br/>';
+                            }
+                            res.send(out);
+                        }
+                    }
+                });
+            });
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
