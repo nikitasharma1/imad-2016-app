@@ -71,7 +71,7 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
-    var getContent = function getcontent(content1) {
+    /*var getContent = function getcontent(content1) {
         var out = '';
         if(typeof(content1) === Object){
             out += '<ul id="info">';
@@ -94,7 +94,7 @@ function createTemplate(data){
             //error
         }
         return out;
-    };
+    };*/
     
     // var getContent = function  getcontent(datax) {
     //     var output = '';
@@ -160,7 +160,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${getContent(content)}
+                      ${content}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
