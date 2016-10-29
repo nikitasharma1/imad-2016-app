@@ -49,13 +49,7 @@ function createTemplate(data){
     var heading = data.heading;
     var content = '';
     if(title === 'about') {
-        var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-        var out = '<ul id="info">';
-        for(var i in info) {
-            out += '<li>'+info[i]+'</li>';
-        }
-        out += '</ul>';
-        content += out;
+         content += data.content;
     }
     else if(title === 'portfolio') {
         content += "hello hello";
