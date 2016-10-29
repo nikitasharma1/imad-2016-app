@@ -2,20 +2,102 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-var Pool = require('pg').Pool;
+/*var Pool = require('pg').Pool;
 var config = {
     host: 'db.imad.hasura-app.io',
     user: 'nikitasharma1',
     database: 'nikitasharma1',
     port: '5432',
     password: process.env.DB_PASSWORD
-};
+};*/
 
 var app = express();
 app.use(morgan('combined'));
 
+var articles = {   
+    'article-one': {
+        title: 'Article One',
+        heading: 'Article One',
+        date: '24 September 2016',
+        content:   `<p>
+                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
+                    </p>
+                    <p>
+                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
+                    </p>
+                    <p>
+                        Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one. Content for article one.
+                    </p>`
+    },
+    'article-two': {
+        title: 'Article Two',
+        heading: 'Article Two',
+        date: '25 September 2016',
+        content:   `<p>
+                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
+                    </p>
+                    <p>
+                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
+                    </p>
+                    <p>
+                        Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two. Content for article two.
+                    </p>`
+    },
+    'article-three': {
+        title: 'Article Three',
+        heading: 'Article Three',
+        date: '26 September 2016',
+        content:   `<p>
+                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
+                    </p>
+                    <p>
+                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
+                    </p>
+                    <p>
+                        Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three. Content for article three.
+                    </p>`
+    },
+};    
+/*var article = {
+    'about': {
+        'title': 'about',
+        'heading': 'ABOUT ME',
+        'content': {
+            'info': {
+               'ACADEMICS':['a', 'b', 'c'],
+               'WEB DEVELOPMENT SKILLS':[],
+               'PROJECTS':[],
+               'CERTIFICATIONS':[],
+               'OTHER SKILLS':[],
+            }
+        }
+    },
+    'portfolio': {
+        'title': 'about',
+        'heading': 'ABOUT ME',
+        'content': {
+            
+        }
+    },
+    'contact': {
+        'title': 'contact',
+        'heading': 'ABOUT ME',
+        'content': `<form>
+                    <div class="col-md-8">
+                        <label>Your Email</label><br/>
+                        <input type="email" class="form-control pad"/><br/>                                
+                        <label>Subject</label><br/>
+                        <input type="text" class="form-control pad"/><br/>                                
+                        <label>Message</label><br/>
+                        <textarea class="form-control" rows="10"></textarea><br/>
+                        <button class="btn btn-primary">Send</button><br/>
+                    </div>
+                </form>`
+    }
+};*/
+
 function createTemplate(data){
-    var title = data.title;
+ /* var title = data.title;
     var heading = data.heading;
     var pageContent = function callPageContent(title1) {
         var output = '';
@@ -47,7 +129,7 @@ function createTemplate(data){
             //error
         }
         return output;
-    };
+    };*/
 
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -90,7 +172,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${pageContent(title)}
+                      ${content}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -112,9 +194,9 @@ app.get('/counter', function(req, res) {
     res.send(counter.toString());
 });
 
-var pool = new Pool(config); 
+//var pool = new Pool(config); 
 
-app.get('/:articleName', function (req, res) {
+/*app.get('/:articleName', function (req, res) {
     var articleName = req.params.articleName;
     pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
         if (err) {
@@ -130,6 +212,11 @@ app.get('/:articleName', function (req, res) {
             }
         }
     });
+});*/
+
+app.get('/:articleName', function (req, res) {
+  var articleName = req.params.articleName;
+  res.send(createTemplate(articles[articleName]));
 });
 
 app.get('/ui/style.css', function (req, res) {
