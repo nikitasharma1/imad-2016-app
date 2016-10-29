@@ -8,12 +8,21 @@ body {
     margin: 0 auto;
 }
 
-.color-white{
-	color: #F7F1C8 !important
+#name, #name-div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#name-div{
+  text-align: center;
 }
 
 .text-big {
     font-size: 200%;
+}
+
+.color-white{
+	color: #F7F1C8 !important
 }
 
 .pad {
@@ -23,15 +32,6 @@ body {
 
 #div-height-60 {
     height: 60px;
-}
-
-#name, #name-div{
-  width: 100%;
-  margin: 0 auto;
-}
-
-#name-div{
-  text-align: center;
 }
 
 .img-medium {
