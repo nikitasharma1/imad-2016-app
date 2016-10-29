@@ -20,9 +20,9 @@ function createTemplate(data){
     var pageContent = function callPageContent(title1) {
         var output = '';
         if (title1 === 'about') {
-            output += 'it is about me';
+            //output += 'it is about me';
             app.get('/', function (req, res) {
-                pool.query('SELECT * from info WHERE article-id=1', function(err, result) {
+                var q = pool.query('SELECT * from info WHERE article-id=1', function(err, result) {
                     if (err) {
                         res.status(500).send(err.toString());
                     }
@@ -34,10 +34,11 @@ function createTemplate(data){
                             for(var j=0; j<result.rows.length; j++){
                                 out += '<li>'+result.row[i].info+'</li><br/>';
                             }
-                            res.send(out);
+                            return out;
                         }
                     }
                 });
+                output += out;
             });
         } 
         else if (title1 === 'portfolio') {
