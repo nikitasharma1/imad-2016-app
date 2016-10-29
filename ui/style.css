@@ -59,7 +59,10 @@ form {
     padding-bottom: 20px;
 }
 
+#slide-container {
+    display: flex;
+}
+
 .slide {
-   display: inline-flex;
-   justify-content: center;
+   
 }
