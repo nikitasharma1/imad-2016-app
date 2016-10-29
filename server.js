@@ -18,7 +18,7 @@ var articles = {
     'about': {
         title: 'About Me',
         heading: 'About Me',
-        content:   ''
+        content:   'testing raining'
     },
     'portfolio': {
         title: 'My Portfolio',
