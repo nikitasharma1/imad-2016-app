@@ -13,10 +13,6 @@ body {
   margin: 0 auto;
 }
 
-#name-div{
-  text-align: center;
-}
-
 .text-big {
     font-size: 200%;
 }
@@ -47,9 +43,6 @@ body {
 #btns {
     margin-left: auto;
     margin-right: auto;
-    /*width: 100%;*/
-    /*background-color: #aaaaaa;*/
-    /*border-radius: 5px !important;*/
     width: 100%;
 }
 
@@ -65,14 +58,6 @@ form {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-/*#main li{*/
-/*    font-size: 1.5em !important;*/
-/*    padding-top: 20px;*/
-/*    padding-bottom: 20px;*/
-/*    cursor: pointer;*/
-/*    text-align: center;*/
-/*}*/
 
 
 
