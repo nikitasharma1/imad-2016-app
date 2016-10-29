@@ -72,9 +72,9 @@ function createTemplate(data){
     var heading = data.heading;
     var content = data.content;
     
-    var getContent = function func (){
+    var getContent = function func (content1){
        var out = '';
-       if(2) {
+       if(typeof(content1) === Object) {
            out += 'heyhey';
        }
        return out;
