@@ -52,29 +52,29 @@ function createTemplate(data){
     var data1 = data;
     var title = data.title;
     var heading = data.heading;
-    //var content = data.content;
+    var content = data.content;
     
-    var getContent = function  getcontent(datax) {
-        var output = '';
-        if (datax.title === 'about') {
-            var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-            for(var i in info) {
-                out += '<li>'+info[i]+'</li>';
-            }
-            document.getElementById("info").innerHTML = out;
-            output += datax.content;
-        } 
-        else if (datax.title === 'portfolio') {
-            output += 'this is my portfolio';
-        }
-        else if (datax.title === 'contact') {
-            output += datax.content;
-        }
-        else {
-            //error
-        }
-        return output;
-    };
+    // var getContent = function  getcontent(datax) {
+    //     var output = '';
+    //     if (datax.title === 'about') {
+    //         var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+    //         for(var i in info) {
+    //             out += '<li>'+info[i]+'</li>';
+    //         }
+    //         document.getElementById("info").innerHTML = out;
+    //         output += datax.content;
+    //     } 
+    //     else if (datax.title === 'portfolio') {
+    //         output += 'this is my portfolio';
+    //     }
+    //     else if (datax.title === 'contact') {
+    //         output += datax.content;
+    //     }
+    //     else {
+    //         //error
+    //     }
+    //     return output;
+    // };
     
 
     var htmlTemplate = `
@@ -118,7 +118,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${getContent(data1)}
+                      ${content}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
