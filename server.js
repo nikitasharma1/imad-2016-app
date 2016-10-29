@@ -74,10 +74,10 @@ function createTemplate(data){
     
     var getContent = function func (content1){
        var out = '';
-       if(typeof(content1) === Object) {
-           out += 'heyhey';
-       }
-       return out;
+    //   if(typeof(content1) === Object) {
+    //       out += 'heyhey';
+    //   }
+       return typeof(content1);
     };
     // var getContent = function getcontent(content1) {
         
