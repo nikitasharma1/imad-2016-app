@@ -32,7 +32,7 @@ function createTemplate(data){
                         }
                         else {
                             for(var j=0; j<result.rows.length; j++){
-                                out += '<li>'+result.row[i]+'</li><br/>';
+                                out += '<li>'+result.row[i].info+'</li><br/>';
                             }
                             res.send(out);
                         }
