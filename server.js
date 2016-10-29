@@ -87,8 +87,11 @@ function createTemplate(data){
             }
             out += '</ul><div>';
         }
-        else {
+        else if (typeof(content) === String){
             out += content;
+        }
+        else {
+            //error
         }
         return out;
     };
