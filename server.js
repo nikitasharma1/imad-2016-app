@@ -77,7 +77,7 @@ function createTemplate(data){
     //   if(typeof(content1) === "Object") {
     //       out += 'heyhey';
     //   }
-       return typeof(typeof(content1));
+       return (typeof(content1));
     };
     // var getContent = function getcontent(content1) {
         
