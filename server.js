@@ -71,30 +71,30 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
-    var getContent = function getcontent(content) {
-        var out = '';
-        if(typeof(content) === Object){
-            out += '<ul id="info">';
-            for(var i in content.info) {
-                out += '<li>'+content.info[i].title+'</li><br/>';
-            }
-            out += '</ul>';
-        } 
-        else if (typeof(content) === Array) {
-            out += '<div><ul>';
-            for(var j in content) {
-                out += '<li>'+content[j]+'</li><br/>';
-            }
-            out += '</ul><div>';
-        }
-        else if (typeof(content) === String){
-            out += content;
-        }
-        else {
-            //error
-        }
-        return out;
-    };
+    // var getContent = function getcontent(content) {
+    //     var out = '';
+    //     if(typeof(content) === Object){
+    //         out += '<ul id="info">';
+    //         for(var i in content.info) {
+    //             out += '<li>'+content.info[i].title+'</li><br/>';
+    //         }
+    //         out += '</ul>';
+    //     } 
+    //     else if (typeof(content) === Array) {
+    //         out += '<div><ul>';
+    //         for(var j in content) {
+    //             out += '<li>'+content[j]+'</li><br/>';
+    //         }
+    //         out += '</ul><div>';
+    //     }
+    //     else if (typeof(content) === String){
+    //         out += content;
+    //     }
+    //     else {
+    //         //error
+    //     }
+    //     return out;
+    // };
     
     // var getContent = function  getcontent(datax) {
     //     var output = '';
@@ -160,7 +160,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${getContent(content)}
+                      
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
