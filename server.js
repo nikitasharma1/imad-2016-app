@@ -74,14 +74,14 @@ function createTemplate(data){
 
     var getContent = function getcontent(content1) {
         var out = '';
-        if(typeof(content1) === 'object' && typeof(content1[0]) === 'object'){
+        if(typeof(content1) === 'object'){
             out += '<ul id="info">';
             for(var i in content1.info) {
                 out += '<li>'+content1.info[i].title+'</li><br/>';
             }
             out += '</ul>';
         } 
-        else if (typeof(content1) === 'object' && typeof(content1[0]) === 'object') {
+        else if (typeof(content1) === 'object') {
             out += '<div><ul>';
             for(var j in content1) {
                 out += '<li>'+content1[j]+'</li><br/>';
