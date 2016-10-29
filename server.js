@@ -18,7 +18,30 @@ var articles = {
     'about': {
         title: 'About Me',
         heading: 'About Me',
-        content:   'testing raining'
+        content:  {
+            info: [
+                {
+                    title: 'ACADEMICS',
+                    arr: [1, 2, 3]
+                },
+                {
+                    title: 'WEB DEVELOPMENT SKILLS',
+                    arr: [4, 5, 6]
+                },
+                {
+                    title: 'PROJECTS',
+                    arr: [7, 8, 9]
+                },
+                {
+                    title: 'CERTIFICATONS',
+                    arr: [10, 11, 12]
+                },
+                {
+                    title: 'OTHER SKILLS',
+                    arr: [13, 14, 16]
+                }
+            ]
+        }
     },
     'portfolio': {
         title: 'My Portfolio',
