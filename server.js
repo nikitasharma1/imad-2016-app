@@ -46,7 +46,7 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  'testing 1234'
+        content:  ['testing 1234','665463']
     },
     'contact': {
         title: 'Contact Me',
