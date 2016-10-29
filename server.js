@@ -71,8 +71,9 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
+    var out = '';
     var getContent = function getcontent(content1) {
-        var out = '';
+        
         if(typeof(content1) === Object){
             out += '<ul id="info">';
             for(var i in content1.info) {
