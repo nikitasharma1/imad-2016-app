@@ -18,9 +18,8 @@ var articles = {
     'about': {
         title: 'About Me',
         heading: 'About Me',
-        content:   {
-            info:[ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ]
-        }
+        content:   `<ul id="info">
+                    </ul>`
     },
     'portfolio': {
         title: 'My Portfolio',
@@ -51,15 +50,15 @@ var articles = {
 function createTemplate(data){
     var title = data.title;
     var heading= data.heading;
-    var content= function callPageContent(title1) {
+    var content1= function callPageContent(title1) {
         var output = '';
         if (title1 === 'about') {
-            var info = data.content.info;
+            var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
             for(var i in info) {
                 out += '<li>'+info+'</li>';
             }
-            output = '<ul id="info"></ul>';
             $("#info").html(out);
+            output += data.content;
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
