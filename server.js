@@ -76,16 +76,16 @@ function createTemplate(data){
         if(typeof(content) === Object){
             out += '<ul id="info">';
             for(var i in content.info) {
-                out += content.info[i].title;
+                out += '<li>'+content.info[i].title+'</li><br/>';
             }
             out += '</ul>';
         } 
         else if (typeof(content) === Array) {
-            out += '<div>';
+            out += '<div><ul>';
             for(var j in content) {
-                out += content[j];
+                out += '<li>'+content[j]+'</li><br/>';
             }
-            out += '<div>';
+            out += '</ul><div>';
         }
         else {
             out += content;
