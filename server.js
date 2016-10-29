@@ -21,23 +21,23 @@ var articles = {
         content:  {
             info: [
                 {
-                    title: 'ACADEMICS',
+                    title: '<img class="slide" src="/SLide1.jpg" alt="ACADEMICS">',
                     arr: [1, 2, 3]
                 },
                 {
-                    title: 'WEB DEVELOPMENT SKILLS',
+                    title: '<img class="slide" src="/SLide2.jpg" alt="WEB DEVELOPMENT SKILLS">',
                     arr: [4, 5, 6]
                 },
                 {
-                    title: 'PROJECTS',
+                    title: '<img class="slide" src="/SLide3.jpg" alt="PROJECTS">',
                     arr: [7, 8, 9]
                 },
                 {
-                    title: 'CERTIFICATONS',
+                    title: '<img class="slide" src="/SLide4.jpg" alt="CERTIFICATIONS">',
                     arr: [10, 11, 12]
                 },
                 {
-                    title: 'OTHER SKILLS',
+                    title: '<img class="slide" src="/SLide5.jpg" alt="OTHER SKILLS">',
                     arr: [13, 14, 16]
                 }
             ]
@@ -182,9 +182,16 @@ app.get('/counter', function(req, res) {
     });
 });*/
 
+
+
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
+});
+
+app.get('/ui/Slide:x', function (req, res) {
+    var x = req.params.x;
+    res.sendFile(path.join(__dirname, 'ui', 'Slide'+x));
 });
 
 app.get('/ui/style.css', function (req, res) {
