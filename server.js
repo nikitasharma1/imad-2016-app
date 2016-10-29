@@ -72,37 +72,37 @@ function createTemplate(data){
     var heading = data.heading;
     var content = data.content;
     
-    var getContent = function func (content1){
-      var out = '';
-    //   if(typeof(content1) === "Object") {
-    //       out += 'heyhey';
-    //   }
-      return (typeof(content1));
-    };
-    // var getContent = function getcontent(content1) {
-        
-    //     if(typeof(content1) === 'object'){
-    //         out += '<ul id="info">';
-    //         for(var i in content1.info) {
-    //             out += '<li>'+content1.info[i].title+'</li><br/>';
-    //         }
-    //         out += '</ul>';
-    //     } 
-    //     else if (typeof(content1) === 'array') {
-    //         out += '<div><ul>';
-    //         for(var j in content1) {
-    //             out += '<li>'+content1[j]+'</li><br/>';
-    //         }
-    //         out += '</ul><div>';
-    //     }
-    //     else if (typeof(content1) === String){
-    //         out += content1;
-    //     }
-    //     else {
-    //         //error
-    //     }
-    //     return out;
+    // var getContent = function func (content1){
+    //   var out = '';
+    // //   if(typeof(content1) === "Object") {
+    // //       out += 'heyhey';
+    // //   }
+    //   return (typeof(content1));
     // };
+    var getContent = function getcontent(content1) {
+        
+        if(typeof(content1) === 'object'){
+            out += '<ul id="info">';
+            for(var i in content1.info) {
+                out += '<li>'+content1.info[i].title+'</li><br/>';
+            }
+            out += '</ul>';
+        } 
+        else if (typeof(content1) === 'object') {
+            out += '<div><ul>';
+            for(var j in content1) {
+                out += '<li>'+content1[j]+'</li><br/>';
+            }
+            out += '</ul><div>';
+        }
+        else if (typeof(content1) === 'string'){
+            out += content1;
+        }
+        else {
+            //error
+        }
+        return out;
+    };
     
 
     var htmlTemplate = `
