@@ -80,7 +80,7 @@ function createTemplate(data){
     //   return (typeof(content1));
     // };
     var getContent = function getcontent(content1) {
-        
+        var out = '';
         if(typeof(content1) === 'object'){
             out += '<ul id="info">';
             for(var i in content1.info) {
