@@ -60,6 +60,6 @@ form {
 }
 
 .slide {
-   display: flex;
+   display: flex-inline;
    justify-content: center;
 }
