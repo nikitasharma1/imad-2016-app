@@ -58,13 +58,13 @@ function createTemplate(data){
                 out += '<li>'+info+'</li>';
             }
             $("#info").html(out);
-            output += data.content;
+            output += data1.content;
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
         }
         else if (title1 === 'contact') {
-            output += data.content;
+            output += data1.content;
         }
         else {
             //error
