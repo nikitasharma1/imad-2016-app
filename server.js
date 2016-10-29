@@ -50,26 +50,26 @@ var articles = {
 
 function createTemplate(data){
     var title = data.title;
-    var heading= data.heading;
-    
-    var content = '';
-    if (title === 'about') {
-        var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-        for(var i in info) {
-            out += '<li>'+info+'</li>';
-        }
-        $("#info").html(out);
-        content += data.content;
-    } 
-    else if (title === 'portfolio') {
-        content += 'this is my portfolio';
-    }
-    else if (title === 'contact') {
-        content += data.content;
-    }
-    else {
-        //error
-    }
+    var heading = data.heading;
+    var content = data.content;
+    // var content = '';
+    // if (title === 'about') {
+    //     var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+    //     for(var i in info) {
+    //         out += '<li>'+info+'</li>';
+    //     }
+    //     $("#info").html(out);
+    //     content += data.content;
+    // } 
+    // else if (title === 'portfolio') {
+    //     content += 'this is my portfolio';
+    // }
+    // else if (title === 'contact') {
+    //     content += data.content;
+    // }
+    // else {
+    //     //error
+    // }
 
     var htmlTemplate = `
         <!DOCTYPE html>
