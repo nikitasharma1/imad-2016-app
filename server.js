@@ -71,27 +71,27 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
-    var getContent = function getcontent(content) {
-        var out = '';
-        if(typeof(content) === Object){
-            out += '<ul id="info">';
-            for(var i in content.info) {
-                out += content.info[i].title;
-            }
-            out += '</ul>';
-        } 
-        else if (typeof(content) === Array) {
-            out += '<div>';
-            for(var j in content) {
-                out += content[j];
-            }
-            out += '<div>';
-        }
-        else {
-            out += content;
-        }
-        return out;
-    };
+    // var getContent = function getcontent(content) {
+    //     var out = '';
+    //     if(typeof(content) === Object){
+    //         out += '<ul id="info">';
+    //         for(var i in content.info) {
+    //             out += content.info[i].title;
+    //         }
+    //         out += '</ul>';
+    //     } 
+    //     else if (typeof(content) === Array) {
+    //         out += '<div>';
+    //         for(var j in content) {
+    //             out += content[j];
+    //         }
+    //         out += '<div>';
+    //     }
+    //     else {
+    //         out += content;
+    //     }
+    //     return out;
+    // };
     
     // var getContent = function  getcontent(datax) {
     //     var output = '';
@@ -157,7 +157,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${getContent(content)}
+                      ${content}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
