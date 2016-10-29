@@ -20,26 +20,10 @@ function createTemplate(data){
     var pageContent = function callPageContent(title1) {
         var output = '';
         if (title1 === 'about') {
-            //output += 'it is about me';
-            app.get('/', function (req, res) {
-                var q = pool.query('SELECT * from info WHERE article-id=1', function(err, result) {
-                    if (err) {
-                        res.status(500).send(err.toString());
-                    }
-                    else {
-                        if (result.rows.length === 0) {
-                            res.status(404).send(err.toString());
-                        }
-                        else {
-                            for(var j=0; j<result.rows.length; j++){
-                                out += '<li>'+result.row[i].info+'</li><br/>';
-                            }
-                            return out;
-                        }
-                    }
-                });
-                output += out;
-            });
+            output += 'it is about me';
+            var info = [];
+            
+
         } 
         else if (title1 === 'portfolio') {
             output += 'this is my portfolio';
