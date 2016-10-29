@@ -84,11 +84,11 @@ function createTemplate(data){
             }
             else 
             {
-                out += '<ul id="info" class="row">';
+                out += '<div class="container"><ul id="info" class="row">';
                 for(var i in content1.info) {
-                out += '<li col-sm-2>'+content1.info[i].title+'</li><br/>';
+                out += '<li col-sm-2>'+content1.info[i].title+'</li>';
                 }
-                out += '</ul>';
+                out += '</ul></div>';
             }
         } 
       
