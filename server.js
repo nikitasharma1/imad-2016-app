@@ -47,19 +47,7 @@ function createTemplate(data){
     var data1 = data;
     var title = data.title;
     var heading = data.heading;
-    var content = '';
-    if(title === 'about') {
-         content += data.content;
-    }
-    else if(title === 'portfolio') {
-        content += "hello hello";
-    }
-    else if(title === 'contact') {
-        content += data.content;
-    }
-    else {
-        //error
-    } 
+    var content = data.content;
     
     // var getContent = function  getcontent(datax) {
     //     var output = '';
