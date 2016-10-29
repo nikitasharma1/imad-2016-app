@@ -18,17 +18,12 @@ var articles = {
     'about': {
         title: 'About Me',
         heading: 'About Me',
-        content:   `<ul id="info">
-                        hellohellohellohello
-                    </ul>`
+        content:   ''
     },
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:   `<p>
-                        My portfolio
-                    </p>
-                    `
+        content:  ''
     },
     'contact': {
         title: 'Contact Me',
@@ -52,29 +47,47 @@ function createTemplate(data){
     var data1 = data;
     var title = data.title;
     var heading = data.heading;
-    //var content = data.content;
+    var content = '';
+    if(title === 'about') {
+        var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+        var out = '<ul id="info">';
+        for(var i in info) {
+            out += '<li>'+info[i]+'</li>';
+        }
+        out += '</ul>';
+        content += out;
+    }
+    else if(title === 'portfolio') {
+        content += "hello hello";
+    }
+    else if(title === 'contact') {
+        content += data.content;
+    }
+    else {
+        //error
+    } 
     
-    var getContent = function  getcontent(datax) {
-        var output = '';
-        if (datax.title === 'about') {
-            var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-            for(var i in info) {
-                out += '<li>'+info[i]+'</li>';
-            }
-            document.getElementById("info").innerHTML = out;
-            output += datax.content;
-        } 
-        else if (datax.title === 'portfolio') {
-            output += 'this is my portfolio';
-        }
-        else if (datax.title === 'contact') {
-            output += datax.content;
-        }
-        else {
-            //error
-        }
-        return output;
-    };
+    // var getContent = function  getcontent(datax) {
+    //     var output = '';
+    //     if (datax.title === 'about') {
+    //         var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+    //         for(var i in info) {
+    //             out += '<li>'+info[i]+'</li>';
+    //         }
+    //         document.getElementById("info").innerHTML = out;
+    //         output += datax.content;
+    //     } 
+    //     else if (datax.title === 'portfolio') {
+    //         output += 'this is my portfolio';
+    //     }
+    //     else if (datax.title === 'contact') {
+    //         output += datax.content;
+    //     }
+    //     else {
+    //         //error
+    //     }
+    //     return output;
+    // };
     
 
     var htmlTemplate = `
