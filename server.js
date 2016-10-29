@@ -84,7 +84,7 @@ function createTemplate(data){
             }
             else 
             {
-                out += '<div class="container"><ul id="info" class="row">';
+                out += '<div class="container"><ul id="info">';
                 for(var i in content1.info) {
                 out += '<li class="col-md-4">'+content1.info[i].title+'</li>';
                 }
