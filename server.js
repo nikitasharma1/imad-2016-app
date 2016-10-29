@@ -51,27 +51,25 @@ var articles = {
 function createTemplate(data){
     var title = data.title;
     var heading= data.heading;
-    var content1= function callPageContent(data1) {
-        var output = '';
-        if (data1.title === 'about') {
-            // var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-            // for(var i in info) {
-            //     out += '<li>'+info+'</li>';
-            // }
-            // $("#info").html(out);
-            output += data1.content;
-        } 
-        else if (data1.title === 'portfolio') {
-            output += 'this is my portfolio';
+    
+    var content = '';
+    if (title === 'about') {
+        var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+        for(var i in info) {
+            out += '<li>'+info+'</li>';
         }
-        else if (data1.title === 'contact') {
-            output += data1.content;
-        }
-        else {
-            //error
-        }
-        return output;
-    };
+        $("#info").html(out);
+        content += data.content;
+    } 
+    else if (title === 'portfolio') {
+        content += 'this is my portfolio';
+    }
+    else if (title === 'contact') {
+        content += data.content;
+    }
+    else {
+        //error
+    }
 
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -114,7 +112,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${content1(data)}
+                      ${content}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
