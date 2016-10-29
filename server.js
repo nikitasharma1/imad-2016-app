@@ -49,27 +49,33 @@ var articles = {
 
 
 function createTemplate(data){
+    var data1 = data;
     var title = data.title;
     var heading = data.heading;
-    var content = data.content;
-    // var content = '';
-    // if (title === 'about') {
-    //     var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
-    //     for(var i in info) {
-    //         out += '<li>'+info+'</li>';
-    //     }
-    //     $("#info").html(out);
-    //     content += data.content;
-    // } 
-    // else if (title === 'portfolio') {
-    //     content += 'this is my portfolio';
-    // }
-    // else if (title === 'contact') {
-    //     content += data.content;
-    // }
-    // else {
-    //     //error
-    // }
+    //var content = data.content;
+    
+    var getContent = function  getcontent(datax) {
+        var output = '';
+        if (datax.title === 'about') {
+            var info = [ 'ACADEMICS', 'WEB DEVELOPMENT SKILLS', 'PROJECTS', 'CERTIFICATIONS', 'OTHER SKILLS' ];
+            for(var i in info) {
+                out += '<li>'+info[i]+'</li>';
+            }
+            $("#info").html(out);
+            output += datax.content;
+        } 
+        else if (datax.title === 'portfolio') {
+            output += 'this is my portfolio';
+        }
+        else if (datax.title === 'contact') {
+            output += datax.content;
+        }
+        else {
+            //error
+        }
+        return output;
+    };
+    
 
     var htmlTemplate = `
         <!DOCTYPE html>
@@ -112,7 +118,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${content}
+                      ${getContent(data1)}
                     </div>
                 </div>    
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
