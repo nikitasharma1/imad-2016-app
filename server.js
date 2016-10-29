@@ -71,24 +71,24 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
-    var getContent = function getcontent(content) {
+    var getContent = function getcontent(content1) {
         var out = '';
-        if(typeof(content) === Object){
+        if(typeof(content1) === Object){
             out += '<ul id="info">';
-            for(var i in content.info) {
-                out += '<li>'+content.info[i].title+'</li><br/>';
+            for(var i in content1.info) {
+                out += '<li>'+content1.info[i].title+'</li><br/>';
             }
             out += '</ul>';
         } 
-        else if (typeof(content) === Array) {
+        else if (typeof(content1) === Array) {
             out += '<div><ul>';
-            for(var j in content) {
-                out += '<li>'+content[j]+'</li><br/>';
+            for(var j in content1) {
+                out += '<li>'+content1[j]+'</li><br/>';
             }
             out += '</ul><div>';
         }
-        else if (typeof(content) === String){
-            out += content;
+        else if (typeof(content1) === String){
+            out += content1;
         }
         else {
             //error
