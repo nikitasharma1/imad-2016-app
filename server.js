@@ -61,7 +61,7 @@ function createTemplate(data){
             for(var i in info) {
                 out += '<li>'+info[i]+'</li>';
             }
-            $("#info").html(out);
+            document.getElementById("info").innerHTML = out;
             output += datax.content;
         } 
         else if (datax.title === 'portfolio') {
