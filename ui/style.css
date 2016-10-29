@@ -25,6 +25,15 @@ body {
     height: 60px;
 }
 
+#name, #name-div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#name-div{
+  text-align: center;
+}
+
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
@@ -65,11 +74,3 @@ form {
 /*    text-align: center;*/
 /*}*/
 
-#name, #name-div{
-  width: 100%;
-  margin: 0 auto;
-}
-
-#name-div{
-  text-align: center;
-}
