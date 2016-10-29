@@ -26,7 +26,7 @@ function createTemplate(data){
             output += 'this is my portfolio';
         }
         else if (title1 === 'contact') {
-            output += 'contact me here';
+            //output += 'contact me here';
             output += 
             `<form>
                 <div class="col-md-8">
