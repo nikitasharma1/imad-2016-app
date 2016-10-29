@@ -71,14 +71,7 @@ function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
-    
-    // var getContent = function func (content1){
-    //   var out = '';
-    // //   if(typeof(content1) === "Object") {
-    // //       out += 'heyhey';
-    // //   }
-    //   return (typeof(content1));
-    // };
+
     var getContent = function getcontent(content1) {
         var out = '';
         if(typeof(content1) === 'object'){
@@ -146,7 +139,7 @@ function createTemplate(data){
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
-                      ${content}
+                      <!--${content}-->
                       ${getContent(content)}
                     </div>
                 </div>    
