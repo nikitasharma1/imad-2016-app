@@ -23,7 +23,7 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  ''
+        content:  'testing 1234'
     },
     'contact': {
         title: 'Contact Me',
