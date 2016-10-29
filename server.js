@@ -73,7 +73,10 @@ function createTemplate(data){
     var content = data.content;
     
     var getContent = function func (){
-       var out = 'hiii'; 
+       var out = '';
+       if(2) {
+           out += 'heyhey';
+       }
        return out;
     };
     // var getContent = function getcontent(content1) {
