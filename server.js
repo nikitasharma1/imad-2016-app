@@ -21,23 +21,23 @@ var articles = {
         content:  {
             info: [
                 {
-                    title: '<img class="slide" src="/SLide1.JPG" alt="ACADEMICS">',
+                    title: '<img class="slide" src="/Slide1.JPG" alt="ACADEMICS">',
                     arr: [1, 2, 3]
                 },
                 {
-                    title: '<img class="slide" src="/SLide2.JPG" alt="WEB DEVELOPMENT SKILLS">',
+                    title: '<img class="slide" src="/Slide2.JPG" alt="WEB DEVELOPMENT SKILLS">',
                     arr: [4, 5, 6]
                 },
                 {
-                    title: '<img class="slide" src="/SLide3.JPG" alt="PROJECTS">',
+                    title: '<img class="slide" src="/Slide3.JPG" alt="PROJECTS">',
                     arr: [7, 8, 9]
                 },
                 {
-                    title: '<img class="slide" src="/SLide4.JPG" alt="CERTIFICATIONS">',
+                    title: '<img class="slide" src="/Slide4.JPG" alt="CERTIFICATIONS">',
                     arr: [10, 11, 12]
                 },
                 {
-                    title: '<img class="slide" src="/SLide5.JPG" alt="OTHER SKILLS">',
+                    title: '<img class="slide" src="/Slide5.JPG" alt="OTHER SKILLS">',
                     arr: [13, 14, 16]
                 }
             ]
