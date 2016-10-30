@@ -25,19 +25,19 @@ var articles = {
                     arr: [1, 2, 3]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/250x250" alt="WEB DEVELOPMENT SKILLS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x500" alt="WEB DEVELOPMENT SKILLS">',
                     arr: [4, 5, 6]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/250x250" alt="PROJECTS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x500" alt="PROJECTS">',
                     arr: [7, 8, 9]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/250x250" alt="CERTIFICATIONS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x500" alt="CERTIFICATIONS">',
                     arr: [10, 11, 12]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/250x250" alt="OTHER SKILLS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x500" alt="OTHER SKILLS">',
                     arr: [13, 14, 16]
                 }
             ]
