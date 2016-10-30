@@ -35,19 +35,19 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" width="460" height="345">
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" width="460" height="345">
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                         
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" width="460" height="345">
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" width="460" height="345">
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                         </div>
                     
