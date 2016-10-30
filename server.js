@@ -58,7 +58,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
@@ -102,7 +102,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
@@ -146,7 +146,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
@@ -190,7 +190,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
@@ -234,7 +234,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
@@ -278,7 +278,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
@@ -322,7 +322,7 @@ var articles = {
  
                 	<script>
                 	$('.carousel').carousel({
-                      interval: 2000
+                      interval: 20000
                     });
                 	</script>
                     `,
