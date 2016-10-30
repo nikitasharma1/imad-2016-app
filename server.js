@@ -338,9 +338,9 @@ var articles = {
         content:  [`
                     <div class="dropdown">
                     <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
-                      <div class="dropdown-content">
-                        <p>Hello World!</p>
-                      </div>
+                    <div class="dropdown-content img-responsive">
+                    <p>Hello World!</p>
+                    </div>
                     </div>
                     `
                 	]
