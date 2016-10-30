@@ -117,7 +117,7 @@ function createTemplate(data){
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             </head>
             <body>
-                <div class="container">
+                
                     <nav class="navbar navbar-inverse navbar-fixed-top">
                       <div class="container-fluid container">
                         <div class="navbar-header">
@@ -140,6 +140,7 @@ function createTemplate(data){
                         </div>
                       </div>
                     </nav>
+                    <div class="container-fluid">
                     <div id="div-height-60"></div>
                     <h3>${heading}</h3>
                     <div id="${title}">
