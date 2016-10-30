@@ -335,8 +335,43 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img src="http://placehold.it/400x250" alt="" >
-                   `,`<img src="http://placehold.it/400x250" alt="" >
+        content:  [`<div class="col-sm-13">
+            			<div id="slider" class="carousel slide" data-ride="carousel">
+            				<div class="carousel-inner" role="listbox">
+            					<div class="item active" id="img-hold">
+            						<img class="slides" src="http://placehold.it/400x250" alt="fruits"/>
+            						<div class="carousel-caption">
+            							<h3>slide-1</h3>
+            						</div>
+            					</div>
+            					<div class="item" id="img-hold">
+            						<img class="slides" src="http://placehold.it/400x250" alt="fruits"/>
+            						<div class="carousel-caption">
+            							<h3>slide-2</h3>
+            						</div>
+            					</div>
+            					<div class="item" id="img-hold">
+            						<img class="slides" src="http://placehold.it/400x250" alt="fruits"/>
+            						<div class="carousel-caption">
+            							<h3>slide-3</h3>
+            						</div>
+            					</div>
+            				</div>
+            				<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+            					<span class="fa fa-chevron-circle-left" id="left-control" aria-hidden="true"></span>
+            					<span class="sr-only">Previous</span>
+            				</a>
+            				<a class="right carousel-control" href="#slider" role="'button" data-slide="next">
+            					<span class="fa fa-chevron-circle-right" id="right-control"aria-hidden="true"></span>
+            					<span class="sr-only">Next</span>
+            				</a>
+            			</div>
+            		</div>
+            		<script>
+                	$('.carousel').carousel({
+                      interval: 2000
+                    });
+                	</script>
                    `
                 	]
     },
