@@ -30,10 +30,6 @@ body {
     height: 50px;
 }
 
-img {
-    
-}
-
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
@@ -69,6 +65,7 @@ form {
 
 .slide {
    display: inline;
+   box-shadow: 2px 2px 26px black;
 }
 
 #info-div {
