@@ -336,33 +336,85 @@ var articles = {
         title: 'My Portfolio',
         heading: 'My Portfolio',
         content:  [`
-        
-        <style>
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            padding: 12px 16px;
-        }
-        
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        </style>
-        <div class="dropdown">
-        <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
-          <div class="dropdown-content">
-            <p>Hello World!</p>
-          </div>
-        </div>
-        `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `,
+                    `
+                    <div class="dropdown">
+                    <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+                      <div class="dropdown-content">
+                        <p>Hello World!</p>
+                      </div>
+                    </div>
+                    `
                 	]
     },
     'contact': {
