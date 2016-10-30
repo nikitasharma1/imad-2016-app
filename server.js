@@ -358,11 +358,11 @@ var articles = {
             					</div>
             				</div>
             				<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
-            					<span class="fa fa-chevron-circle-left" id="left-control" aria-hidden="true"></span>
+            					<span class="glyphicon glyphicon-chevron-right btn-sm" id="left-control" aria-hidden="true"></span>
             					<span class="sr-only">Previous</span>
             				</a>
             				<a class="right carousel-control" href="#slider" role="'button" data-slide="next">
-            					<span class="fa fa-chevron-circle-right" id="right-control"aria-hidden="true"></span>
+            					<span class="glyphicon glyphicon-chevron-right btn-sm" id="right-control"aria-hidden="true"></span>
             					<span class="sr-only">Next</span>
             				</a>
             			</div>
