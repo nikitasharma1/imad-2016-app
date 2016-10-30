@@ -21,11 +21,11 @@ var articles = {
         content:  {
             info: [
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x250" alt="ACADEMICS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="ACADEMICS">',
                     arr: [1, 2, 3]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x250" alt="WEB DEVELOPMENT SKILLS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="WEB DEVELOPMENT SKILLS">',
                     arr: [4, 5, 6]
                 },
                 {
