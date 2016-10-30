@@ -61,6 +61,7 @@ form {
 
 #slide-container {
     display: flex;
+    justify-content: center;
 }
 
 .slide {
@@ -68,6 +69,3 @@ form {
    box-shadow: 2px 2px 26px black;
 }
 
-#info-div {
-    
-}
