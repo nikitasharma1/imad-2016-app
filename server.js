@@ -338,7 +338,7 @@ var articles = {
         content:  [`<img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
         <div class="hover1.div">Hello</div>
         <style>
-           .hover-div {
+           .hover1-div {
                display: none;
            }
            .hover1:hover .hover1-div {
