@@ -66,3 +66,7 @@ form {
 .slide {
    display: inline;
 }
+
+#info-div {
+    margin-bottom: 10px;
+}
