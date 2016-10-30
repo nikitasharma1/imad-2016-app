@@ -21,27 +21,27 @@ var articles = {
         content:  {
             info: [
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x350" alt="ACADEMICS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="ACADEMICS">',
                     arr: [1, 2, 3]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x350" alt="WEB DEVELOPMENT SKILLS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="WEB DEVELOPMENT SKILLS">',
                     arr: [4, 5, 6]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x350" alt="PROJECTS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="PROJECTS">',
                     arr: [7, 8, 9]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x350" alt="CERTIFICATIONS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="CERTIFICATIONS">',
                     arr: [10, 11, 12]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x350" alt="OTHER SKILLS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="OTHER SKILLS">',
                     arr: [13, 14, 16]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x350" alt="OTHER SKILLS">'
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x200" alt="OTHER SKILLS">'
                 }
             ]
         }
