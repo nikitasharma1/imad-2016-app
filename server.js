@@ -24,7 +24,7 @@ var articles = {
                     title: `
                     <div class="row">
                 		<div class="col-sm-13">
-                			<div id="slider" class="carousel slide" data-ride="carousel">
+                			<div id="slider thumbnail" class="carousel slide" data-ride="carousel">
                 				<div class="carousel-inner" role="listbox">
                 					<div class="item active" id="img-hold">
                 						<img class="slides" src="http://placehold.it/400x250" alt="fruits"/>
