@@ -358,7 +358,6 @@ var articles = {
         </style>
         <div class="dropdown">
         <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
-          <span>Mouse over me</span>
           <div class="dropdown-content">
             <p>Hello World!</p>
           </div>
