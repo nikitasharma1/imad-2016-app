@@ -86,7 +86,7 @@ function createTemplate(data){
             {
                 out += '<div class="container-fluid"><ul id="info">';
                 for(var i in content1.info) {
-                out += '<li class="text-center col-sm-3" id="slide-container">'+content1.info[i].title+'</li>';
+                out += '<li class="text-center col-sm-4" id="slide-container">'+content1.info[i].title+'</li>';
                 }
                 out += '</ul></div>';
             }
