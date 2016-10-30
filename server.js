@@ -142,7 +142,7 @@ function createTemplate(data){
                     </nav>
                     <div class="container-fluid">
                     <div id="div-height-60"></div>
-                    <h3>${heading}</h3>
+                    <h3 class="text-center">${heading}</h3>
                     <div id="${title}">
                       <!--${content}-->
                       ${getContent(content)}
