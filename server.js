@@ -335,7 +335,7 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img src="http://placehold.it/400x250" class="thumbnail" alt="" >`
+        content:  [`<img src="http://placehold.it/400x250" class="thumbnail slide" alt="" >`
                 	]
     },
     'contact': {
