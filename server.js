@@ -327,7 +327,7 @@ var articles = {
                 	</script>
                     `,
                     arr: [1, 2, 3]
-                },
+                }
               
             ]
         }
