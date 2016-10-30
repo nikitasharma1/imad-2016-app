@@ -30,12 +30,16 @@ body {
     height: 50px;
 }
 
+img {
+    box-shadow: 2px 2px 26px black;
+}
+
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    box-shadow: 2px 2px 26px black;	
+    	
     position: relative;
     top: 150px;
 }
