@@ -434,7 +434,7 @@ function createTemplate(data){
                 <div class="container-fluid">
                     <div id="div-height-50"></div>
                     <h3 class="text-center">${heading}</h3>
-                    <div id="${title}" class="text-center row">
+                    <div id="${title}" class="row">
                       <!--${content}-->
                       ${getContent(content)}
                     </div>
