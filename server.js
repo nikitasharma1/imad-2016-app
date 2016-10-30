@@ -335,7 +335,15 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img src="http://placehold.it/400x250" class="thumbnail slide" alt="" >`
+        content:  [`<img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
+        <style>
+           .hover-div {
+               display: none;
+           }
+           .hover1:hover .hover1-div {
+               display: block;
+           }
+        </style>`
                 	]
     },
     'contact': {
