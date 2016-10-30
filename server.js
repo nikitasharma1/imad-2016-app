@@ -375,7 +375,7 @@ function createTemplate(data){
             if(content1[0]) {
                 out += '';
                 for(var j in content1) {
-                    out += '<div class="text-center col-md-4" id="slide-container">'+content1[j]+'</div>';
+                    out += '<div class="text-center col-sm-3" id="slide-container">'+content1[j]+'</div>';
                 }
                 
             }
@@ -383,7 +383,7 @@ function createTemplate(data){
             {
                 out += '';
                 for(var i in content1.info) {
-                out += '<div class="text-center col-md-6" id="slide-container">'+content1.info[i].title+'</div>';
+                out += '<div class="text-center col-md-4" id="slide-container">'+content1.info[i].title+'</div>';
                 }
             
             }
