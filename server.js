@@ -21,7 +21,7 @@ var articles = {
         content:  {
             info: [
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/250x250" alt="ACADEMICS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x500" alt="ACADEMICS">',
                     arr: [1, 2, 3]
                 },
                 {
