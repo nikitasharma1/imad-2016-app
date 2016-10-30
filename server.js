@@ -61,7 +61,7 @@ var articles = {
                       interval: 2000
                     });
                 	</script>
-                    <img class="slide img-responsive thumbnail" src="http://placehold.it/400x250" alt="ACADEMICS">`,
+                    `,
                     arr: [1, 2, 3]
                 },
                 {
