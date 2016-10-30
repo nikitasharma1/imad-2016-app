@@ -41,7 +41,7 @@ var articles = {
                     arr: [13, 14, 16]
                 },
                 {
-                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x250" alt="OTHER SKILLS">',
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x250" alt="OTHER SKILL">',
                     arr: [17, 18, 19]
                 }
             ]
