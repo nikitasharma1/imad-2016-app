@@ -383,7 +383,7 @@ function createTemplate(data){
             {
                 out += '';
                 for(var i in content1.info) {
-                out += '<div class="text-center col-md-4" id="slide-container">'+content1.info[i].title+'</div>';
+                out += '<div class="text-center col-md-3" id="slide-container">'+content1.info[i].title+'</div>';
                 }
             
             }
