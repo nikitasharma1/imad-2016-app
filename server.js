@@ -39,6 +39,9 @@ var articles = {
                 {
                     title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x400" alt="OTHER SKILLS">',
                     arr: [13, 14, 16]
+                },
+                {
+                    title: '<img class="slide img-responsive thumbnail" src="http://placehold.it/500x400" alt="OTHER SKILLS">'
                 }
             ]
         }
