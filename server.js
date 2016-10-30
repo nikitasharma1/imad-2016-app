@@ -335,8 +335,8 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
-        <div class="hover1.div">Hello</div>
+        content:  [`
+        
         <style>
         .dropdown {
             position: relative;
@@ -357,6 +357,7 @@ var articles = {
         }
         </style>
         <div class="dropdown">
+        <img src="http://placehold.it/400x250" class="thumbnail slide hover1"  alt="" >
           <span>Mouse over me</span>
           <div class="dropdown-content">
             <p>Hello World!</p>
