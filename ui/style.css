@@ -31,7 +31,7 @@ body {
 }
 
 img {
-    box-shadow: 2px 2px 26px black;
+    
 }
 
 .img-medium {
@@ -39,7 +39,7 @@ img {
     border-radius: 100% !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    	
+    box-shadow: 2px 2px 26px black;
     position: relative;
     top: 150px;
 }
