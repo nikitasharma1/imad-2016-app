@@ -353,7 +353,7 @@ var articles = {
         }
         
         .dropdown:hover .dropdown-content {
-            display: block;
+            display: inline-block;
         }
         </style>
         <div class="dropdown">
