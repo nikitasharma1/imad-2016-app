@@ -88,11 +88,11 @@ function createTemplate(data){
             }
             else 
             {
-                out += '<ul id="info">';
+                out += '';
                 for(var i in content1.info) {
-                out += '<li class="text-center col-sm-4" id="slide-container">'+content1.info[i].title+'</li>';
+                out += '<div class="text-center col-sm-4" id="slide-container">'+content1.info[i].title+'</div>';
                 }
-                out += '</ul>';
+            
             }
         } 
       
@@ -147,7 +147,7 @@ function createTemplate(data){
                 <div class="container-fluid">
                     <div id="div-height-50"></div>
                     <h3 class="text-center">${heading}</h3>
-                    <div id="${title}" class="container-fluid">
+                    <div id="${title}" class="container-fluid row">
                       <!--${content}-->
                       ${getContent(content)}
                     </div>
