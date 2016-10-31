@@ -421,6 +421,7 @@ app.post('/contact', function(req, res){
     var email = req.body.email;
     var subject = req.body.subject;
     var message = req.body.message;
+    pool.query("INSERT into contact (email, subject, message) values ('test@test.test','test','test')");
     pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
 });
 
