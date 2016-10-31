@@ -329,7 +329,7 @@ function createTemplate(data){
             if(content1[0]) {
                 out += '';
                 for(var j in content1) {
-                    out += content1[j]+'<br/>';
+                    out += '<div class="col-md-12 text-center">'+content1[j]+'<br/></div>';
                 }
                 
             }
