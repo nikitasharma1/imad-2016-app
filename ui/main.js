@@ -6,5 +6,9 @@ $(document).ready(function(){
     $('.sub-image').click(function(){
        $(this).hide(); 
     });
+    
+    $('.carousel').carousel({
+       interval: 20000
+    });
 });
 
