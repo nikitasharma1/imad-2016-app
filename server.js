@@ -419,7 +419,8 @@ app.get('/contact', function (req, res) {
     var email = document.getElementById('email').value;
     var subject = document.getElementById('subject').value;
     var message = document.getElementById('message').value;
-    pool.query("INSERT into contact (email, subject, message) values (email, subject, message)", function (err, result) {
+    
+    document.getElementById('send').pool.query("INSERT into contact (email, subject, message) values (email, subject, message)", function (err, result) {
         if (err) {
             res.status(500).send(err.toString());
         }
