@@ -81,14 +81,14 @@ form {
 }  
 
 .image{
-  display: inline-block;
-  margin: 0 auto;
+  display: inline-block !important;
+  margin: 0 auto !important;
 }
 
 .sub-div-1, .sub-div-2, .image-div{
   position: relative;
-  display: inline-block;
-  justify-content: center;
+  display: inline-block !important;
+  justify-content: center !important;
 }
 
 .glyphicon{
