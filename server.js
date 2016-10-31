@@ -417,7 +417,7 @@ var pool = new Pool(config);
 
 app.use(express.bodyParser());
 
-app.post('/contact', function(req, res){
+app.post('/contact?', function(req, res){
     var email = req.body.email;
     var subject = req.body.subject;
     var message = req.body.message;
@@ -425,10 +425,7 @@ app.post('/contact', function(req, res){
     // pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
 });
 
-document.getElementById('send').onclick(function(){
-    pool.query("INSERT into contact (email, subject, message) values ('email@email.com', 'subject', 'message')");
-    
-});
+
 
 
 app.get('/:articleName', function (req, res) {
