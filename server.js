@@ -294,7 +294,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                              
                             </div>
                         </div>
                     </div>`,
@@ -302,7 +302,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                              
                             </div>
                         </div>
                     </div>
@@ -311,7 +311,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                             
                             </div>
                         </div>
                     </div>`,
@@ -319,7 +319,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                            
                             </div>
                         </div>
                     </div>`,
@@ -327,7 +327,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                              
                             </div>
                         </div>
                     </div>`,
@@ -335,7 +335,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                              
                             </div>
                         </div>
                     </div>`,
@@ -343,7 +343,6 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
                             </div>
                         </div>
                     </div>`,
@@ -351,7 +350,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                              
                             </div>
                         </div>
                     </div>`,
@@ -359,7 +358,7 @@ var articles = {
                         <div class="row text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                              <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
+                              
                             </div>
                         </div>
                     </div>`
@@ -396,7 +395,7 @@ function createTemplate(data){
             if(content1[0]) {
                 out += '';
                 for(var j in content1) {
-                    out += '<div class="text-center col-sm-3" id="slide-container">'+content1[j]+'</div>';
+                    out += '<div class="text-center col-sm-3" id="slide-container">'+content1[j]+'</div><br/>';
                 }
                 
             }
