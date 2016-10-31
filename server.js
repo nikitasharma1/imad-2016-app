@@ -291,15 +291,15 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/><img image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`
+        content:  [`<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
+                   `<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`
                   ]
     },
     'contact': {
