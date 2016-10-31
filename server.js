@@ -292,12 +292,12 @@ var articles = {
         content:   `<form method="post" action="/contact">
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
-                            <input type="email" class="form-control pad name="email"/><br/>                                
+                            <input type="email" class="form-control pad name="email" id="email"/><br/>                                
                             <label>Subject</label><br/>
-                            <input type="text" class="form-control pad name="subject"/><br/>                                
+                            <input type="text" class="form-control pad name="subject" id="subject"/><br/>                                
                             <label>Message</label><br/>
-                            <textarea class="form-control" rows="10" name="message"></textarea><br/>
-                            <button class="btn btn-primary" id="send">Send</button><br/>
+                            <textarea class="form-control" rows="10" name="message" id="message"></textarea><br/>
+                            <input class="btn btn-primary" id="send" value="Send"/><br/>
                         </div>
                     </form>`
     },
@@ -417,7 +417,7 @@ var pool = new Pool(config);
 
 app.use(express.bodyParser());
 
-app.post('/contact?', function(req, res){
+app.post('/contact', function(req, res){
     var email = req.body.email;
     var subject = req.body.subject;
     var message = req.body.message;
