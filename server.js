@@ -3,14 +3,14 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-/*var Pool = require('pg').Pool;
+var Pool = require('pg').Pool;
 var config = {
     host: 'db.imad.hasura-app.io',
     user: 'nikitasharma1',
     database: 'nikitasharma1',
     port: '5432',
     password: process.env.DB_PASSWORD
-};*/
+};
 
 var app = express();
 app.use(morgan('combined'));
@@ -413,7 +413,7 @@ app.get('/counter', function(req, res) {
     res.send(counter.toString());
 });
 
-//var pool = new Pool(config); 
+var pool = new Pool(config); 
 
 document.getElementById('send').onclick(function (req, res) {
     var email = document.getElementById('email').value;
