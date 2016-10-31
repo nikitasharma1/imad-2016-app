@@ -83,10 +83,13 @@ form {
 }  
 
 .image{
-  display: inline !important;
+  display: inline-block !important;
   margin: 5px auto !important;
 }
 
+.image1 {
+    display: inline !important;
+}
 .sub-image {
     margin-right: 20px ;
     margin-left: 20px;
