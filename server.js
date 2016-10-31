@@ -416,17 +416,17 @@ app.get('/counter', function(req, res) {
 
 var pool = new Pool(config); 
 
-app.post('/contact', function(req, res){
-    var email = req.body.email;
-    var subject = req.body.subject;
-    var message = req.body.message;
-    var post  = {email: email, subject: subject, message: message};
-        pool.query('INSERT INTO contact SET ?', post, function(err, result) {
-           if (err) throw err;
-        else res.send('success');
-        });
+// app.post('/contact', function(req, res){
+//     var email = req.body.email;
+//     var subject = req.body.subject;
+//     var message = req.body.message;
+//     var post  = {email: email, subject: subject, message: message};
+//         pool.query('INSERT INTO contact SET ?', post, function(err, result) {
+//           if (err) throw err;
+//         else res.send('success');
+//         });
     
-});
+// });
 
 
 
