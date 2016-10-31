@@ -13,8 +13,8 @@ $(document).ready(function(){
 });
 
 document.getElementById('send').onclick(function () {
-    var email = document.getElementById('email').value;
-    var subject = document.getElementById('subject').value;
-    var message = document.getElementById('message').value;
+   email = document.getElementById('email').value;
+   subject = document.getElementById('subject').value;
+   message = document.getElementById('message').value;
     console.log("sent");
 });
