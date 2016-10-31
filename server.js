@@ -289,7 +289,7 @@ var articles = {
     'contact': {
         title: 'Contact Me',
         heading: 'Contact Me',
-        content:   `<form>
+        content:   `<form method="get">
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
                             <input type="email" class="form-control pad id="email"/><br/>                                
