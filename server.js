@@ -428,25 +428,6 @@ var pool = new Pool(config);
     
 // });
 
-app.post('/contact', function (req, res) {
-    
-    pool.query("select * from contact", function (err, result) {
-        if (err) {
-            res.status(500).send(err.toString());
-        }
-        else {
-            if (result.rows.length === 0) {
-                res.status(404).send(err.toString());
-            }
-            else {
-                var articleData = result.rows[0];
-                document.getElementsByTagName('body').innerHTML = "hey";
-                // res.send(createTemplate(articleData));
-            }
-        }
-    });
-});
-
 
 
 app.get('/:articleName', function (req, res) {
