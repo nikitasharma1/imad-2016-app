@@ -416,6 +416,7 @@ app.get('/counter', function(req, res) {
 var pool = new Pool(config); 
 
 document.getElementById('send').onclick(function () {
+    console.log("hello");
     var email = document.getElementById('email').value;
     var subject = document.getElementById('subject').value;
     var message = document.getElementById('message').value;
