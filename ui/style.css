@@ -83,7 +83,7 @@ form {
 }  
 
 .image{
-  display: inline-block !important;
+  display: inline !important;
   margin: 5px auto !important;
 }
 
