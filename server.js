@@ -425,6 +425,11 @@ app.post('/contact', function(req, res){
     // pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
 });
 
+document.getElementById('send').onclick(function(){
+    pool.query("INSERT into contact (email, subject, message) values ('email@email.com', 'subject', 'message')");
+    
+});
+
 
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
