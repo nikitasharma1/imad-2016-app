@@ -289,7 +289,7 @@ var articles = {
     'contact': {
         title: 'Contact Me',
         heading: 'Contact Me',
-        content:   `<form method="get">
+        content:   `<form method="post">
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
                             <input type="email" class="form-control pad id="email"/><br/>                                
@@ -414,19 +414,16 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-// document.getElementById('send').onclick(function () {
-//   var email = document.getElementById('email').value;
-//   var subject = document.getElementById('subject').value;
-//   var message = document.getElementById('message').value;
-  
-// });
-var email;
-var subject;
-var message;
- app.get('/contact?', function(req, res) {
 
+app.use(express.bodyParser());
+
+app.post('/contact', function(req, res){
+    var email = req.body.email;
+    var subject = req.body.subject;
+    var message = req.body.message;
     pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
 });
+
 
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
