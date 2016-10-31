@@ -415,15 +415,11 @@ app.get('/counter', function(req, res) {
 
 var pool = new Pool(config); 
 
-document.getElementById('send').onclick(function () {
-    console.log("hello");
-    // var email = document.getElementById('email').value;
-    // var subject = document.getElementById('subject').value;
-    // var message = document.getElementById('message').value;
-    // pool.query("INSERT into contact (email, subject, message) values ('email@email.com', 'subject', 'message')");
+app.get('/contact?', function(req, res) {
+    pool.query("INSERT into contact (email, subject, message) values ('email@email.com', 'subject', 'message')", function(err, result){
+        
+    });
 });
-
-
 
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
