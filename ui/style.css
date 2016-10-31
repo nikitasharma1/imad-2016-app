@@ -85,10 +85,10 @@ form {
   margin: 5px auto !important;
 }
 
-/*.sub-image {*/
-/*    margin-right: 20px ;*/
-/*    margin-left: 20px;*/
-/*}*/
+.sub-image {
+    margin-right: 20px ;
+    margin-left: 20px;
+}
 
 .image-div{
   position: relative;
