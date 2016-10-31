@@ -420,8 +420,13 @@ app.post('/contact', function(req, res){
     var email = req.body.email;
     var subject = req.body.subject;
     var message = req.body.message;
-    console.log(req.body.email);
-    pool.query("INSERT INTO contact (email, subject, message) VALUES ('"+email+"','"+subject+"','"+message+"')");
+    var post  = {email: req.body.email, name: req.body.subject, password: req.body.message};
+        pool.query('INSERT INTO contact SET ?', post, function(err, result) {
+           if (err) throw err;
+        else res.send('success');
+        });
+    //console.log(req.body.email);
+    // pool.query("INSERT INTO contact (email, subject, message) VALUES ('"+email+"','"+subject+"','"+message+"')");
     // pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
 });
 
