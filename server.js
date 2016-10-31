@@ -415,7 +415,7 @@ app.get('/counter', function(req, res) {
 
 var pool = new Pool(config); 
 
-app.get('/contact', (function (req, res) {
+app.get('/contact', function (req, res) {
     var email = document.getElementById('email').value;
     var subject = document.getElementById('subject').value;
     var message = document.getElementById('message').value;
