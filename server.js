@@ -414,9 +414,11 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-
+var email;
+var subject;
+var message;
 app.get('/contact?', function(req, res) {
-    pool.query("INSERT into contact (email, subject, message) values ('email@email.com', 'subject', 'message')");
+    pool.query("INSERT into contact (email, subject, message) values (?, ,?, ?)", [email, subject, message]);
 });
 
 app.get('/:articleName', function (req, res) {
