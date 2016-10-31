@@ -420,7 +420,7 @@ app.post('/contact', function(req, res){
     var email = req.body.email;
     var subject = req.body.subject;
     var message = req.body.message;
-    res.send(req.body.email);
+    console.log(req.body.email);
     pool.query("INSERT INTO contact (email, subject, message) VALUES ('"+email+"','"+subject+"','"+message+"')");
     // pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
 });
