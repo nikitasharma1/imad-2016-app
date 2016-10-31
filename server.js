@@ -290,26 +290,9 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`
+        content:  [``
         
-                    <div class="row text-center">
-                    <div class=" image-div text-center">
-                      <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                      <span id="arrow-1" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
-                    </div>
-                    <div class="sub-div-1 text-center col-md-6 ">
-                      <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                      <span id="arrow-2" class="btn-arrow-right glyphicon glyphicon-circle-arrow-right btn-lg"></span>
-                    </div>
-                    <div class="sub-div-2 text-center col-md-4">
-                      <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                      <span class="btn-close glyphicon glyphicon-remove btn-lg"></span>
-                    </div> 
-                    </div>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                    <script type="text/javascript" src="/ui/main.js"></script>
-                    `
+                    
                 	]
     },
     'contact': {
