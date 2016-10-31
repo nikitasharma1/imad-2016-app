@@ -420,9 +420,9 @@ var pool = new Pool(config);
 //   var message = document.getElementById('message').value;
   
 // });
-// var email;
-// var subject;
-// var message;
+var email;
+var subject;
+var message;
  app.get('/contact?', function(req, res) {
 
     pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
