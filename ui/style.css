@@ -82,7 +82,7 @@ form {
 
 .image{
   display: inline-block !important;
-  margin: 0 auto !important;
+  margin: 5px auto !important;
 }
 
 .sub-div-1, .sub-div-2, .image-div{
