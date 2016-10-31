@@ -57,11 +57,6 @@ var articles = {
                         </a>
                       </div>		
  
-                	<script>
-                	$('.carousel').carousel({
-                      interval: 20000
-                    });
-                	</script>
                     `,
                     arr: [1, 2, 3]
                 },
@@ -101,11 +96,7 @@ var articles = {
                         </a>
                       </div>		
  
-                	<script>
-                	$('.carousel').carousel({
-                      interval: 20000
-                    });
-                	</script>
+                	
                     `,
                     arr: [1, 2, 3]
                 },
@@ -145,11 +136,7 @@ var articles = {
                         </a>
                       </div>		
  
-                	<script>
-                	$('.carousel').carousel({
-                      interval: 20000
-                    });
-                	</script>
+                	
                     `,
                     arr: [1, 2, 3]
                 },
@@ -189,11 +176,7 @@ var articles = {
                         </a>
                       </div>		
  
-                	<script>
-                	$('.carousel').carousel({
-                      interval: 20000
-                    });
-                	</script>
+                	
                     `,
                     arr: [1, 2, 3]
                 },
@@ -233,11 +216,7 @@ var articles = {
                         </a>
                       </div>		
  
-                	<script>
-                	$('.carousel').carousel({
-                      interval: 20000
-                    });
-                	</script>
+                	
                     `,
                     arr: [1, 2, 3]
                 },
@@ -267,7 +246,7 @@ var articles = {
                         </div>
                     
                         <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#myCarousel${+i}" role="button" data-slide="prev">
                           <span class="glyphicon glyphicon-chevron-left btn-sm" aria-hidden="true"></span>
                           <span class="sr-only">Previous</span>
                         </a>
@@ -277,11 +256,7 @@ var articles = {
                         </a>
                       </div>		
  
-                	<script>
-                	$('.carousel').carousel({
-                      interval: 20000
-                    });
-                	</script>
+                	
                     `,
                     arr: [1, 2, 3]
                 }
