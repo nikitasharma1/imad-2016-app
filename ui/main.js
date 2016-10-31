@@ -12,9 +12,8 @@ $(document).ready(function(){
     });
 });
 
-document.getElementById('send').onclick(function () {
+var send = document.getElementById('send').onclick(function () {
   email = document.getElementById('email').value;
   subject = document.getElementById('subject').value;
   message = document.getElementById('message').value;
-  return ([email, subject, message]);
 });
