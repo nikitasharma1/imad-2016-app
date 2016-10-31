@@ -292,7 +292,7 @@ var articles = {
         heading: 'My Portfolio',
         content:  [
                     `<div class="container text-center">
-                         <div class="row text-center">
+                         <div class="text-center">
                             <div class=" image-div text-center">
                               <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
                               
