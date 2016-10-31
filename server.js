@@ -292,12 +292,12 @@ var articles = {
         content:   `<form>
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
-                            <input type="email" class="form-control pad"/><br/>                                
+                            <input type="email" class="form-control pad id="email"/><br/>                                
                             <label>Subject</label><br/>
-                            <input type="text" class="form-control pad"/><br/>                                
+                            <input type="text" class="form-control pad id="subject"/><br/>                                
                             <label>Message</label><br/>
-                            <textarea class="form-control" rows="10"></textarea><br/>
-                            <button class="btn btn-primary">Send</button><br/>
+                            <textarea class="form-control" rows="10" id="message"></textarea><br/>
+                            <button class="btn btn-primary" id="send">Send</button><br/>
                         </div>
                     </form>`
     },
@@ -415,9 +415,11 @@ app.get('/counter', function(req, res) {
 
 //var pool = new Pool(config); 
 
-/*app.get('/:articleName', function (req, res) {
-    var articleName = req.params.articleName;
-    pool.query("SELECT * from article  WHERE title = '"+ articleName + "'", function (err, result) {
+document.getElementById('send').onclick(function (req, res) {
+    var email = document.getElementById('email').value;
+    var subject = document.getElementById('subject').value;
+    var message = document.getElementById('message').value;
+    pool.query("INSERT into contact (email, subject, message) values (email, subject, message)", function (err, result) {
         if (err) {
             res.status(500).send(err.toString());
         }
@@ -426,12 +428,11 @@ app.get('/counter', function(req, res) {
                 res.status(404).send(err.toString());
             }
             else {
-                var articleData = result.rows[0];
-                res.send(createTemplate(articleData));
+                //
             }
         }
     });
-});*/
+});
 
 
 
