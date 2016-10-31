@@ -414,18 +414,18 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-document.getElementById('send').onclick(function () {
-  var email = document.getElementById('email').value;
-  var subject = document.getElementById('subject').value;
-  var message = document.getElementById('message').value;
-  pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
-});
+// document.getElementById('send').onclick(function () {
+//   var email = document.getElementById('email').value;
+//   var subject = document.getElementById('subject').value;
+//   var message = document.getElementById('message').value;
+  
+// });
 // var email;
 // var subject;
 // var message;
-// app.get('/contact?', function(req, res) {
-    
-// });
+ app.get('/contact?', function(req, res) {
+    pool.query("INSERT into contact (email, subject, message) values ("+email+","+subject+","+message+")");
+});
 
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
