@@ -294,8 +294,8 @@ var articles = {
                         <div class="row text-center">
                           <div class=" image-div text-center">
                             <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                            
                           </div>
+                        </div>
                     </div>`]
     },
     'contact': {
