@@ -85,7 +85,12 @@ form {
   margin: 5px auto !important;
 }
 
-.sub-div-1, .sub-div-2, .image-div{
+.sub-image {
+    margin-right: 10px ;
+    margin-left: 10px;
+}
+
+.image-div{
   position: relative;
   display: inline-block !important;
   justify-content: center !important;
