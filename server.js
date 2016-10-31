@@ -440,7 +440,7 @@ app.post('/contact', function (req, res) {
             }
             else {
                 var articleData = result.rows[0];
-                console.log(articleData);
+                document.getElementsByTagName('body').innerHTML = "hey";
                 // res.send(createTemplate(articleData));
             }
         }
