@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $('image1').siblings().hide();
+    $('.sub-image').hide();
     $('.image1').click(function(){
        $(this).siblings().show();
     });
-    $('image1').siblings().click(function(){
+    $('.sub-image').click(function(){
        $(this).hide(); 
     });
 });
