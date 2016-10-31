@@ -290,13 +290,9 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<div class="container text-center">
-                        <div class="row text-center">
-                          <div class=" image-div text-center">
+        content:  [`
                             <img class="image img-responsive thumbnail" src="http://placehold.it/400x250"/>
-                          </div>
-                        </div>
-                    </div>`]
+                          `]
     },
     'contact': {
         title: 'Contact Me',
@@ -328,7 +324,12 @@ function createTemplate(data){
             if(content1[0]) {
                 out += '';
                 for(var j in content1) {
-                    out += content1[j]+'<br/>';
+                    out +=`<div class="container text-center">
+                            <div class="row text-center">
+                              <div class=" image-div text-center">`+ content1[j]+'<br/>'+
+                            `</div>
+                            </div>
+                           </div>`;
                 }
                 
             }
