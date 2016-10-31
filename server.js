@@ -391,15 +391,15 @@ function createTemplate(data){
                 <div class="container-fluid">
                     <div id="div-height-50"></div>
                     <h3 class="text-center">${heading}</h3>
-                    <div id="${title}" class="row">
+                    <div id="${title}" class="row text-center">
                       <!--${content}-->
                       ${getContent(content)}
                     </div>
                 </div>    
-                
+                <script type="text/javascript" src="/ui/main.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                <script type="text/javascript" src="/ui/main.js"></script>
+                
             </body>
         </html>
     `;
