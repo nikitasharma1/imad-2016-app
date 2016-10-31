@@ -2,6 +2,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
+var bodyParser = require('body-parser');
 
 var Pool = require('pg').Pool;
 var config = {
@@ -414,8 +415,6 @@ app.get('/counter', function(req, res) {
 });
 
 var pool = new Pool(config); 
-
-app.use(express.bodyParser());
 
 app.post('/contact', function(req, res){
     var email = req.body.email;
