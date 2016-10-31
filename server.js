@@ -299,6 +299,7 @@ var articles = {
                             <label>Message</label><br/>
                             <textarea class="form-control" rows="10" name="message" id="message"></textarea><br/>
                             <input class="btn btn-primary" id="send" value="Send"/><br/>
+                            ${req.body.email}
                         </div>
                     </form>`
     },
@@ -420,14 +421,14 @@ app.post('/form', function(req,res){
     var queryString = "insert into contact(email,subject,message) values('"+req.body.email+"','"+req.body.subject+"','"+req.body.message+"')";
     
     pool.query(queryString,function(error,results){
-       if(error)
-           {
-               throw error;
-           }
-       else 
-           {
+      if(error)
+          {
+              throw error;
+          }
+      else 
+          {
              res.send('Sent!');
-           }
+          }
        
     });
 });
