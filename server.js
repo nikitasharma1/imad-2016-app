@@ -430,7 +430,7 @@ var pool = new Pool(config);
 
 app.post('/contact', function (req, res) {
     
-    pool.query("Insert into contact (email, subject, message) values ('test@test.com', 'test', 'test')", function (err, result) {
+    pool.query("INSERT INTO 'contact' ('email', 'subject', 'message') VALUES ('test2@test.com', 'test2', 'test2')", function (err, result) {
         // if (err) {
         //     res.status(500).send(err.toString());
         // }
