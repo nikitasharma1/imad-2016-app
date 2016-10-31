@@ -290,7 +290,7 @@ var articles = {
     'contact': {
         title: 'Contact Me',
         heading: 'Contact Me',
-        content:   `<form method="POST" action="/contact">
+        content:   `<form method="POST" action="/form">
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
                             <input type="email" class="form-control pad name="email" id="email"/><br/>                                
@@ -416,7 +416,7 @@ app.get('/counter', function(req, res) {
 
 var pool = new Pool(config); 
 
-app.post('/contact', function(req,res){
+app.post('/form', function(req,res){
     var queryString = "insert into contact(email,subject,message) values('"+req.body.email+"','"+req.body.subject+"','"+req.body.message+"')";
     
     pool.query(queryString,function(error,results){
