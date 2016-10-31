@@ -299,7 +299,6 @@ var articles = {
                             <label>Message</label><br/>
                             <textarea class="form-control" rows="10" name="message" id="message"></textarea><br/>
                             <input class="btn btn-primary" id="send" value="Send"/><br/>
-                            ${req.body.email}
                         </div>
                     </form>`
     },
