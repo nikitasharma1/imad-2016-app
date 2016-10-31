@@ -430,19 +430,20 @@ var pool = new Pool(config);
 
 app.post('/contact', function (req, res) {
     
-    pool.query("INSERT INTO contact ('email', 'subject', 'message') VALUES ('test2@test.com', 'test2', 'test2')", function (err, result) {
-        // if (err) {
-        //     res.status(500).send(err.toString());
-        // }
-        // else {
-        //     if (result.rows.length === 0) {
-        //         res.status(404).send(err.toString());
-        //     }
-        //     else {
-        //         var articleData = result.rows[0];
-        //         res.send(createTemplate(articleData));
-        //     }
-        // }
+    pool.query("select * from contact", function (err, result) {
+        if (err) {
+            res.status(500).send(err.toString());
+        }
+        else {
+            if (result.rows.length === 0) {
+                res.status(404).send(err.toString());
+            }
+            else {
+                var articleData = result.rows[0];
+                console.log(articleData);
+                // res.send(createTemplate(articleData));
+            }
+        }
     });
 });
 
