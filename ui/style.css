@@ -91,7 +91,7 @@ form {
     display: inline-block !important;
 }
 .sub-image {
-    
+    display: none !important;
 }
 
 .image-div{
