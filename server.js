@@ -78,7 +78,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/other%20skills/download.png" alt="" >
                           </div>
                     
                           <div class="item">
