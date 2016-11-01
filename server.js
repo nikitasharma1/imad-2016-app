@@ -24,14 +24,14 @@ var articles = {
             info: [
                 {
                     title: `
-                    hello hello            
+                    
                 	<div id="myCarousel" class="carousel slide thumbnail" data-ride="carousel">
                         
                     
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://www.thestaffingstream.com/wp-content/uploads/2012/10/skills.jpg" alt="" >
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                     
                           <div class="item">
@@ -70,7 +70,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://www.projectskharido.com/wp-content/uploads/2015/06/projects_banner.jpg" alt="" >
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                     
                           <div class="item">
@@ -110,7 +110,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTGJrEe7adNlN9J5HEKplxRxfY-foV933eg3a2S1XSdNDK6hLu" alt="" >
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                     
                           <div class="item">
@@ -190,7 +190,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://www.genderandeducation.com/wp-content/uploads/2016/01/ac1.jpeg" alt="" >
+                            <img src="http://placehold.it/400x250" alt="" >
                           </div>
                     
                           <div class="item">
@@ -318,11 +318,11 @@ function createTemplate(data){
                 out += '';
                 for(var j in content1) {
                     out +=`<div class="container text-center">
-                                <div class="row text-center">
-                                     <div class=" image-div text-center">`+ content1[j]+
-                                    `</div>
-                                </div>
-                           </div><br/>`;
+                            <div class="row text-center">
+                              <div class=" image-div text-center">`+ content1[j]+'<br/>'+
+                            `</div>
+                            </div>
+                           </div>`;
                 }
                 
             }
@@ -388,7 +388,8 @@ function createTemplate(data){
                 <div class="container-fluid">
                     <div id="div-height-50"></div>
                     <h3 class="text-center">${heading}</h3>
-                    <div class="row text-center">
+                    <div id="${title}" class="row text-center">
+                      <!--${content}-->
                       ${getContent(content)}
                     </div>
                 </div>    
@@ -415,8 +416,8 @@ app.get('/counter', function(req, res) {
 
 var pool = new Pool(config); 
 
-// app.post('/contact', function(req,res){
-//     var queryString = "insert into contact(email,subject,message) values('"+req.bodyParser.email+"','"+req.bodyParser.subject+"','"+req.bodyParser.message+"')";
+// app.post('/form', function(req,res){
+//     var queryString = "insert into contact(email,subject,message) values('"+req.body.email+"','"+req.body.subject+"','"+req.body.message+"')";
     
 //     pool.query(queryString,function(error,results){
 //       if(error)
@@ -431,23 +432,25 @@ var pool = new Pool(config);
 //     });
 // });
 
-// app.get('/ui/:x', function (req, res) {
-//     var x = req.params.x;
-//     res.sendFile(path.join(__dirname, 'ui', x));
-// });
+
 
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+app.get('/ui/:x', function (req, res) {
+    var x = req.params.x;
+    res.sendFile(path.join(__dirname, 'ui', x));
 });
 
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
+// app.get('/ui/style.css', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+// });
+
+// app.get('/ui/main.js', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+// });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
