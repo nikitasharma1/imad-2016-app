@@ -7,9 +7,9 @@ $(document).ready(function(){
        $(this).hide(); 
     });
     
-    // $('.carousel').carousel({
-    //   interval: 20000
-    // });
+    $('.carousel').carousel({
+      interval: 200000
+    });
 });
 
 // var send = $('#send').click(function(){
