@@ -17,7 +17,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {   
-    'about': {
+    'about-me': {
         title: 'About Me',
         heading: 'About Me',
         content:  {
@@ -264,7 +264,7 @@ var articles = {
             ]
         }
     },
-    'portfolio': {
+    'my-portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
         content:  [`<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>
@@ -287,7 +287,7 @@ var articles = {
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`
                   ]
     },
-    'contact': {
+    'contact-me': {
         title: 'Contact Me',
         heading: 'Contact Me',
         content:   `<form method="POST" action="/contact">
@@ -378,9 +378,9 @@ function createTemplate(data){
                           <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="/" class="color-white"> HOME </a></li>
-                            <li><a href="/about" class="color-white"> ABOUT ME </a></li>
-                            <li><a href="/portfolio" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="/contact" class="color-white"> CONTACT ME </a></li>
+                            <li><a href="/about-me" class="color-white"> ABOUT ME </a></li>
+                            <li><a href="/my-portfolio" class="color-white"> PORTFOLIO </a></li>
+                            <li><a href="/contact-me" class="color-white"> CONTACT ME </a></li>
                           </ul>
                         </div>
                       </div>
