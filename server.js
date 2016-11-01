@@ -57,8 +57,8 @@ var articles = {
                         </a>
                       </div>		
  
-                    `,
-                    arr: [1, 2, 3]
+                    `
+                    
                 },
                 {
                     title: `
@@ -97,8 +97,8 @@ var articles = {
                       </div>		
  
                 	
-                    `,
-                    arr: [1, 2, 3]
+                    `
+                    
                 },
                 {
                     title: `
@@ -137,8 +137,7 @@ var articles = {
                       </div>		
  
                 	
-                    `,
-                    arr: [1, 2, 3]
+                    `
                 },
                 {
                     title: `
@@ -177,8 +176,7 @@ var articles = {
                       </div>		
  
                 	
-                    `,
-                    arr: [1, 2, 3]
+                    `
                 },
                 {
                     title: `
@@ -217,8 +215,7 @@ var articles = {
                       </div>		
  
                 	
-                    `,
-                    arr: [1, 2, 3]
+                    `
                 },
                 {
                     title: `
@@ -257,8 +254,7 @@ var articles = {
                       </div>		
  
                 	
-                    `,
-                    arr: [1, 2, 3]
+                    `
                 }
             ]
         }
