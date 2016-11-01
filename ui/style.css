@@ -64,6 +64,10 @@ form {
     padding-bottom: 20px;
 }
 
+label{
+    text-align: left;
+}
+
 #slide-container {
     display: flex;
     justify-content: center;
