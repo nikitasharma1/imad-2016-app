@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(this).siblings().css('display', 'none');
     $('.sub-image').hide();
     $('.image1').click(function(){
        $(this).siblings().show();
