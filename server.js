@@ -128,50 +128,50 @@ var articles = {
                           <div class="item active">
                             <img src="/ui/cerificate-courses/certified.jpg" alt="Certification Courses Completed" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                         <div class="item active">
+                         <div class="item">
                             <img src="" alt="" >
                           </div>
-                         <div class="item active">
+                         <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
                           
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
-                          <div class="item active">
+                          <div class="item">
                             <img src="" alt="" >
                           </div>
                           
