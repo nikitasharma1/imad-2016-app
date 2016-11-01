@@ -30,27 +30,27 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/skills/skills.jpg" alt="" >
+                            <img src="/ui/skills/skills.jpg" alt="MY SKILLS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/skills/practica.png" alt="" >
+                            <img src="/ui/skills/practica.png" alt="HTML5, CSS3, JAVASCRIPT" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/skills/jquery_bootstrap.png" alt="" >
+                            <img src="/ui/skills/jquery_bootstrap.png" alt="JQUERY, BOOTSTRAP" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/skills/database.png" alt="" >
+                            <img src="/ui/skills/database.png" alt="MYSQL, POSGRESQL" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/skills/phpnodejs.png" alt="" >
+                            <img src="/ui/skills/phpnodejs.png" alt="PHP, NODE.JS" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/skills/react-express.png" alt="" >
+                            <img src="/ui/skills/react-express.png" alt="REACTJS, EXPRESS.JS" >
                           </div>
                           
                         </div>
@@ -82,15 +82,23 @@ var articles = {
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/other%20skills/core-java-3-icon.png" alt="" >
                           </div>
                         
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/other%20skills/hello3.png" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/other%20skills/resize.png" alt="" >
+                          </div>
+                          
+                          <div class="item">
+                            <img src="/ui/other%20skills/1600.jpg" alt="" >
+                          </div>
+                          
+                          <div class="item">
+                            <img src="/ui/other%20skills/download.jpg" alt="" >
                           </div>
                         </div>
                     
@@ -235,19 +243,19 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/school/academics.jpg" alt="" >
+                            <img src="/ui/school/academics.jpg" alt="ACADEMICS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/ymca-university-of-science-and-technology-faridabad.jpg" alt="" >
+                            <img src="/ui/school/ymca-university-of-science-and-technology-faridabad.jpg" alt="YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/school/mvn.jpg" alt="" >
+                            <img src="/ui/school/mvn.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/dav.jpg" alt="" >
+                            <img src="/ui/school/dav.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" >
                           </div>
                         </div>
                     
