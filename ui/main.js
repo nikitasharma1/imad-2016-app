@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.sub-image').hide();
     $('.image1').click(function(){
        $(this).siblings().show();
+       $(this).siblings().css('display', 'inline-block');
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
