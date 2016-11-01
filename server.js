@@ -378,9 +378,9 @@ function createTemplate(data){
                           <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="/" class="color-white"> HOME </a></li>
-                            <li><a href="/about" class="color-white"> ABOUT ME </a></li>
-                            <li><a href="/portfolio" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="/contact" class="color-white"> CONTACT ME </a></li>
+                            <li><a href="/page/about" class="color-white"> ABOUT ME </a></li>
+                            <li><a href="/page/portfolio" class="color-white"> PORTFOLIO </a></li>
+                            <li><a href="/page/contact" class="color-white"> CONTACT ME </a></li>
                           </ul>
                         </div>
                       </div>
@@ -388,7 +388,7 @@ function createTemplate(data){
                 <div class="container-fluid">
                     <div id="div-height-50"></div>
                     <h3 class="text-center">${heading}</h3>
-                    <div id="${title}" class="row text-center">
+                    <div class="row text-center">
                       <!--${content}-->
                       ${getContent(content)}
                     </div>
@@ -437,7 +437,7 @@ app.get('/ui/:x', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', x));
 });
 
-app.get('/:articleName', function (req, res) {
+app.get('/page/:articleName', function (req, res) {
   var articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
