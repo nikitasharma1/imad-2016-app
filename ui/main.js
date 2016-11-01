@@ -6,6 +6,7 @@ $(document).ready(function(){
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
+       $(this).siblings().css('display', 'none');
     });
     
     $('.carousel').carousel({
