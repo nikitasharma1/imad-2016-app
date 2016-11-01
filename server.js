@@ -208,7 +208,47 @@ var articles = {
                 	
                     `
                 },
+               
                 {
+                    title: `
+                    
+                	<div id="myCarousel5" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
+                        
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                          <div class="item active">
+                            <img src="/ui/school/academics.jpg" alt="ACADEMICS" >
+                          </div>
+                    
+                          <div class="item">
+                            <img src="/ui/school/ymca-university-of-science-and-technology-faridabad.jpg" alt="YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
+                          </div>
+                        
+                          <div class="item">
+                            <img src="/ui/school/mvn.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
+                          </div>
+                    
+                          <div class="item">
+                            <img src="/ui/school/dav.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
+                          </div>
+                        </div>
+                    
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left btn-sm" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right btn-sm" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>		
+ 
+                	
+                    `
+                },
+                 {
                     title: `
                     
                 	<div id="myCarousel3" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
@@ -286,45 +326,6 @@ var articles = {
                 	
                     `
                 },
-                {
-                    title: `
-                    
-                	<div id="myCarousel5" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
-                        
-                    
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                          <div class="item active">
-                            <img src="/ui/school/academics.jpg" alt="ACADEMICS" >
-                          </div>
-                    
-                          <div class="item">
-                            <img src="/ui/school/ymca-university-of-science-and-technology-faridabad.jpg" alt="YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
-                          </div>
-                        
-                          <div class="item">
-                            <img src="/ui/school/mvn.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
-                          </div>
-                    
-                          <div class="item">
-                            <img src="/ui/school/dav.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
-                          </div>
-                        </div>
-                    
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left btn-sm" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right btn-sm" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>		
- 
-                	
-                    `
-                }
             ]
         }
     },
