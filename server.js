@@ -286,6 +286,7 @@ var articles = {
         title: 'Contact Me',
         heading: 'Contact Me',
         content:   `<form method="POST" action="/contact">
+                        <div class="col-md-2"></div>
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
                             <input type="email" class="form-control pad name="email" id="email"/><br/>                                
@@ -295,6 +296,7 @@ var articles = {
                             <textarea class="form-control" rows="10" name="message" id="message"></textarea><br/>
                             <input class="btn btn-primary" id="send" value="Send"/><br/>
                         </div>
+                        <div class="col-md-2"></div>
                     </form>`
     },
 };    
