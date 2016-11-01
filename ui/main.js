@@ -13,16 +13,16 @@ $(document).ready(function(){
     });
 });
 
-var send = $('#send').click(function(){
-    var request = XMLHttpRequest();
-    request.onreadystatechange = function(){
-        if(request.readyState === XMLHttpRequest.DONE) {
-            if (request.status === 200) {
-                // var a = request.responseText;
-                // $('send').html(a);
-            }
-        }   
-    };
-    request.open('GET', 'http://nikitasharma1.imad.hasura-app.io/?email=&subject=&message=, true');
-    request.send(null);
-});
+// var send = $('#send').click(function(){
+//     var request = XMLHttpRequest();
+//     request.onreadystatechange = function(){
+//         if(request.readyState === XMLHttpRequest.DONE) {
+//             if (request.status === 200) {
+//                 // var a = request.responseText;
+//                 // $('send').html(a);
+//             }
+//         }   
+//     };
+//     request.open('GET', 'http://nikitasharma1.imad.hasura-app.io/?email=&subject=&message=, true');
+//     request.send(null);
+// });
