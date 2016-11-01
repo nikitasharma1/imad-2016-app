@@ -4,14 +4,14 @@ var morgan = require('morgan');
 var path = require('path');
 var bodyParser = require('body-parser');
 
-var Pool = require('pg').Pool;
-var config = {
-    host: 'db.imad.hasura-app.io',
-    user: 'nikitasharma1',
-    database: 'nikitasharma1',
-    port: '5432',
-    password: process.env.DB_PASSWORD
-};
+// var Pool = require('pg').Pool;
+// var config = {
+//     host: 'db.imad.hasura-app.io',
+//     user: 'nikitasharma1',
+//     database: 'nikitasharma1',
+//     port: '5432',
+//     password: process.env.DB_PASSWORD
+// };
 
 var app = express();
 app.use(morgan('combined'));
@@ -414,7 +414,7 @@ app.get('/counter', function(req, res) {
     res.send(counter.toString());
 });
 
-var pool = new Pool(config); 
+//var pool = new Pool(config); 
 
 // app.post('/form', function(req,res){
 //     var queryString = "insert into contact(email,subject,message) values('"+req.body.email+"','"+req.body.subject+"','"+req.body.message+"')";
