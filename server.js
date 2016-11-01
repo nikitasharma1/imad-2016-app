@@ -24,7 +24,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel" class="carousel slide thumbnail" data-ride="carousel">
+                	<div id="myCarousel" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
                     
                         <!-- Wrapper for slides -->
@@ -63,7 +63,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel1" class="carousel slide thumbnail" data-ride="carousel">
+                	<div id="myCarousel1" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
                     
                         <!-- Wrapper for slides -->
@@ -103,7 +103,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel2" class="carousel slide thumbnail" data-ride="carousel">
+                	<div id="myCarousel2" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
                     
                         <!-- Wrapper for slides -->
@@ -143,7 +143,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel3" class="carousel slide thumbnail" data-ride="carousel">
+                	<div id="myCarousel3" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
                     
                         <!-- Wrapper for slides -->
@@ -183,7 +183,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel4" class="carousel slide thumbnail" data-ride="carousel">
+                	<div id="myCarousel4" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
                     
                         <!-- Wrapper for slides -->
@@ -223,7 +223,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel5" class="carousel slide thumbnail" data-ride="carousel">
+                	<div id="myCarousel5" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
                     
                         <!-- Wrapper for slides -->
