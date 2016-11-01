@@ -97,9 +97,13 @@ form {
     display: inline-block !important;
 }
 
+.image1, .sub-image {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
 .image-div{
-  
-  justify-content: center !important;
+    justify-content: center !important;
 }
 
 .glyphicon, .sub-image, .image1 {
