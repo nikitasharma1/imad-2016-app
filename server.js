@@ -17,7 +17,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {   
-    'about-me': {
+    'about': {
         title: 'About Me',
         heading: 'About Me',
         content:  {
@@ -264,7 +264,7 @@ var articles = {
             ]
         }
     },
-    'my-portfolio': {
+    'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
         content:  [`<img class="image image1 slide img-responsive thumbnail" src="http://placehold.it/400x250"/>
@@ -287,7 +287,7 @@ var articles = {
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`
                   ]
     },
-    'contact-me': {
+    'contact': {
         title: 'Contact Me',
         heading: 'Contact Me',
         content:   `<form method="POST" action="/contact">
