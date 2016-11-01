@@ -235,19 +235,19 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/schools/academics.jpg" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/schools/ymca-university-of-science-and-technology-faridabad.jpg" alt="" >
                           </div>
                         
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/schools/mvn.jpg" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/schools/dav.jpg" alt="" >
                           </div>
                         </div>
                     
@@ -453,6 +453,11 @@ app.get('/:articleName', function (req, res) {
 app.get('/ui/skills/:skill', function (req, res) {
   var skill = req.params.skill;    
   res.sendFile(path.join(__dirname, 'ui', '/skills/'+skill));
+});
+
+app.get('/ui/schools/:school', function (req, res) {
+  var school = req.params.school;    
+  res.sendFile(path.join(__dirname, 'ui', '/schools/'+school));
 });
 
 app.get('/ui/style.css', function (req, res) {
