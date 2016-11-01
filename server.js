@@ -129,7 +129,7 @@ var articles = {
                             <img src="" height="400px" width="250px" alt="Certification Courses Completed" >
                           </div>
                           <div class="item active">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/certified.jpg" alt="" >
                           </div>
                           <div class="item active">
                             <img src="" alt="" >
