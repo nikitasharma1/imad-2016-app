@@ -457,6 +457,10 @@ app.get('/:articleName', function (req, res) {
 //     var x = req.params.x;
 //     res.sendFile(path.join(__dirname, 'ui', x));
 // });
+app.get('/ui/other%20skills/:other', function(req, res){
+   var other = req.params.other;
+   res.sendFile(path.join(__dirname, 'ui', '/other%skills/'+other));
+});
 
 app.get('/ui/skills/:skill', function (req, res) {
   var skill = req.params.skill;    
