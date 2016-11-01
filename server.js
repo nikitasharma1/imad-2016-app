@@ -126,10 +126,10 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="" height="400px" width="250px" alt="Certification Courses Completed" >
+                            <img src="/ui/cerificate-courses/certified.jpg" alt="Certification Courses Completed" >
                           </div>
                           <div class="item active">
-                            <img src="/ui/cerificate-courses/certified.jpg" alt="" >
+                            <img src="" alt="" >
                           </div>
                           <div class="item active">
                             <img src="" alt="" >
