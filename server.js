@@ -126,7 +126,53 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcx_51w3aCVrHpXO-6EJJNn2zDEQ_a3-PDhLIaxWc8GnNor4llhttps://s-media-cache-ak0.pinimg.com/originals/91/79/2b/91792b14a4e2993af1f642f03e300af4.jpg" height="400px" width="250px" alt="" >
+                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcx_51w3aCVrHpXO-6EJJNn2zDEQ_a3-PDhLIaxWc8GnNor4llhttps://s-media-cache-ak0.pinimg.com/originals/91/79/2b/91792b14a4e2993af1f642f03e300af4.jpg" height="400px" width="250px" alt="Certification Courses Completed" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                         <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                         <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          
+                          <div class="item active">
+                            <img src="" alt="" >
+                          </div>
+                          <div class="item active">
+                            <img src="" alt="" >
                           </div>
                           
                         </div>
