@@ -378,9 +378,9 @@ function createTemplate(data){
                           <!-- <ul class="nav navbar-nav"></ul> -->
                           <ul class="nav navbar-nav navbar-right text-center">
                             <li><a href="/" class="color-white"> HOME </a></li>
-                            <li><a href="/about-me" class="color-white"> ABOUT ME </a></li>
-                            <li><a href="/my-portfolio" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="/contact-me" class="color-white"> CONTACT ME </a></li>
+                            <li><a href="/about" class="color-white"> ABOUT ME </a></li>
+                            <li><a href="/portfolio" class="color-white"> PORTFOLIO </a></li>
+                            <li><a href="/contact" class="color-white"> CONTACT ME </a></li>
                           </ul>
                         </div>
                       </div>
