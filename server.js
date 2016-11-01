@@ -126,7 +126,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcx_51w3aCVrHpXO-6EJJNn2zDEQ_a3-PDhLIaxWc8GnNor4llhttps://s-media-cache-ak0.pinimg.com/originals/91/79/2b/91792b14a4e2993af1f642f03e300af4.jpg" height="400px" width="250px" alt="Certification Courses Completed" >
+                            <img src="" height="400px" width="250px" alt="Certification Courses Completed" >
                           </div>
                           <div class="item active">
                             <img src="" alt="" >
@@ -493,19 +493,20 @@ app.get('/:articleName', function (req, res) {
 //     var x = req.params.x;
 //     res.sendFile(path.join(__dirname, 'ui', x));
 // });
-app.get('/ui/other%20skills/:other', function(req, res){
-   var other = req.params.other;
-   res.sendFile(path.join(__dirname, 'ui', '/other%skills/'+other));
-});
+// app.get('/ui/other%20skills/:other', function(req, res){
+//   var other = req.params.other;
+//   res.sendFile(path.join(__dirname, 'ui', '/other%skills/'+other));
+// });
 
-app.get('/ui/skills/:skill', function (req, res) {
-  var skill = req.params.skill;    
-  res.sendFile(path.join(__dirname, 'ui', '/skills/'+skill));
-});
+// app.get('/ui/skills/:skill', function (req, res) {
+//   var skill = req.params.skill;    
+//   res.sendFile(path.join(__dirname, 'ui', '/skills/'+skill));
+// });
 
-app.get('/ui/school/:school', function (req, res) {
-  var school = req.params.school;    
-  res.sendFile(path.join(__dirname, 'ui', '/school/'+school));
+app.get('/ui/:folder/:file', function (req, res) {
+  var folder = req.params.folder;
+  var file = req.params.file;    
+  res.sendFile(path.join(__dirname, 'ui', '/'+folder+'/'+file));
 });
 
 app.get('/ui/style.css', function (req, res) {
