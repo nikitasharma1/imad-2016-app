@@ -290,7 +290,7 @@ var articles = {
     'contact': {
         title: 'Contact Me',
         heading: 'Contact Me',
-        content:   `<form method="POST" action="/form">
+        content:   `<form method="POST" action="/contact">
                         <div class="col-md-8">
                             <label>Your Email</label><br/>
                             <input type="email" class="form-control pad name="email" id="email"/><br/>                                
@@ -432,16 +432,14 @@ var pool = new Pool(config);
 //     });
 // });
 
-
+app.get('/ui/:x', function (req, res) {
+    var x = req.params.x;
+    res.sendFile(path.join(__dirname, 'ui', x));
+});
 
 app.get('/:articleName', function (req, res) {
   var articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
-});
-
-app.get('/ui/:x', function (req, res) {
-    var x = req.params.x;
-    res.sendFile(path.join(__dirname, 'ui', x));
 });
 
 // app.get('/ui/style.css', function (req, res) {
