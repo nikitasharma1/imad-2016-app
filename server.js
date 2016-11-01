@@ -24,7 +24,7 @@ var articles = {
             info: [
                 {
                     title: `
-                    
+                    hello hello            
                 	<div id="myCarousel" class="carousel slide thumbnail" data-ride="carousel">
                         
                     
