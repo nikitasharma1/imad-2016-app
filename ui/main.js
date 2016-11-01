@@ -18,8 +18,8 @@ var send = $('#send').click(function(){
     request.onreadystatechange = function(){
         if(request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
-                var a = request.responseText;
-                $('send').html(a);
+                // var a = request.responseText;
+                // $('send').html(a);
             }
         }   
     };
