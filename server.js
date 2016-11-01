@@ -235,19 +235,19 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/schools/academics.jpg" alt="" >
+                            <img src="/ui/school/academics.jpg" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/schools/ymca-university-of-science-and-technology-faridabad.jpg" alt="" >
+                            <img src="/ui/school/ymca-university-of-science-and-technology-faridabad.jpg" alt="" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/schools/mvn.jpg" alt="" >
+                            <img src="/ui/school/mvn.jpg" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/schools/dav.jpg" alt="" >
+                            <img src="/ui/school/dav.jpg" alt="" >
                           </div>
                         </div>
                     
@@ -455,9 +455,9 @@ app.get('/ui/skills/:skill', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/skills/'+skill));
 });
 
-app.get('/ui/schools/:school', function (req, res) {
+app.get('/ui/school/:school', function (req, res) {
   var school = req.params.school;    
-  res.sendFile(path.join(__dirname, 'ui', '/schools/'+school));
+  res.sendFile(path.join(__dirname, 'ui', '/school/'+school));
 });
 
 app.get('/ui/style.css', function (req, res) {
