@@ -98,8 +98,8 @@ form {
 }
 
 .image1, .sub-image {
-    margin-right: 20px !important;
-    margin-left: 20px !important;
+    margin-right: 10px 20px !important;
+    /*margin-left: 20px !important;*/
 }
 
 .image-div{
