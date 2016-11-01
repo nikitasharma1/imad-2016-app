@@ -126,7 +126,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX78A329E6A208590" height="400px" width="250px" alt="" >px
+                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX78A329E6A208590" height="400px" width="250px" alt="" >
                           </div>
                     
                           <div class="item">
