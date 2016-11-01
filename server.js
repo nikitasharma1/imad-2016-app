@@ -389,7 +389,6 @@ function createTemplate(data){
                     <div id="div-height-50"></div>
                     <h3 class="text-center">${heading}</h3>
                     <div class="row text-center">
-                      <!--${content}-->
                       ${getContent(content)}
                     </div>
                 </div>    
