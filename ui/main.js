@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $(this).siblings().css('display', 'none');
     $('.sub-image').hide();
     $('.image1').click(function(){
        $(this).siblings().show();
@@ -7,7 +6,6 @@ $(document).ready(function(){
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
-       $(this).siblings().css('display', 'none');
     });
     
     $('.carousel').carousel({
