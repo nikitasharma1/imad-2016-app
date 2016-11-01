@@ -417,7 +417,7 @@ app.get('/counter', function(req, res) {
 var pool = new Pool(config); 
 
 // app.post('/form', function(req,res){
-//     var queryString = "insert into contact(email,subject,message) values('"+req.body.email+"','"+req.body.subject+"','"+req.body.message+"')";
+//     var queryString = "insert into contact(email,subject,message) values('"+req.bodyParser.email+"','"+req.bodyParser.subject+"','"+req.bodyParser.message+"')";
     
 //     pool.query(queryString,function(error,results){
 //       if(error)
