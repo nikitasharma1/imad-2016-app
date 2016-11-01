@@ -31,7 +31,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="http://www.thestaffingstream.com/wp-content/uploads/2012/10/skills.jpg" alt="" >
                           </div>
                     
                           <div class="item">
@@ -70,7 +70,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="http://www.projectskharido.com/wp-content/uploads/2015/06/projects_banner.jpg" alt="" >
                           </div>
                     
                           <div class="item">
@@ -110,7 +110,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTGJrEe7adNlN9J5HEKplxRxfY-foV933eg3a2S1XSdNDK6hLu" alt="" >
                           </div>
                     
                           <div class="item">
@@ -190,7 +190,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="http://www.genderandeducation.com/wp-content/uploads/2016/01/ac1.jpeg" alt="" >
                           </div>
                     
                           <div class="item">
