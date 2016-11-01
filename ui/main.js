@@ -18,10 +18,10 @@ $(document).ready(function(){
 //         if(request.readyState === XMLHttpRequest.DONE) {
 //             if (request.status === 200) {
 //                 var a = request.responseText;
-//                 $('#email').css('background-color','red');
+//                
 //             }
 //         }   
 //     };
-//     request.open('GET', 'http://nikitasharma1.imad.hasura-app.io/contact?email='+name, true);
+//     request.open('GET', 'http://nikitasharma1.imad.hasura-app.io/xxxx, true);
 //     request.send(null);
 // });
