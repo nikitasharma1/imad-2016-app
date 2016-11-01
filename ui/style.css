@@ -39,6 +39,7 @@ body {
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
+    position: relative;
     top: 150px;
 }
 
