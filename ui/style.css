@@ -32,15 +32,16 @@ body {
     height: 50px;
 }
 
+.img-div, .image-medium {
+    position: relative;
+}
+
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
     top: 150px;
 }
 
-.img-div, .image-medium {
-    position: relative;
-}
 
 #btns, .img-medium {
     margin-right: auto !important;
@@ -70,12 +71,11 @@ form {
 }
 
 .slide, .img-medium {
-    box-shadow: 2px 2px 26px black;
+    box-shadow: 2px 2px 26px black !important;
 }
 
 .slide {
    display: inline;
-   box-shadow: 2px 2px 26px black !important;
 }
 
 .carousel-inner > .item > img,
