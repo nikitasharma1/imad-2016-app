@@ -205,15 +205,15 @@ var articles = {
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/ymca-university-of-science-and-technology-faridabad.jpg" alt="YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
+                            <img src="/ui/school/YMCA.jpg" alt="YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/school/mvn.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
+                            <img src="/ui/school/mvn1.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/dav.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
+                            <img src="/ui/school/dav1.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
                           </div>
                         </div>
                     
