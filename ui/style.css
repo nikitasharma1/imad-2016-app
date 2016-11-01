@@ -89,12 +89,12 @@ form {
 
 .image1 {
     display: inline !important;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 15% !important;
+    margin-left: 15% important;
 }
 .sub-image {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 15% important;
+    margin-left: 15% important;
 }
 
 .image-div{
