@@ -11,8 +11,8 @@ body {
 }
 
 #name, #name-div{
-  width: 100%;
-  margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .text-big {
@@ -35,16 +35,19 @@ body {
 .img-medium {
     display: block !important;
     border-radius: 100% !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    box-shadow: 2px 2px 26px black;
-    position: relative;
     top: 150px;
 }
 
+.img-div, .image-medium {
+    position: relative;
+}
+
+#btns, .img-medium {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
 #btns {
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
 }
 
@@ -66,15 +69,19 @@ form {
     justify-content: center;
 }
 
+.slide, .img-medium {
+    box-shadow: 2px 2px 26px black;
+}
+
 .slide {
    display: inline;
-   box-shadow: 2px 2px 26px black;
+   box-shadow: 2px 2px 26px black !important;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 100% !important;
-      margin: auto;
+    width: 100% !important;
+    margin: auto;
     
 }
   
@@ -83,24 +90,19 @@ form {
 }  
 
 .image{
-  
-  margin: 5px auto !important;
+   margin: 5px auto !important;
 }
 
-.image1 {
+.image1, .image-div {
     display: inline-block !important;
-}
-.sub-image {
-
 }
 
 .image-div{
-  position: relative;
-  display: inline-block !important;
+  
   justify-content: center !important;
 }
 
-.glyphicon{
+.glyphicon, .sub-image, .image1 {
   cursor: pointer;
 }
 
