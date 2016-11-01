@@ -88,13 +88,10 @@ form {
 }
 
 .image1 {
-    display: inline !important;
-    margin-right: 15% !important;
-    margin-left: 15% important;
+    display: inline-block !important;
 }
 .sub-image {
-    margin-right: 15% important;
-    margin-left: 15% important;
+    
 }
 
 .image-div{
