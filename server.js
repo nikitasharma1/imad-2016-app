@@ -128,73 +128,7 @@ var articles = {
                           <div class="item active">
                             <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcx_51w3aCVrHpXO-6EJJNn2zDEQ_a3-PDhLIaxWc8GnNor4ll" height="400px" width="250px" alt="" >
                           </div>
-                          <div class="item active">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX78A329E6A208590" height="400px" width="250px" alt="" >
-                          </div>
-                    
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX2FB569220F97596" height="400px" width="250px alt="" >
-                          </div>
-                        
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX108B2BB12E87593" height="400px" width="250px" alt="" >
-                          </div>
-                    
-                          <div class="item">
-                            <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-T6X759XF.jpg" height="400px" width="250px" alt="" >
-                          </div>
                           
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CXDF7E0A6AD887520" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-MX3JZ4Y8.jpg" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-YXOBT45L.jpg" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-7XI3CKI6.jpg" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX3D1CC889F667544" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CXBA297B8ACA67595" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX13F519498277514" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX27EAC3F5E957536" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX5E2E92C6A857505" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CXEC62CDCC6857531" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX5D2D0774F957597" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/generateCertificate/T19CX27EAC3F5E957536" height="400px" width="250px" alt="" >
-                          </div>
-                          
-                          <div class="item">
-                            <img src="http://www.twenty19.com/courses/genrateCertificate/T19CX357861573857512" height="400px" width="250px" alt="" >
-                          </div>
                         </div>
                     
                         <!-- Left and right controls -->
