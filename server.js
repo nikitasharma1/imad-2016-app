@@ -30,20 +30,29 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/skills/skills.jpg" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/skills/practica.png" alt="" >
                           </div>
                         
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/skills/jquery_bootstrap.png" alt="" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/skills/database.png" alt="" >
                           </div>
+                          
+                          <div class="item">
+                            <img src="/skills/phpnodejs.png" alt="" >
+                          </div>
+                          
+                          <div class="item">
+                            <img src="/skills/react-express.png" alt="" >
+                          </div>
+                          
                         </div>
                     
                         <!-- Left and right controls -->
@@ -440,6 +449,11 @@ app.get('/:articleName', function (req, res) {
 //     var x = req.params.x;
 //     res.sendFile(path.join(__dirname, 'ui', x));
 // });
+
+app.get('/skills/:skill', function (req, res) {
+  var skill = req.params.skill;    
+  res.sendFile(path.join(__dirname, 'ui', '/skills/'+skill));
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
