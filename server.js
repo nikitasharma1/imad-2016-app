@@ -251,11 +251,11 @@ var articles = {
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/school/mvn.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" >
+                            <img src="/ui/school/mvn.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/dav.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" >
+                            <img src="/ui/school/dav.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
                           </div>
                         </div>
                     
