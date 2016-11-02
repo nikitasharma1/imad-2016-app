@@ -134,13 +134,19 @@ form {
   color: #999;
 }
 
-.hover li:hover {
+.active-menu, .hover li:hover {
     background-color: #E84C3D;
 }
 
-.width: {
-  width: 100%;  
+.active-menu {
+    
 }
+
+/*.width: {*/
+/*  width: 100%;  */
+/*}*/
+
+
 /*@media only screen and (min-width : 700px){*/
 /*    .width {*/
 /*    width: 80%;*/
