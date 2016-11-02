@@ -244,10 +244,10 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                     
-                          <div class="item">
-                            <img src="http://nikitasharma.neocities.org/interests/interest.png" alt=" MY INTERESTS/HOBBIES" >
-                          </div>                          
                           <div class="item active">
+                            <img src="http://nikitasharma.neocities.org/interests/Interests.png" alt=" MY INTERESTS/HOBBIES" >
+                          </div>                          
+                          <div class="item">
                             <img src="http://nikitasharma.neocities.org/interests/Poetry background wallpapers (26).jpg" alt=" POETRY" >
                           </div>
 
