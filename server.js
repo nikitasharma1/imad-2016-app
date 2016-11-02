@@ -129,7 +129,7 @@ var articles = {
                             <img src="/ui/cerificate-courses/certified.jpg" alt="Certification Courses Completed" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide1.jpg" alt="Nose.js from Scratch" >
+                            <img src="/ui/cerificate-courses/Slide1.jpg" alt="Node.js from Scratch" >
                           </div>
                           <div class="item">
                             <img src="/ui/cerificate-courses/Slide2.jpg" alt="Creating dynamic websites with PHP and MySQL" >
