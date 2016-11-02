@@ -319,7 +319,7 @@ function createTemplate(data){
                               <div class=" image-div text-center">`+ content1[j]+'<br/>'+
                             `</div>
                             </div>
-                           </div>`;
+                           </div> <br/>`;
                 }
                 
             }
