@@ -41,6 +41,10 @@ body {
     top: 150px;
 }
 
+.linkedin {
+    position: relative;
+    top: 20px;
+}
 
 #btns, .img-medium {
     margin-right: auto !important;
