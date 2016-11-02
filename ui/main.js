@@ -15,6 +15,9 @@ $(document).ready(function(){
   interval:false // remove interval for manual sliding
 });
 
+    $(".hover li").filter(function(){
+        return this.href == location.href.replace(/#.*/, "");
+    }).addClass("active-menu");
     
 
 });
