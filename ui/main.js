@@ -25,7 +25,6 @@ $(document).ready(function(){
 //         if(request.readyState === XMLHttpRequest.DONE) {
 //             if (request.status === 200) {
 //                 // var a = request.responseText;
-//                 // $('send').html(a);
 //             }
 //         }   
 //     };
