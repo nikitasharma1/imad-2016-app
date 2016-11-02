@@ -78,7 +78,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/other%20skills/download.png" alt=" OTHER SKILLS" >
+                            <img src="/ui/other%20skills/otherskills.png" alt=" OTHER SKILLS" >
                           </div>
                     
                           <div class="item">
