@@ -245,18 +245,18 @@ var articles = {
                         <div class="carousel-inner" role="listbox">
                     
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/interests/Untitled.png" alt=" MY INTERESTS/HOBBIES" >
+                            <img src="http://nikitasharma.neocities.org/interests/interest.png" alt=" MY INTERESTS/HOBBIES" >
                           </div>                          
                           <div class="item active">
                             <img src="http://nikitasharma.neocities.org/interests/Poetry background wallpapers (26).jpg" alt=" POETRY" >
                           </div>
 
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/interest/pholos.png" alt=" PHILOSOPHY" >
+                            <img src="http://nikitasharma.neocities.org/interests/pholos.png" alt=" PHILOSOPHY" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/interest/download.jpg" alt=" MUSIC" >
+                            <img src="http://nikitasharma.neocities.org/interests/music.jpg" alt=" MUSIC" >
                           </div>
                         </div>
                     
