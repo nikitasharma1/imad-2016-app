@@ -102,7 +102,7 @@ form {
     display: inline-block !important;
 }
 
-.image1, .sub-image {
+.image1, .sub-image, .margin {
     margin: 10px 20px !important;
     /*margin-left: 20px !important;*/
 }
