@@ -15,25 +15,7 @@ $(document).ready(function(){
   interval:false // remove interval for manual sliding
 });
 
-    // when the carousel slides, load the ajax content
-    $('#myCarousel').on('slid', function (e) {
-      
-    	// get index of currently active item
-    	var idx = $('#myCarousel .item.active').index();
-    	var url = $('.item.active').data('url');
     
-    	// ajax load from data-url
-      	//$('.item').html("wait...");
-    	$('.item').load(url,function(result){
-    	    $('#myCarousel').carousel(idx);  
-    	});
-      
-    });
-    
-    // load first slide
-    $('[data-slide-number=0]').load($('[data-slide-number=0]').data('url'),function(result){    
-    	$('#myCarousel').carousel(0);
-    });
 
 });
 
