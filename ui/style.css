@@ -44,6 +44,8 @@ body {
 .linkedin {
     position: relative;
     top: 200px;
+    width: 200px;
+    height: 40px;
 }
 
 #btns, .img-medium {
