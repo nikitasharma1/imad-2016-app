@@ -30,27 +30,27 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active" >
-                            <img src="/ui/skills/skills.jpg" alt=" MY SKILLS" >
+                            <img src="http://nikitasharma.neocities.org/skills/skills.jpg" alt=" MY SKILLS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/skills/practica.png" alt=" HTML5, CSS3, JAVASCRIPT" >
+                            <img src="http://nikitasharma.neocities.org/skills/practica.png" alt=" HTML5, CSS3, JAVASCRIPT" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/skills/jquery_bootstrap.png" alt=" JQUERY, BOOTSTRAP" >
+                            <img src="http://nikitasharma.neocities.org/skills/jquery_bootstrap.png" alt=" JQUERY, BOOTSTRAP" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/skills/database.png" alt=" MYSQL, POSGRESQL" >
+                            <img src="http://nikitasharma.neocities.org/database.png" alt=" MYSQL, POSGRESQL" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/skills/phpnodejs.png" alt=" PHP, NODE.JS" >
+                            <img src="http://nikitasharma.neocities.org/phpnodejs.png" alt=" PHP, NODE.JS" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/skills/react-express.png" alt=" REACTJS, EXPRESS.JS" >
+                            <img src="http://nikitasharma.neocities.org/react-express.png" alt=" REACTJS, EXPRESS.JS" >
                           </div>
                           
                         </div>
