@@ -29,12 +29,11 @@ var articles = {
                     
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-                                                  
-                          <div class="item active">
-                            <img src="/ui/skills/skills.jpg" alt=" MY SKILLS" >
+                          <div class="item active" data-url="/ui/skills/skills.jpg">
+                            <img src="" alt=" MY SKILLS" >
                           </div>
                     
-                          <div class="item" >
+                          <div class="item" data-url="/ui/skills/practica.png">
                             <img src="/ui/skills/practica.png" alt=" HTML5, CSS3, JAVASCRIPT" >
                           </div>
                         
@@ -53,8 +52,6 @@ var articles = {
                           <div class="item">
                             <img src="/ui/skills/react-express.png" alt=" REACTJS, EXPRESS.JS" >
                           </div>
-                          
-                        </div>
                           
                         </div>
                     
