@@ -330,7 +330,7 @@ function createTemplate(data){
             {
                 out += '<div class="container">';
                 for(var i in content1.info) {
-                out += '<div class="width text-center col-md-4" id="slide-container">'+content1.info[i].title+'</div>';
+                out += '<div class="width text-center col-md-6" id="slide-container">'+content1.info[i].title+'</div>';
                 }
             out+='</div>';
             }
