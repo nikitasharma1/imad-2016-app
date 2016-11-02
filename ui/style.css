@@ -137,6 +137,11 @@ form {
 .hover li a:hover {
     background-color: #E84C3D;
 }
+
+.certi-link {
+    position: relative;
+    bottom: 10px;
+}
 /*.item {*/
 /*    width: 400px;*/
 /*    height: 250px;*/
