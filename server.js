@@ -282,21 +282,21 @@ var articles = {
         title: 'My Portfolio',
         heading: 'My Portfolio',
         content:  [`<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide21.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide22.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide23.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled4.png" title="http://codepen.io/nikita1/full/QKwyEd/"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled4.png" title="http://codepen.io/nikita1/full/QKwyEd/"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide24.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled5.png" title="http://codepen.io/nikita1/full/zBgWVy/"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled5.png" title="http://codepen.io/nikita1/full/zBgWVy/"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide25.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Music_Store_php.png"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Music_Store_php.png"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide26.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled6.png"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled6.png"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide27.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Clean&Clear_Bootstrap.png"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Clean&Clear_Bootstrap.png"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide28.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Html_Template2.png"/>`
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Html_Template2.png"/>`
                     ]
     },
 };    
