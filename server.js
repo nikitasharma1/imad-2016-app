@@ -319,21 +319,21 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide21.JPG"/>
+        content:  [`<img class="image image1 slide img-responsive" src="/ui/projects/Slide21.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide22.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide22.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide23.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide23.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide24.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide24.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide25.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide25.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide26.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide26.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide27.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide27.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`,
-                   `<img class="image image1 slide img-responsive thumbnail" src="/ui/projects/Slide28.JPG"/>
+                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide28.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`
                     ]
     },
