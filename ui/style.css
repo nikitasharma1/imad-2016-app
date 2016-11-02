@@ -122,6 +122,9 @@ form {
   color: #999;
 }
 
+.hover li a:hover {
+    background-color: #E84C3D;
+}
 /*.item {*/
 /*    width: 400px;*/
 /*    height: 250px;*/
