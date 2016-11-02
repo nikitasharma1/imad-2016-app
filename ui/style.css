@@ -107,9 +107,10 @@ form {
     /*margin-left: 20px !important;*/
 }
 
-.sub-image{
+.sub-image {
     width: 400px !important;
     height: 250px !important;
+    border-radius: 5px;
 }
 
 .item img {
