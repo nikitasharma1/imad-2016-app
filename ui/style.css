@@ -111,6 +111,12 @@ form {
     width: 400px !important;
     height: 250px !important;
 }
+
+.item img {
+    width: 400px !important;
+    height: 250px !important;
+}
+
 .image-div{
     justify-content: center !important;
 }
@@ -118,6 +124,7 @@ form {
 .glyphicon, .sub-image, .image1 {
   cursor: pointer;
 }
+
 
 .btn-close, .btn-arrow-right{
   position: absolute;
