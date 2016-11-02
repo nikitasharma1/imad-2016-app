@@ -150,7 +150,7 @@ var articles = {
                 },
                 
                 {
-                    title: `
+                    title: `<!--
                     
                 	<div id="myCarousel1" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
@@ -272,7 +272,7 @@ var articles = {
                           <span class="glyphicon glyphicon-chevron-right btn-sm" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>		
+                      </div>	-->	
  
                 	
                     `
@@ -332,7 +332,7 @@ function createTemplate(data){
                 for(var i=0 ; i< content1.info.length-1 ;i++) {
                 out += '<div class="width text-center col-md-6" id="slide-container">'+content1.info[i].title+'</div>';
                 }
-            out+='<div class=" text-center col-md-12" id="slide-container">'+content1.info[i].title+'</div>'+'</div>';
+            // out+='<div class=" text-center col-md-12" id="slide-container">'+content1.info[i].title+'</div>'+'</div>';
             }
         } 
       
