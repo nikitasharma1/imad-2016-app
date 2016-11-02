@@ -316,7 +316,7 @@ function createTemplate(data){
                 for(var j in content1) {
                     out +=`<div class="container text-center">
                             <div class="row text-center">
-                              <div class=" image-div text-center">`+ content1[j]+'<br/>'+
+                              <div class=" image-div text-center">`+ content1[j]+
                             `</div>
                             </div>
                            </div> <br/>`;
