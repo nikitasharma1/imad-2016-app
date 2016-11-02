@@ -29,7 +29,7 @@ var articles = {
                     
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-                          <div class="item active" data-url="/ui/skills/skills.jpg">
+                          <div class="item active" data-url="/ui/skills/skills.jpg" data-slide-number="0">
                             
                           </div>
                     
