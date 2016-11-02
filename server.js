@@ -42,15 +42,15 @@ var articles = {
                           </div>
                     
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/database.png" alt=" MYSQL, POSGRESQL" >
+                            <img src="http://nikitasharma.neocities.org/skills/database.png" alt=" MYSQL, POSGRESQL" >
                           </div>
                           
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/phpnodejs.png" alt=" PHP, NODE.JS" >
+                            <img src="http://nikitasharma.neocities.org/skills/phpnodejs.png" alt=" PHP, NODE.JS" >
                           </div>
                           
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/react-express.png" alt=" REACTJS, EXPRESS.JS" >
+                            <img src="http://nikitasharma.neocities.org/skills/react-express.png" alt=" REACTJS, EXPRESS.JS" >
                           </div>
                           
                         </div>
@@ -78,27 +78,27 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/other-skills/otherskills.png" alt=" OTHER SKILLS" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/otherskills.png" alt=" OTHER SKILLS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/other-skills/core-java-3-icon.png" alt=" CORE JAVA" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/core-java-3-icon.png" alt=" CORE JAVA" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/other-skills/hello3.png" alt=" C/C++" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/hello3.png" alt=" C/C++" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/other-skills/resize.png" alt=" WORDPRESS/BLOGGER" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/resize.png" alt=" WORDPRESS/BLOGGER" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/other-skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/other-skills/download.jpg" alt=" MICROSOFT OFFICE SKILLS" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/download.jpg" alt=" MICROSOFT OFFICE SKILLS" >
                           </div>
                         </div>
                     
@@ -129,54 +129,54 @@ var articles = {
                             <img src="/ui/cerificate-courses/certified.jpg" alt=" Certification Courses Completed" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide1.jpg" alt=" Node.js from Scratch" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide1.jpg" alt=" Node.js from Scratch" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide2.jpg" alt=" Creating dynamic websites with PHP and MySQL" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide2.jpg" alt=" Creating dynamic websites with PHP and MySQL" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide3.jpg" alt=" Introduction to Jquery" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide3.jpg" alt=" Introduction to Jquery" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide18.jpg" alt=" Learn Jquery & Javascript" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide18.jpg" alt=" Learn Jquery & Javascript" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide4.jpg" alt=" Javascript for beginners" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide4.jpg" alt=" Javascript for beginners" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide17.jpg" alt=" Learn Javascript and Jquery from scratch" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide17.jpg" alt=" Learn Javascript and Jquery from scratch" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide16.jpg" alt=" Responsive Web Development" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide16.jpg" alt=" Responsive Web Development" >
                           </div>
                          <div class="item">
-                            <img src="/ui/cerificate-courses/Slide15.jpg" alt=" Learn HTML and CSS" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide15.jpg" alt=" Learn HTML and CSS" >
                           </div>
                          <div class="item">
-                            <img src="/ui/cerificate-courses/Slide5.jpg" alt=" Javascript for beginners" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide5.jpg" alt=" Javascript for beginners" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide6.jpg" alt=" Java for beginners" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide6.jpg" alt=" Java for beginners" >
                           </div>
 
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide7.jpg" alt=" Software Testing" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide7.jpg" alt=" Software Testing" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide8.jpg" alt=" Online Marketing" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide8.jpg" alt=" Online Marketing" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide10.jpg" alt=" Content Writing" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide10.jpg" alt=" Content Writing" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide11.jpg" alt=" Facebook Marketing for beginners" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide11.jpg" alt=" Facebook Marketing for beginners" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide9.jpg" alt=" SEO - Search engine optimization" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide9.jpg" alt=" SEO - Search engine optimization" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide12.jpg" alt=" Basics of Marketing" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide12.jpg" alt=" Basics of Marketing" >
                           </div>
                           
                         </div>
@@ -205,19 +205,19 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/school/academics.jpg" alt=" ACADEMICS" >
+                            <img src="http://nikitasharma.neocities.org/school/academics.jpg" alt=" ACADEMICS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/YMCA.jpg" alt=" YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
+                            <img src="http://nikitasharma.neocities.org/school/YMCA.jpg" alt=" YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/school/mvn1.jpg" alt=" MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
+                            <img src="http://nikitasharma.neocities.org/school/mvn1.jpg" alt=" MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/dav1.jpg" alt=" DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
+                            <img src="http://nikitasharma.neocities.org/school/dav1.jpg" alt=" DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
                           </div>
                         </div>
                     
@@ -245,18 +245,18 @@ var articles = {
                         <div class="carousel-inner" role="listbox">
                     
                           <div class="item">
-                            <img src="/ui/interests/Untitled.png" alt=" MY INTERESTS/HOBBIES" >
+                            <img src="http://nikitasharma.neocities.org/interests/Untitled.png" alt=" MY INTERESTS/HOBBIES" >
                           </div>                          
                           <div class="item active">
-                            <img src="/ui/interests/Poetry background wallpapers (26).jpg" alt=" POETRY" >
+                            <img src="http://nikitasharma.neocities.org/interests/Poetry background wallpapers (26).jpg" alt=" POETRY" >
                           </div>
 
                           <div class="item">
-                            <img src="/ui/interest/pholos.png" alt=" PHILOSOPHY" >
+                            <img src="http://nikitasharma.neocities.org/interest/pholos.png" alt=" PHILOSOPHY" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/interest/download.jpg" alt=" MUSIC" >
+                            <img src="http://nikitasharma.neocities.org/interest/download.jpg" alt=" MUSIC" >
                           </div>
                         </div>
                     
@@ -281,22 +281,22 @@ var articles = {
     'portfolio': {
         title: 'My Portfolio',
         heading: 'My Portfolio',
-        content:  [`<img class="image image1 slide img-responsive" src="/ui/projects/Slide21.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide22.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide23.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled4.png" title="http://codepen.io/nikita1/full/QKwyEd/"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide24.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled5.png" title="http://codepen.io/nikita1/full/zBgWVy/"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide25.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Music_Store_php.png"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide26.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled6.png"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide27.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Clean&Clear_Bootstrap.png"/>`,
-                   `<img class="image image1 slide img-responsive" src="/ui/projects/Slide28.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Html_Template2.png"/>`
+        content:  [`<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide21.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide22.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide23.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled4.png" title="http://codepen.io/nikita1/full/QKwyEd/"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide24.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled5.png" title="http://codepen.io/nikita1/full/zBgWVy/"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide25.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Music_Store_php.png"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide26.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Untitled6.png"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide27.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Clean&Clear_Bootstrap.png"/>`,
+                   `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide28.JPG"/>
+                    <img class="image sub-image slide img-responsive thumbnail" src="http://nikitasharma.neocities.org/projects/Html_Template2.png"/>`
                     ]
     },
 };    
