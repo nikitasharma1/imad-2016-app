@@ -284,7 +284,7 @@ var articles = {
         content:  [`<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide21.JPG"/>
                     <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide22.JPG"/>
-                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
+                    <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/weather.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide23.JPG"/>
                     <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled4.png" title="http://codepen.io/nikita1/full/QKwyEd/"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide24.JPG"/>
