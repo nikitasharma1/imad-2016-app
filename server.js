@@ -29,28 +29,28 @@ var articles = {
                     
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-                          <div class="item active">
-                            <img src="/ui/skills/skills.jpg" alt=" MY SKILLS" >
+                          <div class="item active" data-url="/ui/skills/skills.jpg">
+                            
                           </div>
                     
-                          <div class="item">
-                            <img src="/ui/skills/practica.png" alt=" HTML5, CSS3, JAVASCRIPT" >
+                          <div class="item" data-url="/ui/skills/practica.png">
+                            
                           </div>
                         
-                          <div class="item">
-                            <img src="/ui/skills/jquery_bootstrap.png" alt=" JQUERY, BOOTSTRAP" >
+                          <div class="item" data-url="/ui/skills/jquery_bootstrap.png">
+                            
                           </div>
                     
-                          <div class="item">
-                            <img src="/ui/skills/database.png" alt=" MYSQL, POSGRESQL" >
+                          <div class="item" data-url="/ui/skills/database.png">
+                            
                           </div>
                           
-                          <div class="item">
-                            <img src="/ui/skills/phpnodejs.png" alt=" PHP, NODE.JS" >
+                          <div class="item" data-url="/ui/skills/phpnodejs.png">
+                            
                           </div>
                           
-                          <div class="item">
-                            <img src="/ui/skills/react-express.png" alt=" REACTJS, EXPRESS.JS" >
+                          <div class="item" data-url="/ui/skills/phpnodejs.png">
+                            
                           </div>
                           
                         </div>
