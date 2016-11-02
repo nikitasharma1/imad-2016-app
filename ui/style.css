@@ -138,11 +138,11 @@ form {
     background-color: #E84C3D;
 }
 
-/*@media only screen and (min-width : 700px){*/
-/*    .width {*/
-/*    width: 70%;*/
-/*    }*/
-/*}*/
+@media only screen and (min-width : 700px){
+    .width {
+    width: 70%;
+    }
+}
 
 /*.certi-link {*/
 /*    position: relative;*/
