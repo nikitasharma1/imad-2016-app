@@ -94,7 +94,7 @@ var articles = {
                           </div>
                           
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/other-skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/1600.jpg"  alt=" ADOBE PHOTOSHOP" >
                           </div>
                           
                           <div class="item">
@@ -126,7 +126,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/cerificate-courses/certified.jpg" alt=" Certification Courses Completed" >
+                            <img src="http://nikitasharma.neocities.org/cerificate-courses/certified.jpg" alt=" Certification Courses Completed" >
                           </div>
                           <div class="item">
                             <img src="http://nikitasharma.neocities.org/cerificate-courses/Slide1.jpg" alt=" Node.js from Scratch" >
