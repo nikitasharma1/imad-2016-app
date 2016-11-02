@@ -15,8 +15,10 @@ $(document).ready(function(){
   interval:false // remove interval for manual sliding
 });
 
+    
     $(".hover li").filter(function(){
-        return this.href == location.href.replace(/#.*/, "");
+        var url = "http://nikitasharma1.imad.hasura-app.io"+href;
+        return this.url == location.href.replace(/#.*/, "");
     }).addClass("active-menu");
     
 
