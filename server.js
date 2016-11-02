@@ -30,27 +30,27 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/skills/skills.jpg" alt="MY SKILLS" >
+                            <img src="/ui/skills/skills.jpg" alt=" MY SKILLS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/skills/practica.png" alt="HTML5, CSS3, JAVASCRIPT" >
+                            <img src="/ui/skills/practica.png" alt=" HTML5, CSS3, JAVASCRIPT" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/skills/jquery_bootstrap.png" alt="JQUERY, BOOTSTRAP" >
+                            <img src="/ui/skills/jquery_bootstrap.png" alt=" JQUERY, BOOTSTRAP" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/skills/database.png" alt="MYSQL, POSGRESQL" >
+                            <img src="/ui/skills/database.png" alt=" MYSQL, POSGRESQL" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/skills/phpnodejs.png" alt="PHP, NODE.JS" >
+                            <img src="/ui/skills/phpnodejs.png" alt=" PHP, NODE.JS" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/skills/react-express.png" alt="REACTJS, EXPRESS.JS" >
+                            <img src="/ui/skills/react-express.png" alt=" REACTJS, EXPRESS.JS" >
                           </div>
                           
                         </div>
@@ -78,27 +78,27 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/other%20skills/download.png" alt="OTHER SKILLS" >
+                            <img src="/ui/other%20skills/download.png" alt=" OTHER SKILLS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/other%20skills/core-java-3-icon.png" alt="CORE JAVA" >
+                            <img src="/ui/other%20skills/core-java-3-icon.png" alt=" CORE JAVA" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/other%20skills/hello3.png" alt="C/C++" >
+                            <img src="/ui/other%20skills/hello3.png" alt=" C/C++" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/other%20skills/resize.png" alt="WORDPRESS/BLOGGER" >
+                            <img src="/ui/other%20skills/resize.png" alt=" WORDPRESS/BLOGGER" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/other%20skills/1600.jpg" alt="ADOBE PHOTOSHOP" >
+                            <img src="/ui/other%20skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/other%20skills/download.jpg" alt="MICROSOFT OFFICE SKILLS" >
+                            <img src="/ui/other%20skills/download.jpg" alt=" MICROSOFT OFFICE SKILLS" >
                           </div>
                         </div>
                     
@@ -126,57 +126,57 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/cerificate-courses/certified.jpg" alt="Certification Courses Completed" >
+                            <img src="/ui/cerificate-courses/certified.jpg" alt=" Certification Courses Completed" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide1.jpg" alt="Node.js from Scratch" >
+                            <img src="/ui/cerificate-courses/Slide1.jpg" alt=" Node.js from Scratch" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide2.jpg" alt="Creating dynamic websites with PHP and MySQL" >
+                            <img src="/ui/cerificate-courses/Slide2.jpg" alt=" Creating dynamic websites with PHP and MySQL" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide3.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide3.jpg" alt=" Introduction to Jquery" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide18.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide18.jpg" alt=" Learn Jquery & Javascript" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide4.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide4.jpg" alt=" Javascript for beginners" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide17.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide17.jpg" alt=" Learn Javascript and Jquery from scratch" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide16.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide16.jpg" alt=" Responsive Web Development" >
                           </div>
                          <div class="item">
-                            <img src="/ui/cerificate-courses/Slide15.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide15.jpg" alt=" Learn HTML and CSS" >
                           </div>
                          <div class="item">
-                            <img src="/ui/cerificate-courses/Slide5.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide5.jpg" alt=" Javascript for beginners" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide6.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide6.jpg" alt=" Java for beginners" >
                           </div>
 
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide7.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide7.jpg" alt=" Software Testing" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide8.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide8.jpg" alt=" Online Marketing" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide10.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide10.jpg" alt=" Content Writing" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide11.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide11.jpg" alt=" Facebook Marketing for beginners" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide9.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide9.jpg" alt=" SEO - Search engine optimization" >
                           </div>
                           <div class="item">
-                            <img src="/ui/cerificate-courses/Slide12.jpg" alt="" >
+                            <img src="/ui/cerificate-courses/Slide12.jpg" alt=" Basics of Marketing" >
                           </div>
                           
                         </div>
@@ -205,19 +205,19 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/school/academics.jpg" alt="ACADEMICS" >
+                            <img src="/ui/school/academics.jpg" alt=" ACADEMICS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/YMCA.jpg" alt="YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
+                            <img src="/ui/school/YMCA.jpg" alt=" YMCA UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA" title="B-Tech: Electronics and Instrumentation, 2013-2017">
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/school/mvn1.jpg" alt="MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
+                            <img src="/ui/school/mvn1.jpg" alt=" MODERN VIDYA NIKETAN, SECTOR-17, FARIDABAD" title="2012-2013">
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/school/dav1.jpg" alt="DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
+                            <img src="/ui/school/dav1.jpg" alt=" DAV PUBLIC SCHOOL, SECTOR-14, FARIDABAD" title="2010-2011">
                           </div>
                         </div>
                     
@@ -245,18 +245,18 @@ var articles = {
                         <div class="carousel-inner" role="listbox">
                     
                           <div class="item">
-                            <img src="/ui/interests/Untitled.png" alt="MY INTERESTS/HOBBIES" >
+                            <img src="/ui/interests/Untitled.png" alt=" MY INTERESTS/HOBBIES" >
                           </div>                          
                           <div class="item active">
-                            <img src="/ui/interests/Poetry background wallpapers (26).jpg" alt="POETRY" >
+                            <img src="/ui/interests/Poetry background wallpapers (26).jpg" alt=" POETRY" >
                           </div>
 
                           <div class="item">
-                            <img src="/ui/interest/pholos.png" alt="PHILOSOPHY" >
+                            <img src="/ui/interest/pholos.png" alt=" PHILOSOPHY" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/interest/download.jpg" alt="MUSIC" >
+                            <img src="/ui/interest/download.jpg" alt=" MUSIC" >
                           </div>
                         </div>
                     
