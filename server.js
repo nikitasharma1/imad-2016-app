@@ -329,7 +329,7 @@ function createTemplate(data){
             else 
             {
                 out += '<div class="container width">';
-                for(var i=0 ; i< content1.info.length-1 ;i++) {
+                for(var i=0 ; i< content1.info.length ;i++) {
                 out += '<div class="width text-center col-md-6" id="slide-container">'+content1.info[i].title+'</div>';
                 }
             // out+='<div class=" text-center col-md-12" id="slide-container">'+content1.info[i].title+'</div>'+'</div>';
