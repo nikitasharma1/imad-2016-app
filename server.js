@@ -129,50 +129,54 @@ var articles = {
                             <img src="/ui/cerificate-courses/certified.jpg" alt="Certification Courses Completed" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide1.jpg" alt="Nose.js from Scratch" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide2.jpg" alt="Creating dynamic websites with PHP and MySQL" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide3.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide18.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide4.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide17.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide16.jpg" alt="" >
                           </div>
                          <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide15.jpg" alt="" >
                           </div>
                          <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide5.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide6.jpg" alt="" >
+                          </div>
+
+                          <div class="item">
+                            <img src="/ui/cerificate-courses/Slide7.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
-                          </div>
-                          <div class="item">
-                            <img src="" alt="" >
-                          </div>
-                          <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide8.jpg" alt="" >
                           </div>
                           
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide10.jpg" alt="" >
                           </div>
                           <div class="item">
-                            <img src="" alt="" >
+                            <img src="/ui/cerificate-courses/Slide11.jpg" alt="" >
+                          </div>
+                          <div class="item">
+                            <img src="/ui/cerificate-courses/Slide9.jpg" alt="" >
+                          </div>
+                          <div class="item">
+                            <img src="/ui/cerificate-courses/Slide12.jpg" alt="" >
                           </div>
                           
                         </div>
@@ -239,20 +243,20 @@ var articles = {
                     
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
+                    
+                          <div class="item">
+                            <img src="/ui/interests/Untitled.png" alt="MY INTERESTS/HOBBIES" >
+                          </div>                          
                           <div class="item active">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/interests/Poetry background wallpapers (26).jpg" alt="POETRY" >
+                          </div>
+
+                          <div class="item">
+                            <img src="/ui/interest/pholos.png" alt="PHILOSOPHY" >
                           </div>
                     
                           <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
-                          </div>
-                        
-                          <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
-                          </div>
-                    
-                          <div class="item">
-                            <img src="http://placehold.it/400x250" alt="" >
+                            <img src="/ui/interest/download.jpg" alt="MUSIC" >
                           </div>
                         </div>
                     
