@@ -413,7 +413,7 @@ function createTemplate(data){
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-collapse-1">
                           <!-- <ul class="nav navbar-nav"></ul> -->
-                          <ul class="nav navbar-nav navbar-right text-center">
+                          <ul class="nav navbar-nav navbar-right text-center hover">
                             <li><a href="/" class="color-white"> HOME </a></li>
                             <li><a href="/about" class="color-white"> ABOUT ME </a></li>
                             <li><a href="/portfolio" class="color-white"> PORTFOLIO </a></li>
