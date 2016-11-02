@@ -16,10 +16,10 @@ $(document).ready(function(){
 });
 
     
-    $(".hover li").filter(function(){
-        var url = "http://nikitasharma1.imad.hasura-app.io"+href;
-        return this.url == location.href.replace(/#.*/, "");
-    }).addClass("active-menu");
+    // $(".hover li").filter(function(){
+    //     var url = "http://nikitasharma1.imad.hasura-app.io"+href;
+    //     return this.url == location.href.replace(/#.*/, "");
+    // }).addClass("active-menu");
     
 
 });
