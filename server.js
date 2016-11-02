@@ -339,11 +339,6 @@ var articles = {
                     <img class="image sub-image slide img-responsive thumbnail" src="http://placehold.it/400x250"/>`
                   ]
     },
-    'contact': {
-        title: 'Contact Me',
-        heading: 'Contact Me',
-        content:   ``
-    },
 };    
 
 
@@ -422,7 +417,7 @@ function createTemplate(data){
                             <li><a href="/" class="color-white"> HOME </a></li>
                             <li><a href="/about" class="color-white"> ABOUT ME </a></li>
                             <li><a href="/portfolio" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="/contact" class="color-white"> CONTACT ME </a></li>
+                            <li><a href="#" class="color-white"> CONTACT ME </a></li>
                           </ul>
                         </div>
                       </div>
