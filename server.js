@@ -150,7 +150,7 @@ var articles = {
                 },
                 
                 {
-                    title: `<!--
+                    title: `
                     
                 	<div id="myCarousel1" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
@@ -239,7 +239,7 @@ var articles = {
                     `
                 },
                  {
-                    title: `
+                    title: `<!--
                     
                 	<div id="myCarousel3" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
                         
@@ -272,7 +272,7 @@ var articles = {
                           <span class="glyphicon glyphicon-chevron-right btn-sm" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>	-->	
+                      </div>-->	
  
                 	
                     `
