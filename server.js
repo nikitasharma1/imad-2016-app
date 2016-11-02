@@ -64,7 +64,7 @@ var articles = {
                           <span class="glyphicon glyphicon-chevron-right btn-sm" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>		
+                    </div>		
  
                     `
                     
