@@ -282,13 +282,13 @@ var articles = {
         title: 'My Portfolio',
         heading: 'My Portfolio',
         content:  [`<img class="image image1 slide img-responsive" src="/ui/projects/Slide21.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled2.png"/>`,
+                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
                    `<img class="image image1 slide img-responsive" src="/ui/projects/Slide22.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled.png"/>`,
+                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
                    `<img class="image image1 slide img-responsive" src="/ui/projects/Slide23.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled4.png"/>`,
+                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled4.png" title="http://codepen.io/nikita1/full/QKwyEd/"/>`,
                    `<img class="image image1 slide img-responsive" src="/ui/projects/Slide24.JPG"/>
-                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled5.png"/>`,
+                    <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Untitled5.png" title="http://codepen.io/nikita1/full/zBgWVy/"/>`,
                    `<img class="image image1 slide img-responsive" src="/ui/projects/Slide25.JPG"/>
                     <img class="image sub-image slide img-responsive thumbnail" src="/ui/projects/Music_Store_php.png"/>`,
                    `<img class="image image1 slide img-responsive" src="/ui/projects/Slide26.JPG"/>
