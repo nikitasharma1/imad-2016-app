@@ -78,27 +78,27 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="/ui/other%20skills/otherskills.png" alt=" OTHER SKILLS" >
+                            <img src="/ui/other-skills/otherskills.png" alt=" OTHER SKILLS" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/other%20skills/core-java-3-icon.png" alt=" CORE JAVA" >
+                            <img src="/ui/other-skills/core-java-3-icon.png" alt=" CORE JAVA" >
                           </div>
                         
                           <div class="item">
-                            <img src="/ui/other%20skills/hello3.png" alt=" C/C++" >
+                            <img src="/ui/other-skills/hello3.png" alt=" C/C++" >
                           </div>
                     
                           <div class="item">
-                            <img src="/ui/other%20skills/resize.png" alt=" WORDPRESS/BLOGGER" >
+                            <img src="/ui/other-skills/resize.png" alt=" WORDPRESS/BLOGGER" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/other%20skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
+                            <img src="/ui/other-skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
                           </div>
                           
                           <div class="item">
-                            <img src="/ui/other%20skills/download.jpg" alt=" MICROSOFT OFFICE SKILLS" >
+                            <img src="/ui/other-skills/download.jpg" alt=" MICROSOFT OFFICE SKILLS" >
                           </div>
                         </div>
                     
