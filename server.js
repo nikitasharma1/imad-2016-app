@@ -129,54 +129,54 @@ var articles = {
                             <img src="http://nikitasharma.neocities.org/certificate-courses/certified.jpg" alt=" Certification Courses Completed" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide1.jpg" alt=" Node.js from Scratch" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/slide1.JPG" alt=" Node.js from Scratch" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide2.jpg" alt=" Creating dynamic websites with PHP and MySQL" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide2.JPG" alt=" Creating dynamic websites with PHP and MySQL" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide3.jpg" alt=" Introduction to Jquery" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide3.JPG" alt=" Introduction to Jquery" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide18.jpg" alt=" Learn Jquery & Javascript" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide18.JPG" alt=" Learn Jquery & Javascript" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide4.jpg" alt=" Javascript for beginners" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide4.JPG" alt=" Javascript for beginners" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide17.jpg" alt=" Learn Javascript and Jquery from scratch" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide17.JPG" alt=" Learn Javascript and Jquery from scratch" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide16.jpg" alt=" Responsive Web Development" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide16.JPG" alt=" Responsive Web Development" >
                           </div>
                          <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide15.jpg" alt=" Learn HTML and CSS" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide15.JPG" alt=" Learn HTML and CSS" >
                           </div>
                          <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide5.jpg" alt=" Javascript for beginners" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide5.JPG" alt=" Javascript for beginners" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide6.jpg" alt=" Java for beginners" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide6.JPG" alt=" Java for beginners" >
                           </div>
 
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide7.jpg" alt=" Software Testing" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide7.JPG" alt=" Software Testing" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide8.jpg" alt=" Online Marketing" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide8.JPG" alt=" Online Marketing" >
                           </div>
                           
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide10.jpg" alt=" Content Writing" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide10.JPG" alt=" Content Writing" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide11.jpg" alt=" Facebook Marketing for beginners" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide11.JPG" alt=" Facebook Marketing for beginners" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide9.jpg" alt=" SEO - Search engine optimization" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide9.JPG" alt=" SEO - Search engine optimization" >
                           </div>
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide12.jpg" alt=" Basics of Marketing" >
+                            <img src="http://nikitasharma.neocities.org/certificate-courses/Slide12.JPG" alt=" Basics of Marketing" >
                           </div>
                           
                         </div>
