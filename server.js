@@ -377,8 +377,8 @@ function createTemplate(data){
                             <li><a href="/" class="color-white"> HOME </a></li>
                             <li><a href="/about" class="color-white"> ABOUT ME </a></li>
                             <li><a href="/portfolio" class="color-white"> PORTFOLIO </a></li>
-                            <li><a href="http://tools.ttctech.com/naicom/Images/linkedin.png" class="color-white"> Linked In </a></li>
-                            <li><a href="http://codepen.io/nikita1" class="color-white"> Code Pen </a></li>
+                            <li><a href="http://tools.ttctech.com/naicom/Images/linkedin.png" class="color-white"> LinkedIn </a></li>
+                            <li><a href="http://codepen.io/nikita1" class="color-white"> Codepen </a></li>
                           </ul>
                         </div>
                       </div>
