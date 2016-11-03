@@ -4,7 +4,7 @@ $(document).ready(function(){
        if (path === '') {
            path = 'index.html';
        }
-       var target = $('.hover a[href="'+path+'"]');
+       var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
    })();
    
