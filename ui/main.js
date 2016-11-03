@@ -27,15 +27,7 @@ $(document).ready(function(){
 
 });
 
-// var send = $('#send').click(function(){
-//     var request = XMLHttpRequest();
-//     request.onreadystatechange = function(){
-//         if(request.readyState === XMLHttpRequest.DONE) {
-//             if (request.status === 200) {
-//                 // var a = request.responseText;
-//             }
-//         }   
-//     };
-//     request.open('GET', 'http://nikitasharma1.imad.hasura-app.io/?email=&subject=&message=, true');
-//     request.send(null);
-// });
+// following to be added :
+// active class  to menu items
+// add popovers 
+// add title attributes 
