@@ -7,7 +7,9 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
    })();
-   
+   // popovers
+    $('[data-toggle="popover"]').popover();
+   // portfolio page
     $('.sub-image').hide();
     $('.image1').click(function(){
        $(this).siblings().show();
@@ -16,7 +18,7 @@ $(document).ready(function(){
     $('.sub-image').click(function(){
        $(this).hide(); 
     });
-    
+   // carousel jquery
     $('.carousel').carousel({
       interval: false
     });
