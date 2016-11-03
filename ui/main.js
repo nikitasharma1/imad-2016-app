@@ -31,4 +31,6 @@ $(document).ready(function(){
 // active class  to menu items 
 // add popovers 
 // add title attributes //slide names/category/title
-// certificate links 
+// certificate links
+// adding comments 
+// code cleaning (dry)
