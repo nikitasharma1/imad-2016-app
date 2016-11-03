@@ -19,7 +19,7 @@ $(document).ready(function(){
          var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
          $(".hover ul li a").each(function(){
               if($(this).attr("href") === pgurl || $(this).attr("href") === '' )
-              $(this).addClass("active");
+              $(this).parent().addClass("active-menu");
          });
     });
 
