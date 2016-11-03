@@ -7,8 +7,7 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
    })();
-   // popovers
-    $('[data-toggle="popover"]').popover();
+
    // portfolio page
     $('.sub-image').hide();
     $('.image1').click(function(){
@@ -23,8 +22,8 @@ $(document).ready(function(){
       interval: false
     });
     $('#myCarousel').carousel({
-  interval:false // remove interval for manual sliding
-});
+        interval:false // remove interval for manual sliding
+    });
 
 });
 
