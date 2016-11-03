@@ -1,4 +1,13 @@
 $(document).ready(function(){
+   (function(){
+       var path = window.location.pathname.split('/').pop();
+       if (path === '') {
+           path = 'index.html';
+       }
+       var target = $('nav a[href="'+path+'"]');
+       target.addClass('active-menu');
+   })();
+   
     $('.sub-image').hide();
     $('.image1').click(function(){
        $(this).siblings().show();
@@ -14,14 +23,6 @@ $(document).ready(function(){
     $('#myCarousel').carousel({
   interval:false // remove interval for manual sliding
 });
-
-    // $(function() {
-    //      var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
-    //      $(".hover ul li a").each(function(){
-    //           if($(this).attr("href") === pgurl || $(this).attr("href") === '' )
-    //           $(this).parent().addClass("active-menu");
-    //      });
-    // });
 
 });
 
