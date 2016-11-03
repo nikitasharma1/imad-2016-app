@@ -15,6 +15,14 @@ $(document).ready(function(){
   interval:false // remove interval for manual sliding
 });
 
+    $(function() {
+         var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+         $(".hover ul li a").each(function(){
+              if($(this).attr("href") === pgurl || $(this).attr("href") === '' )
+              $(this).addClass("active");
+         });
+    });
+
 });
 
 // var send = $('#send').click(function(){
