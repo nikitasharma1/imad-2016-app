@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 });
 
-// following to be added :
+// what else to be added ?
 // active class  to menu items
 // add popovers 
 // add title attributes 
