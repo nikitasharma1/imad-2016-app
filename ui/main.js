@@ -28,6 +28,7 @@ $(document).ready(function(){
 });
 
 // what else to be added ?
-// active class  to menu items
+// active class  to menu items 
 // add popovers 
-// add title attributes 
+// add title attributes //slide names/category/title
+// certificate links 
