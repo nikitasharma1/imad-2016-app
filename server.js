@@ -78,7 +78,7 @@ var articles = {
                     
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-                          <div class="item active">
+                          <div class="item active" data-trigger="hover" data-toggle="popover" data-content="I have completed and got certified in these couses">
                             <img src="http://nikitasharma.neocities.org/certificate-courses/certified.jpg" alt=" Certification Courses Completed" >
                           </div>
                           <div class="item">
@@ -152,7 +152,7 @@ var articles = {
                 {
                     title: `
                     
-                	<div id="myCarousel1" class="carousel slide thumbnail" data-ride="carousel" data-interval="false">
+                	<div id="myCarousel1" class="carousel slide thumbnail" data-ride="carousel" data-interval="false" >
                         
                     
                         <!-- Wrapper for slides -->
