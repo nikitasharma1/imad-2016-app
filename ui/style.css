@@ -134,7 +134,7 @@ form {
   color: #999;
 }
 
-.hover li:hover {
+.active-menu,.hover li:hover {
     background-color: #E84C3D;
 }
 
