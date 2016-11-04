@@ -79,6 +79,7 @@ var articles = {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
+                            <span id="by">BY: </span>
                             <img src="http://nikitasharma.neocities.org/certificate-courses/certified.jpg" alt=" Certification Courses Completed" >
                           </div>
                           <div class="item">
