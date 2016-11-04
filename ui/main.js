@@ -10,6 +10,12 @@ $(document).ready(function(){
         setTimeout(function() {
             $('#click').fadeOut('slow');
         }, 2000); 
+        setTimeout(function() {
+            $('#click').fadeIn('slow');
+        }, 2000); 
+        setTimeout(function() {
+            $('#click').fadeOut('slow');
+        }, 2000); 
    })();
    
    
