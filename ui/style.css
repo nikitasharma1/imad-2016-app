@@ -41,13 +41,6 @@ body {
     top: 150px;
 }
 
-/*.linkedin {*/
-/*    position: relative;*/
-/*    top: 200px;*/
-/*    width: 200px;*/
-/*    height: 40px;*/
-/*}*/
-
 #btns, .img-medium {
     margin-right: auto !important;
     margin-left: auto !important;
@@ -147,17 +140,6 @@ form {
 }
 
 
-
-/*.width: {*/
-/*  width: 100%;  */
-/*}*/
-
-
-/*@media only screen and (min-width : 700px){*/
-/*    .width {*/
-/*    width: 80%;*/
-/*    }*/
-/*}*/
 
 /*.certi-link {*/
 /*    position: relative;*/
