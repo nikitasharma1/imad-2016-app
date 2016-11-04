@@ -106,7 +106,7 @@ form {
     border-radius: 5px;
 }
 
-.item img {
+.item  {
     width: 400px !important;
     height: 250px !important;
 }
@@ -138,14 +138,13 @@ form {
   width: 100px;
   height: 100px;
 }
-
+.item {
+    width: 400px;
+    height: 250px;
+}
 
 
 /*.certi-link {*/
 /*    position: relative;*/
 /*    top: 10px;*/
-/*}*/
-/*.item {*/
-/*    width: 400px;*/
-/*    height: 250px;*/
 /*}*/
