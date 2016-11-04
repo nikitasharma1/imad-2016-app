@@ -41,12 +41,12 @@ body {
     top: 150px;
 }
 
-.linkedin {
-    position: relative;
-    top: 200px;
-    width: 200px;
-    height: 40px;
-}
+/*.linkedin {*/
+/*    position: relative;*/
+/*    top: 200px;*/
+/*    width: 200px;*/
+/*    height: 40px;*/
+/*}*/
 
 #btns, .img-medium {
     margin-right: auto !important;
@@ -136,6 +136,12 @@ form {
 
 .active-menu, .hover li:hover {
     background-color: #E84C3D;
+}
+
+#click {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 
