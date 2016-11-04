@@ -12,7 +12,9 @@ $(document).ready(function(){
        target.addClass('active-menu');
        console.log(path);
                                     /* click-image toggle on page load */
-       $('#click').fadeIn('slow').delay(500).fadeOut('slow').fadeIn('slow').delay(500).fadeOut('slow');
+       for (var i=0; i<5 ; i++) { 
+          $('#click').fadeIn('slow').delay(500).fadeOut('slow');
+        }
    
     })();
    
