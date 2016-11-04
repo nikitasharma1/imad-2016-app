@@ -1,8 +1,8 @@
 $(document).ready(function(){
    (function(){
-       var path = window.location.pathname.split('/').pop();
+       var path = '/'+window.location.pathname.split('/').pop();
        if (path === '') {
-           path = 'index.html';
+           path = '/index.html';
        }
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
