@@ -174,7 +174,7 @@ var articles = {
                           </div>
                           
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/other-skills/1600.jpg" width="400px" height="250px" alt=" ADOBE PHOTOSHOP" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/1600.jpg" alt=" ADOBE PHOTOSHOP" >
                           </div>
                           
                           <div class="item">
