@@ -178,7 +178,7 @@ var articles = {
                           </div>
                           
                           <div class="item">
-                            <img src="http://nikitasharma.neocities.org/other-skills/download.jpg" alt=" MICROSOFT OFFICE SKILLS" >
+                            <img src="http://nikitasharma.neocities.org/other-skills/msoffice.jpg" alt=" MICROSOFT OFFICE SKILLS" >
                           </div>
                         </div>
                     
