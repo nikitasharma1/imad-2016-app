@@ -14,10 +14,10 @@ $(document).ready(function(){
         for (var i=0; i<5 ; i++) { 
           $('#click').fadeIn('slow').delay(500).fadeOut('slow');
         }
-        $('#click').hide();
+        
     })(); 
     
-
+    $('#click').hide();
    
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
