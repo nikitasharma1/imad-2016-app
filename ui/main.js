@@ -7,7 +7,7 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
        console.log(path);
-       $('.click-here').delay(20000).hide();
+       //$('.click-here').delay(200000).hide();
    })();
    
    
