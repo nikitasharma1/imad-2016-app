@@ -139,7 +139,12 @@ form {
   height: 100px;
 }
 
-
+#by {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  font-size: 2em;
+}
 
 /*.certi-link {*/
 /*    position: relative;*/
