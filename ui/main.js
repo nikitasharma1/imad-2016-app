@@ -1,7 +1,9 @@
 $(document).ready(function(){
     $('#click').hide();
+    $('.sub-image').hide();
+    
     (function(){
-        // menu hover
+                                     /* current-page menu highlight on page load */
        var path = '/'+window.location.pathname.split('/').pop();
        if (path === '') {
            path = '/index.html';
@@ -9,12 +11,12 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
        console.log(path);
-       // click image toggle
+                                    /* click-image toggle on page load */
        $('#click').fadeIn('slow').delay(500).fadeOut('slow').delay(1000);
+   
     })();
-       
-   // portfolio page
-    $('.sub-image').hide();
+   
+                                    /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
        $(this).siblings().show();
        $(this).siblings().css('display', 'inline-block');
@@ -22,17 +24,15 @@ $(document).ready(function(){
     $('.sub-image').click(function(){
        $(this).hide(); 
     });
-   // carousel jquery
+   
+                                   /* about-page: carousel jquery */
     $('.carousel').carousel({
       interval: false
-    });
-    $('#myCarousel').carousel({
-        interval:false // remove interval for manual sliding
     });
 });
 
 // what else to be added ?
-// active class  to menu items 
+// active class  to menu items : done
 // add popovers 
 // add title attributes //slide names/category/title
 // certificate links
