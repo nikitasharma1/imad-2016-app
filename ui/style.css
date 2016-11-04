@@ -139,9 +139,9 @@ form {
 }
 
 #click {
-  position: relative;
-  top: -100px;
-  left: 200px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
 }
 
 
