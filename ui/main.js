@@ -15,7 +15,7 @@ $(document).ready(function(){
        for (var i=0; i<5 ; i++) { 
           $('#click').fadeIn('slow').delay(500).fadeOut('slow');
         }
-       $('.sub-image').hide();
+       $('#click').hide();
     })();
    
                                     /* portfolio-page: onclick function for glyphicons */
