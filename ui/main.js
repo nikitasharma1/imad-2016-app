@@ -7,15 +7,7 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
        console.log(path);
-        setTimeout(function() {
-            $('#click').fadeOut('slow');
-        }, 2000); 
-        // setTimeout(function() {
-        //     $('#click').fadeIn('slow');
-        // }, 2000); 
-        // setTimeout(function() {
-        //     $('#click').fadeOut('slow');
-        // }, 2000); 
+       $('#click').fadeOut('slow').delay(1000).fadeIn('slow').delay(500).fadeOut('slow').delay(1000);
    })();
    
    
