@@ -7,6 +7,7 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
        console.log(path);
+       // click image toggle
        $('#click').fadeOut('slow').delay(1000).fadeIn('slow').delay(500).fadeOut('slow').delay(1000);
    })();
    
