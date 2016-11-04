@@ -6,7 +6,10 @@ $(document).ready(function(){
        }
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
+       console.log(path);
    })();
+   
+   
 
    // portfolio page
     $('.sub-image').hide();
