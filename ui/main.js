@@ -1,18 +1,21 @@
 $(document).ready(function(){
     $('#click').hide();
     $('.sub-image').hide();
-                                    /* current-page menu highlight on page load */
-    var path = '/'+window.location.pathname.split('/').pop();
-    if (path === '') {
-       path = '/index.html';
-    }
-    var target = $('.hover li a[href="'+path+'"]');
-    target.addClass('active-menu');
-    console.log(path);
-                                    /* click-image toggle on page load */
-    for (var i=0; i<5 ; i++) { 
-      $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-    }
+    (function(){
+                                        /* current-page menu highlight on page load */
+        var path = '/'+window.location.pathname.split('/').pop();
+        if (path === '') {
+           path = '/index.html';
+        }
+        var target = $('.hover li a[href="'+path+'"]');
+        target.addClass('active-menu');
+        console.log(path);
+                                        /* click-image toggle on page load */
+        for (var i=0; i<5 ; i++) { 
+          $('#click').fadeIn('slow').delay(500).fadeOut('slow');
+        }
+    })(); 
+    
 
    
                                     /* portfolio-page: onclick function for glyphicons */
