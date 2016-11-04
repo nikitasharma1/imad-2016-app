@@ -247,7 +247,7 @@ var articles = {
         title: 'My Portfolio',
         heading: 'My Portfolio',
         content:  [`<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide21.JPG"/>
-                    <img id="click" src="http://quojs.tapquo.com/img/product/quojs/touch.png"/>
+                    <img id="click" class="slide img-responsive" src="http://quojs.tapquo.com/img/product/quojs/touch.png"/>
                     <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/Untitled2.png" title="http://codepen.io/nikita1/full/vXkzdv"/>`,
                    `<img class="image image1 slide img-responsive" src="http://nikitasharma.neocities.org/projects/Slide22.JPG"/>
                     <img class="image sub-image slide img-responsive" src="http://nikitasharma.neocities.org/projects/weather.png" title="http://codepen.io/nikita1/full/qajxwE/"/>`,
