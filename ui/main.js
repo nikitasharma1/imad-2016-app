@@ -8,7 +8,7 @@ $(document).ready(function(){
    target.addClass('active-menu');
    console.log(path);
    // click image toggle
-    $('#click').fadeOut('slow').delay(1000).fadeIn('slow').delay(500).fadeOut('slow').delay(1000);
+    $('#click').fadeOut('slow').delay(1000).fadeIn('slow').delay(500).fadeOut('slow').delay(1000).hide();
    // portfolio page
     $('.sub-image').hide();
     $('.image1').click(function(){
