@@ -290,7 +290,7 @@ function createTemplate(data){
             }
             else 
             {
-                out += '<img class="click-here" src="http://quojs.tapquo.com/img/product/quojs/touch.png alt="click here!"/><div class="container width">';
+                out += '<img class="click-here" src="http://quojs.tapquo.com/img/product/quojs/touch.png" alt="click here!"/><div class="container width">';
                 for(var i in content1.info) {
                 out += '<div class="width text-center col-md-6" id="slide-container">'+content1.info[i].title+'</div>';
                 }
