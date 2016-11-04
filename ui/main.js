@@ -7,9 +7,9 @@ $(document).ready(function(){
        var target = $('.hover li a[href="'+path+'"]');
        target.addClass('active-menu');
        console.log(path);
-        // setTimeout(function() {
-        //     $('#click').fadeOut('slow');
-        // }, 2000); 
+        setTimeout(function() {
+            $('#click').fadeOut('slow');
+        }, 2000); 
    })();
    
    
