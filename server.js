@@ -277,7 +277,7 @@ function createTemplate(data){
         var out = '';
         if(typeof(content1) === 'object'){
             if(content1[0]) {
-                out += '<img class="click-here" src="http://quojs.tapquo.com/img/product/quojs/touch.png" alt="click here!"/>';
+                out += '';
                 for(var j in content1) {
                     out +=`<div class="container text-center">
                             <div class="row text-center">
