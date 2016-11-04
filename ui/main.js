@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
    // menu hover
    var path = '/'+window.location.pathname.split('/').pop();
    if (path === '') {
@@ -8,11 +7,8 @@ $(document).ready(function(){
    var target = $('.hover li a[href="'+path+'"]');
    target.addClass('active-menu');
    console.log(path);
-
-   
    // click image toggle
     $('#click').fadeOut('slow').delay(1000).fadeIn('slow').delay(500).fadeOut('slow').delay(1000);
-
    // portfolio page
     $('.sub-image').hide();
     $('.image1').click(function(){
@@ -29,7 +25,6 @@ $(document).ready(function(){
     $('#myCarousel').carousel({
         interval:false // remove interval for manual sliding
     });
-
 });
 
 // what else to be added ?
