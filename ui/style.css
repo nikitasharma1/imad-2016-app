@@ -91,7 +91,7 @@ form {
    margin: 5px auto !important;
 }
 
-.image1, .image-div {
+.image1, .image-div, .inline-block {
     display: inline-block !important;
 }
 
@@ -141,7 +141,7 @@ form {
 
 #by {
   position: absolute;
-  right: 60%;
+  right: 65%;
   top: 8%;
   font-size: 2em;
 }
