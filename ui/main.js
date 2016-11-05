@@ -12,12 +12,12 @@ $(document).ready(function(){
         console.log(path);
     })(); 
                                        /* click-image toggle on page load */
-    // for (var i=0; i<5 ; i++) { 
-    //   $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-    //   $('#by').fadeIn('slow').delay(500).fadeOut('slow');
-    // }
+    for (var i=0; i<5 ; i++) { 
+      $('#click').fadeIn('slow').delay(500).fadeOut('slow');
+      $('#by').fadeIn('slow').delay(500).fadeOut('slow');
+    }
     
-    // $('#click').hide();
+    $('#click').hide();
    
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
