@@ -17,7 +17,7 @@ $(document).ready(function(){
         $('#click').fadeIn('slow').delay(500).fadeOut('slow');
         var clicked = $('#click').data('clicked');
         if(clicked){
-            return false;
+            break;
         }
     }  
     for (var j=0; j<5; j++) {
