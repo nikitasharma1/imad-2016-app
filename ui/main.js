@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('#click').hide();
     $('.sub-image').hide();
     (function(){
                                         /* current-page menu highlight on page load */
