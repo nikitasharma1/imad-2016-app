@@ -26,7 +26,6 @@ $(document).ready(function(){
     $('.sub-image').click(function(){
        $(this).hide(); 
     });
-   
                                    /* about-page: carousel jquery */
     $('.carousel').carousel({
       interval: false
