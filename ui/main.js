@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $('#click').hide();
     $('.sub-image').hide();
     (function(){
                                         /* current-page menu highlight on page load */
@@ -10,14 +9,12 @@ $(document).ready(function(){
         var target = $('.hover li a[href="'+path+'"]');
         target.addClass('active-menu');
         console.log(path);
+                                           /* click-image toggle on page load */
+    $('#click').fadeIn('slow').delay(500).fadeOut('slow');
+    $('#by').fadeIn('slow').delay(500).fadeOut('slow');
     })(); 
-                                       /* click-image toggle on page load */
-    for (var i=0; i<5 ; i++) { 
-      $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-      $('#by').fadeIn('slow').delay(500).fadeOut('slow');
-    }
-    
-    $('#click').hide();
+
+
    
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
