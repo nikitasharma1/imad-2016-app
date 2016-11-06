@@ -19,11 +19,11 @@ $(document).ready(function(){
     $('.image1').click(function(){
        $(this).siblings().show();
        $(this).siblings().css('display', 'inline-block');
-       $('#click').delay(500).fadeOut('slow');
+       $('#click').hide();
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
-       $('#click').hide();
+    //   $('#click').hide();
     });
    
                                    /* about-page: carousel jquery */
