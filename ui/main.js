@@ -11,19 +11,21 @@ $(document).ready(function(){
         target.addClass('active-menu');
         console.log(path);
                                            /* click-image toggle on page load */
-    $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-    $('#by').fadeIn('slow').delay(500).fadeOut('slow');
+        for(var i=0; i<5; i++) {
+            $('#click').fadeIn('slow').delay(500).fadeOut('slow');
+            $('#by').fadeIn('slow').delay(500).fadeOut('slow');
+        }
+        
     })(); 
-
-
-   
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
        $(this).siblings().show();
        $(this).siblings().css('display', 'inline-block');
+       $('#click').delay(500).fadeOut('slow');
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
+       $('#click').hide();
     });
    
                                    /* about-page: carousel jquery */
