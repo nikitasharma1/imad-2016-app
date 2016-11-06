@@ -32,7 +32,6 @@ $(document).ready(function(){
 });
 
 // what else to be added ?
-// active class  to menu items : done
 // add popovers 
 // add title attributes //slide names/category/title
 // certificate links
