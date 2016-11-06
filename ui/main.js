@@ -15,9 +15,10 @@ $(document).ready(function(){
                                      /* toggle on page load */
     for (var i=0; i<5; i++) {
         $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-        if (ontheclick) 
+        if (ontheclick) {
             $('#click').hide();
-            break;
+            break;  
+        } 
     }  
     for (var j=0; j<5; j++) {
         $('#by').fadeIn('slow').delay(500).fadeOut('slow');
