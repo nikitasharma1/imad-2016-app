@@ -132,12 +132,12 @@ form {
 }
 
 #click {
-  display: none;
   position: absolute;
   right: 40%;
   top: 50%;
   width: 100px;
   height: 100px;
+  display: none;
 }
 
 #by {
