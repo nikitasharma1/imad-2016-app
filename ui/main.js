@@ -43,3 +43,4 @@ $(document).ready(function(){
 // certificate links
 // adding comments 
 // code cleaning (dry)
+// comments section
