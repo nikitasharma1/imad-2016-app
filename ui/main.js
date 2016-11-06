@@ -12,26 +12,24 @@ $(document).ready(function(){
         console.log(path);
         
     })(); 
-                                     /* portfolio-page: onclick function for glyphicons */
-    $('.image1').click(function(){
-       $(this).siblings('.sub-image').css('display', 'inline-block');
-       $('#click').data('clicked', true);
-    });
-    $('.sub-image').click(function(){
-       $(this).hide(); 
-    });
-                                           /* toggle on page load */
+                                     /* toggle on page load */
     for (var i=0; i<5; i++) {
         $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-        var clicked = $('#click').data('clicked');
-        if(clicked){
+        if (ontheclick) 
+            $('#click').hide();
             break;
-        }
     }  
     for (var j=0; j<5; j++) {
         $('#by').fadeIn('slow').delay(500).fadeOut('slow');
     }
-   
+                                     /* portfolio-page: onclick function for glyphicons */
+    var ontheclick = $('.image1').click(function(){
+       $(this).siblings('.sub-image').css('display', 'inline-block');
+       return true;
+    });
+    $('.sub-image').click(function(){
+       $(this).hide(); 
+    });
                                    /* about-page: carousel jquery */
     $('.carousel').carousel({
       interval: false
