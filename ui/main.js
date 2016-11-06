@@ -15,14 +15,16 @@ $(document).ready(function(){
                                            /* toggle on page load */
     for (var i=0; i<5; i++) {
         $('#click').fadeIn('slow').delay(500).fadeOut('slow');
-        $('#by').fadeIn('slow').delay(500).fadeOut('slow');
+        var clicked = $('#click').data('clicked');
+        if(clicked){
+            return false;
+        }
     }                                           
-    
+    $('#by').fadeIn('slow').delay(500).fadeOut('slow');
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
        $(this).siblings('.sub-image').css('display', 'inline-block');
-       $('#click').hide();
-       
+       $('#click').data('clicked', true);
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
