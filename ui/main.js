@@ -12,7 +12,6 @@ $(document).ready(function(){
         console.log(path);
         
     })(); 
-    
                                            /* toggle on page load */
     for (var i=0; i<5; i++) {
         $('#click').fadeIn('slow').delay(500).fadeOut('slow');
