@@ -19,8 +19,11 @@ $(document).ready(function(){
         if(clicked){
             return false;
         }
-    }                                           
-    $('#by').fadeIn('slow').delay(500).fadeOut('slow');
+    }  
+    
+    for (var j=0; j<5; j++) {
+        $('#by').fadeIn('slow').delay(500).fadeOut('slow');
+    }
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
        $(this).siblings('.sub-image').css('display', 'inline-block');
