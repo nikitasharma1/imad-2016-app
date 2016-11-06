@@ -20,7 +20,6 @@ $(document).ready(function(){
             return false;
         }
     }  
-    
     for (var j=0; j<5; j++) {
         $('#by').fadeIn('slow').delay(500).fadeOut('slow');
     }
