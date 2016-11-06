@@ -11,10 +11,8 @@ $(document).ready(function(){
         target.addClass('active-menu');
         console.log(path);
                                            /* click-image toggle on page load */
-        for(var i=0; i<5; i++) {
             $('#click').fadeIn('slow').delay(500).fadeOut('slow');
             $('#by').fadeIn('slow').delay(500).fadeOut('slow');
-        }
         
     })(); 
                                     /* portfolio-page: onclick function for glyphicons */
