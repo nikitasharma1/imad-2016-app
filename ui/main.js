@@ -21,13 +21,10 @@ $(document).ready(function(){
     
                                     /* portfolio-page: onclick function for glyphicons */
     $('.image1').click(function(){
-       //$(this).siblings().show();
        $(this).siblings('.sub-image').css('display', 'inline-block');
-       //$('#click').hide();
     });
     $('.sub-image').click(function(){
        $(this).hide(); 
-    //   $('#click').hide();
     });
    
                                    /* about-page: carousel jquery */
